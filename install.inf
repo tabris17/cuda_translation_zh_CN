@@ -1,0 +1,5 @@
+[info]
+title=Simplified Chinese translation package
+type=cudatext-data
+subdir=
+homepage=https://github.com/tabris17/cuda_translation_zh_CN
