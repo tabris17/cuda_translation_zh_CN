@@ -1,0 +1,437 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-08 18:12+0800\n"
+"PO-Revision-Date: 2023-09-13 13:06+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_options_editor\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cd_opts_dlg.py:120
+msgid ""
+"No folder \"{}\" from\n"
+"{}"
+msgstr ""
+"没有文件夹 \"{}\" 来自\n"
+"{}"
+
+#: cd_opts_dlg.py:188
+msgid "Empty string is allowed"
+msgstr "允许空字符串"
+
+#: cd_opts_dlg.py:450 cd_opts_dlg.py:961
+msgid "Lexer"
+msgstr "词法分析器"
+
+#: cd_opts_dlg.py:451
+msgid "File \"{}\""
+msgstr "文件 \"{}\""
+
+#: cd_opts_dlg.py:452 cd_opts_dlg.py:961
+msgid "Section"
+msgstr "节"
+
+#: cd_opts_dlg.py:452 cd_opts_dlg.py:961
+msgid "Option"
+msgstr "选项"
+
+#: cd_opts_dlg.py:452 cd_opts_dlg.py:961
+msgid "Default"
+msgstr "默认"
+
+#: cd_opts_dlg.py:452 cd_opts_dlg.py:961
+msgid "User"
+msgstr "用户"
+
+#: cd_opts_dlg.py:462
+msgid "&Filter"
+msgstr "过滤器(&F)"
+
+#: cd_opts_dlg.py:463
+msgid "_no_"
+msgstr "_no_"
+
+#: cd_opts_dlg.py:464
+msgid "Choose section to append in \"{}\".\rHold Ctrl to add several sections."
+msgstr "选择加入 \"{}\" 的节.\r按住 Ctrl 加入多个节."
+
+#: cd_opts_dlg.py:467
+msgid ""
+"Suitable options will contain all specified words.\r Tips and tricks:\r • "
+"Add \"#\" to search the words also in comments.\r • Add \"@sec\" to show "
+"options from section with \"sec\" in name.\r   Several sections are allowed."
+"\r   Click item in menu \"Section...\" with Ctrl to add it.\r • To show only "
+"overridden options:\r   - Add \"!\"   to show only User+Lexer+File.\r   - "
+"Add \"!!\"  to show only Lexer+File\r   - Add \"!!!\" to show only File.\r • "
+"Use \"<\" or \">\" for word boundary.\r     Example: \r       size> "
+"<tab\r     selects \"tab_size\" but not \"ui_tab_size\" or \"tab_size_x\".\r "
+"• Alt+L - Clear filter"
+msgstr ""
+
+#: cd_opts_dlg.py:482
+msgid "Go to \"{}\" in user/lexer config file"
+msgstr "跳转到用户/词法分析器配置文件的 \"{}\""
+
+#: cd_opts_dlg.py:483
+msgid "Go to \"{}\" in default config file"
+msgstr "跳转到默认配置文件的 \"{}\""
+
+#: cd_opts_dlg.py:484
+msgid "Edit JSON value"
+msgstr "编辑 JSON 值"
+
+#: cd_opts_dlg.py:485
+msgid ""
+"Close dialog and open user/lexer settings file\rto edit the current option."
+"\rSee also menu command\r   {}"
+msgstr "关闭对话框并打开用户/词法分析器设置文件"
+
+#: cd_opts_dlg.py:489
+msgid "Instant filtering"
+msgstr "即时过滤"
+
+#: cd_opts_dlg.py:490
+msgid "Show &all keys in user/lexer configs"
+msgstr "显示用户/词法分析器配置中的所有的键(&L)"
+
+#: cd_opts_dlg.py:635
+msgid "Choose option to find in config file"
+msgstr "选择在配置文件中查找的选项"
+
+#: cd_opts_dlg.py:642
+msgid "No user value for option \"{}\""
+msgstr "选项 \"{}\" 没有用户值"
+
+#: cd_opts_dlg.py:645
+msgid "No lexer \"{}\" value for option \"{}\""
+msgstr "选项 \"{}\" 没有词法分析器 \"{}\" 的值"
+
+#: cd_opts_dlg.py:651
+msgid "No default for option \"{}\""
+msgstr "选项 \"{}\" 未设置默认"
+
+#: cd_opts_dlg.py:680
+msgid "Opened browser with file "
+msgstr "已打开文件的浏览器 "
+
+#: cd_opts_dlg.py:855
+msgid "Number of all options"
+msgstr "所有选项的数量"
+
+#: cd_opts_dlg.py:859
+msgid "Number of shown options"
+msgstr "显示的选项数量"
+
+#: cd_opts_dlg.py:961
+msgid "File"
+msgstr "文件"
+
+#: cd_opts_dlg.py:985
+msgid ">Fil&e:"
+msgstr ">文件(&E):"
+
+#: cd_opts_dlg.py:986
+msgid ">L&exer:"
+msgstr ">词法分析器(&E):"
+
+#: cd_opts_dlg.py:987
+msgid ">Us&er:"
+msgstr ">用户(&E):"
+
+#: cd_opts_dlg.py:1058
+msgid "+&Section…"
+msgstr "+节(&S)…"
+
+#: cd_opts_dlg.py:1070
+msgid "f&alse"
+msgstr "f&alse"
+
+#: cd_opts_dlg.py:1071
+msgid "t&rue"
+msgstr "t&rue"
+
+#: cd_opts_dlg.py:1072
+msgid "&..."
+msgstr "&..."
+
+#: cd_opts_dlg.py:1073
+msgid "&GoTo"
+msgstr "跳转(&G)"
+
+#: cd_opts_dlg.py:1074
+msgid "E&dit"
+msgstr "编辑(&D)"
+
+#: cd_opts_dlg.py:1076
+msgid ">Defa&ult:"
+msgstr ">默认(&U):"
+
+#: cd_opts_dlg.py:1081
+msgid "Rese&t"
+msgstr "重置(&T)"
+
+#: cd_opts_dlg.py:1084
+msgid "For:"
+msgstr "用于:"
+
+#: cd_opts_dlg.py:1085
+msgid "Le&xer"
+msgstr "词法分析器(&X)"
+
+#: cd_opts_dlg.py:1086
+msgid "F&ile"
+msgstr "文件(&I)"
+
+#: cd_opts_dlg.py:1360
+msgid "Сhange log"
+msgstr "变更日志"
+
+#: cd_opts_dlg.py:1378
+msgid "Remove layout \"{}\"?"
+msgstr "是否移除布局 \"{}\"?"
+
+#: cd_opts_dlg.py:1382
+msgid "#{}"
+msgstr "#{}"
+
+#: cd_opts_dlg.py:1394
+msgid "Name \"{}\" already used. Overwrite?"
+msgstr "名称 \"{}\" 已被使用. 是否要覆盖?"
+
+#: cd_opts_dlg.py:1453
+msgid "&Copy option name"
+msgstr "复制选项名称(&C)"
+
+#: cd_opts_dlg.py:1455
+msgid "&Layout"
+msgstr "布局(&L)"
+
+#: cd_opts_dlg.py:1456
+msgid "&Save current layout..."
+msgstr "保存当前布局(&S)..."
+
+#: cd_opts_dlg.py:1459
+msgid "Restore layout \"{}\""
+msgstr "重置布局 \"{}\""
+
+#: cd_opts_dlg.py:1461
+msgid "&Forget layout"
+msgstr "清除布局(&L)"
+
+#: cd_opts_dlg.py:1462
+msgid "Forget layout \"{}\"..."
+msgstr "清除布局 \"{}\"..."
+
+#: cd_opts_dlg.py:1466
+msgid "Adjust vertical alignments..."
+msgstr "调整垂直对齐方式..."
+
+#: cd_opts_dlg.py:1467
+msgid "Set default columns &widths"
+msgstr "设置默认栏宽度(&W)"
+
+#: cd_opts_dlg.py:1469
+msgid "&Table"
+msgstr "表格(&T)"
+
+#: cd_opts_dlg.py:1470
+msgid "Sort by column \"{}\""
+msgstr "按列 \"{}\" 排序"
+
+#: cd_opts_dlg.py:1476
+msgid "Reset sorting"
+msgstr "重置排序"
+
+#: cd_opts_dlg.py:1478
+msgid "M&ore"
+msgstr "更多(&O)"
+
+#: cd_opts_dlg.py:1482
+msgid "Show rep&ort of changes..."
+msgstr "显示变更报告(&O)..."
+
+#: cd_opts_dlg.py:1483
+msgid "Apply changes on exit"
+msgstr "退出时应用更改"
+
+#: cd_opts_dlg.py:1484
+msgid "Appl&y changes now"
+msgstr "立即应用更改(&Y)"
+
+#: cd_opts_dlg.py:1485
+msgid "Auto-update FILE options"
+msgstr "自动更新文件选项"
+
+#: cd_opts_dlg.py:1492
+msgid "Create HTML &report"
+msgstr "创建 HTML 报告(&R)"
+
+#: cd_opts_dlg.py:1494
+msgid "&Help..."
+msgstr "帮助(&H)..."
+
+#: cd_opts_dlg.py:1729 cd_opts_dlg.py:1794
+msgid "No need changes"
+msgstr "无需更改"
+
+#: cd_opts_dlg.py:1739
+msgid ""
+"Remove {} option\n"
+"   {} = {!r}\n"
+"?"
+msgstr ""
+"移除 {} 选项\n"
+"   {} = {!r}\n"
+"?"
+
+#: cd_opts_dlg.py:1747
+msgid "Default value: \"{}\". Old value: \"{}\""
+msgstr "默认值: \"{}\". 旧值: \"{}\""
+
+#: cd_opts_dlg.py:1771 cd_opts_dlg.py:1778
+msgid "Incorrect value. It's needed in format: {}"
+msgstr "值不正确. 格式应为: {}"
+
+#: cd_opts_dlg.py:1877
+msgid "Set FILE option to overridden value {!r}"
+msgstr "设置文件选项到被覆盖的值 {!r}"
+
+#: cd_opts_dlg.py:1879
+msgid "Set FILE option to {!r}"
+msgstr "设置文件选项为 {!r}"
+
+#: cd_opts_dlg.py:1881
+msgid "Auto-set FILE option to overridden value {!r}"
+msgstr "自动设置文件选项到被覆盖的值 {!r}"
+
+#: cd_opts_dlg.py:1883
+msgid "Remove LEXER {!r} option"
+msgstr "移除词法分析器 {!r} 选项"
+
+#: cd_opts_dlg.py:1885
+msgid "Set LEXER {!r} option to {!r}"
+msgstr "设置词法分析器 {!r} 选项到 {!r}"
+
+#: cd_opts_dlg.py:1887
+msgid "Add LEXER {!r} option {!r}"
+msgstr "添加词法分析器 {!r} 选项 {!r}"
+
+#: cd_opts_dlg.py:1889
+msgid "Remove USER option"
+msgstr "移除用户选项"
+
+#: cd_opts_dlg.py:1891
+msgid "Set USER option to {!r}"
+msgstr "设置用户选项到 {!r}"
+
+#: cd_opts_dlg.py:1893
+msgid "Add USER option {!r}"
+msgstr "添加用户选项 {!r}"
+
+#: cd_opts_dlg.py:1902
+msgid "   [Alt+O - all changes]"
+msgstr "   [Alt+O - 全部更改]"
+
+#: cd_opts_dlg.py:1915
+#, python-brace-format
+msgid "About \"{fltr}\"\r "
+msgstr "关于 \"{fltr}\"\r "
+
+#: cd_opts_dlg.py:1919
+#, python-brace-format
+msgid ""
+"\r \rOther tips.\r • Use ENTER to filter table and to change or reset value."
+"\r • Use double click on any cell in columns\r     \"{c_usr}\"\r     "
+"\"{c_lxr}\"\r     \"{c_fil}\"\r   to change \"{in_lxr}\" flag and to put "
+"focus on the value field.\r • Use double click on any cell in column\r     "
+"\"{c_def}\"\r   to put focus on \"{reset}\".\r • Clicking \"{reset}\" will "
+"ask for confirmation, for user/lexer options.\r   Hold Ctrl key to skip this "
+"confirmation.\r • Click on a column header sorts data in the column.\r     "
+"Alt+# (# is 1..8) sorts the N column (not on macOS).\r     Alt+9 resets "
+"sorting (not on macOS).\r     Click with Ctrl allows to sort by several "
+"columns.\r     Clicking with Ctrl on already sorted column does 2-state loop "
+"(down, up).\r     Clicking with Ctrl on already sorted column with maximal "
+"sorting index, \r     does 3-state loop (down, up, off).\r • Use option "
+"\"{lifl}\" to see instant update of the list after\r   each changing in the "
+"filter field\r   (otherwise you need to press Enter after changing).\r   "
+"With this option, no history of the filter is kept\r   (filter combobox has "
+"empty dropdown list).\r • If current list line is scrolled out of view, \r   "
+"you can still see the option name - in the tooltip\r   of \"User\" (Lexer/"
+"File) label near the value field.\r • Tooltip shows file name (or tag name), "
+"when cursor hovers the checkbox \"{tofi}\".\r • Some plugins store their "
+"settings into user.json.\r   So after a while, user.json contains options "
+"not present in default.json.\r   To see all these keys, use option "
+"\"{full}\".\r • Values in table column \"!\"\r     !   option is set in "
+"\"user.json\",\r     !!  option is set in \"lexer NNN.json\",\r     !!! "
+"option is set for current file,\r     L   default value is from "
+"\"settings_default/lexer NNN.json\",\r     +   not CudaText standard option."
+msgstr ""
+
+#: cd_opts_dlg.py:2009
+msgid "Edit JSON option ({})"
+msgstr "编辑 JSON 选项 ({})"
+
+#: cd_opts_dlg.py:2017
+msgid "Set &default"
+msgstr "设为默认(&D)"
+
+#: cd_opts_dlg.py:2018
+msgid "&Undo changes"
+msgstr "取消更改(&U)"
+
+#: cd_opts_dlg.py:2019
+msgid "Chec&k"
+msgstr "检查(&K)"
+
+#: cd_opts_dlg.py:2020 cd_plug_lib.py:2108
+msgid "Cancel"
+msgstr "取消"
+
+#: cd_opts_dlg.py:2021
+msgid "OK"
+msgstr "确定"
+
+#: cd_opts_dlg.py:2040
+msgid "Need update CudaText"
+msgstr "需要更新 CudaText"
+
+#: cd_opts_dlg.py:2046
+msgid "CudaText options"
+msgstr "CudaText 选项"
+
+#: cd_plug_lib.py:2035
+msgid "Report"
+msgstr "报告"
+
+#: cd_plug_lib.py:2037
+msgid "Send the report to the address"
+msgstr "将报告发送到地址"
+
+#: cd_plug_lib.py:2039
+msgid "or post it on"
+msgstr "或将其发布在"
+
+#: cd_plug_lib.py:2041
+msgid "Close"
+msgstr "关闭"
+
+#: cd_plug_lib.py:2105
+msgid "&Save"
+msgstr "保存(&S)"
+
+#: cd_plug_lib.py:2106
+msgid ""
+"Apply the fittings to controls of all dialogs.\rCtrl+Click  - Show data to "
+"mail report."
+msgstr "将配件应用到所有对话框的控件.\rCtrl+Click  - 将数据显示在邮件报告."
+
+#: cd_plug_lib.py:2110
+msgid "Adjust vertical alignments"
+msgstr "调整垂直对齐方式"
