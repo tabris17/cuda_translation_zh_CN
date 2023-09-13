@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-13 17:12+0800\n"
+"PO-Revision-Date: 2023-09-13 17:23+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_prefs\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cd_opts_dlg.py:45
+msgid "_no_"
+msgstr "_no_"
+
+#: cd_opts_dlg.py:123
+msgid ""
+"No folder \"{}\" from\n"
+"{}"
+msgstr ""
+"没有文件夹 \"{}\" 来自\n"
+"{}"
+
+#: cd_opts_dlg.py:191
+msgid "Empty string is allowed"
+msgstr "允许空字符串"
+
+#: cd_opts_dlg.py:550 cd_opts_dlg.py:557
+msgid "Incorrect value. It's needed in format: {}"
+msgstr "值不正确. 格式应为: {}"
+
+#: cd_opts_dlg.py:941
+msgid "Options Editor Lite"
+msgstr "精简选项编辑器"
+
+#: dlg.py:17
+msgid "CudaText Preferences"
+msgstr "CudaText 偏好"
+
+#: dlg.py:63
+msgid "[ All ]"
+msgstr "[ 全部 ]"
+
+#: dlg.py:76
+msgid "Section"
+msgstr "节"
+
+#: dlg.py:77
+msgid "Option"
+msgstr "选项"
+
+#: dlg.py:78
+msgid "Default"
+msgstr "默认"
+
+#: dlg.py:79
+msgid "User"
+msgstr "用户"
+
+#: dlg.py:80
+msgid "Lexer"
+msgstr "词法分析器"
+
+#: dlg.py:81
+msgid "File"
+msgstr "文件"
+
+#: dlg.py:82
+msgid "Current value"
+msgstr "当前值"
+
+#: dlg.py:227
+msgid "reset"
+msgstr "重置"
+
+#: dlg.py:363
+msgid "CudaText options lite"
+msgstr "精简选项编辑器"
+
+#: dlg.py:408
+msgid "NOTE: {}: invalid column width format: {}"
+msgstr "注意: {}: 无效的列宽格式: {}"
+
+#: dlg.py:462
+msgid "Columns widths. In pixels (50px) or relative (100)"
+msgstr "列宽. 采用像素 (50px) 或相对值 (100)"
+
+#: dlg.py:480
+msgid " (Error!)"
+msgstr " (错误!)"
+
+#: dlg.py:500
+msgid "failed to apply new columns config: {}. {}"
+msgstr "应用新的列配置失败: {}. {}"
+
+#: dlg.py:653
+msgid "Filter: "
+msgstr "过滤器: "
+
+#: dlg.py:702
+msgid "Scope: "
+msgstr "范围: "
+
+#: dlg.py:714
+msgid "Reset"
+msgstr "重置"
+
+#: dlg.py:736
+msgid "[mod]"
+msgstr ""
+
+#: dlg.py:770 dlg_json.py:96
+msgid "OK"
+msgstr "确定"
+
+#: dlg.py:781
+msgid "Apply"
+msgstr "应用"
+
+#: dlg.py:792
+msgid "Cancel"
+msgstr "取消"
+
+#: dlg.py:803 dlg.py:1422
+msgid "Help"
+msgstr "帮助"
+
+#: dlg.py:1011
+msgid ""
+"Remove option [{}]\n"
+"   {} = {!r}\n"
+"?"
+msgstr ""
+"移除选项 [{}]\n"
+"   {} = {!r}\n"
+"?"
+
+#: dlg.py:1019
+msgid "Option: "
+msgstr "选项: "
+
+#: dlg.py:1264
+msgid "Configure..."
+msgstr "配置..."
+
+#: dlg.py:1334
+msgid "Choose file: {}"
+msgstr "选择文件: {}"
+
+#: dlg.py:1384
+msgid "No option changes has been made"
+msgstr "没有进行任何选项更改"
+
+#: dlg.py:1527
+msgid "OptionsError: unsupported option type: "
+msgstr "选项错误: 不支持的选项类型: "
+
+#: dlg.py:1539
+msgid "Not available for a file"
+msgstr "不适用于一个文件"
+
+#: dlg.py:1539
+msgid "Not available for lexers"
+msgstr "不适用于词法分析器"
+
+#: dlg.py:1614
+msgid "Choose file..."
+msgstr "选择文件..."
+
+#: dlg.py:1620
+msgid "Edit..."
+msgstr "编辑..."
+
+#: dlg.py:1660
+msgid "Option \"{}\" does not accept empty value"
+msgstr "选项 \"{}\" 不能为空"
+
+#: dlg.py:1666
+msgid "Incorrect color token: "
+msgstr "颜色标记不正确: "
+
+#: dlg.py:1725
+msgid "Enable"
+msgstr "启用"
+
+#: dlg.py:1826
+msgid ""
+"About \"Filter\"\n"
+" Suitable options will contain all specified words.\n"
+" Tips and tricks:\n"
+" • Add \"#\" to search the words also in comments.\n"
+" • Add \"@sec\" to show options from section with \"sec\" in name.\n"
+"   Several sections are allowed.\n"
+"   Click item in sections tree with Ctrl to add it.\n"
+" • To show only overridden options:\n"
+"   - Add \"!\"   to show only User+Lexer+File.\n"
+"   - Add \"!!\"  to show only Lexer+File\n"
+"   - Add \"!!!\" to show only File.\n"
+" • Use \"<\" or \">\" for word boundary.\n"
+"     Example:\n"
+"       size> <tab\n"
+"     selects \"tab_size\" but not \"ui_tab_size\" or \"tab_size_x\".\n"
+"\n"
+" • Values in table column \"!\"\n"
+"     !   option is set in \"user.json\",\n"
+"     !!  option is set in \"lexer NNN.json\",\n"
+"     !!! option is set for current file,\n"
+"     L   default value is from \"settings_default/lexer NNN.json\",\n"
+"     +   not CudaText standard option.\n"
+msgstr ""
+
+#: dlg_json.py:57
+msgid "JSON option editor: {}"
+msgstr "JSON 选项编辑器: {}"
+
+#: dlg_json.py:107
+msgid "Close"
+msgstr "关闭"
+
+#: dlg_json.py:117
+msgid "Check"
+msgstr "检查"
+
+#: dlg_json.py:131
+msgid "Load default"
+msgstr "加载默认"
+
+#: dlg_json.py:141
+msgid "Undo changes"
+msgstr "取消更改"
