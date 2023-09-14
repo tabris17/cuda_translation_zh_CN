@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-14 11:47+0800\n"
+"PO-Revision-Date: 2023-09-14 11:57+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_make_plugin\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: __init__.py:28
+msgid "Cannot create plugin, folder already exists:\n"
+msgstr "无法创建插件, 文件夹已经存在:\n"
+
+#: __init__.py:34
+msgid "Cannot create dir:\n"
+msgstr "无法创建目录:\n"
+
+#: __init__.py:68
+msgid "(Fill the description)\n"
+msgstr "(填写描述)\n"
+
+#: __init__.py:71
+msgid "(Fill the GitHub repo URL)\n"
+msgstr "(填写 GitHub 仓库地址)\n"
+
+#: __init__.py:101
+msgid ""
+"Plugin was created.\n"
+"Menu item(s) will appear after restart of program."
+msgstr ""
+"插件已创建.\n"
+"菜单项将在程序重启后出现."
+
+#: dlg.py:53
+msgid "Make Plugin"
+msgstr "制作插件"
+
+#: dlg.py:54
+msgid "Plugin &name:"
+msgstr "插件名称(&N):"
+
+#: dlg.py:56
+msgid "&Python module name without \"cuda_\":"
+msgstr "&Python 模块名称 (不包括 \"cuda_\"):"
+
+#: dlg.py:58
+msgid "&Commands \"Caption>method\" (\"-\" at end: without menu item):"
+msgstr "命令(&C) \"标题>方法\" (以 \"-\" 结尾则没有菜单项):"
+
+#: dlg.py:60
+msgid "&Add \"Config\" menu item to \"Options / Settings-plugins\""
+msgstr "将 \"配置\" 菜单项添加到 \"选项/插件设置\"(&A)"
+
+#: dlg.py:61
+msgid "&Events to handle:"
+msgstr "要处理的事件(&S):"
+
+#: dlg.py:63
+msgid "&OK"
+msgstr "确定(&O)"
+
+#: dlg.py:64
+msgid "Cancel"
+msgstr "取消"
+
+#: dlg.py:83
+msgid "Empty field"
+msgstr "空字段"
+
+#: dlg.py:91
+#, python-format
+msgid "Incorrect module name: \"%s\""
+msgstr "不正确的模块名称: \"%s\""
+
+#: dlg.py:97
+msgid "Incorrect item: "
+msgstr "不正确的项目: "
+
+#: dlg.py:102
+msgid "Incorrect item name: "
+msgstr "不正确的项目名称: "
+
+#: dlg.py:109
+msgid "Incorrect item method: "
+msgstr "不正确的项目方法: "
