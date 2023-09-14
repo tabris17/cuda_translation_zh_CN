@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-12 10:42+0800\n"
-"PO-Revision-Date: 2023-09-12 11:45+0800\n"
+"PO-Revision-Date: 2023-09-14 11:16+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -251,7 +251,7 @@ msgstr "设为默认会话..."
 
 #: __init__.py:991
 msgid "Forget session, close all tabs"
-msgstr "关闭会话, 关闭全部标签页"
+msgstr "关闭会话, 关闭全部选项卡"
 
 #: __init__.py:1070 __init__.py:1090
 msgid "Project Manager: folder is locked: "
@@ -368,7 +368,7 @@ msgstr "将当前状态保存到会话 \"%s\" 吗?"
 msgid ""
 "CudaText has opened %d tab(s) not belonging to the project \"%s\". Close "
 "them?"
-msgstr "CudaText 已打开 %d 个不属于项目 \"%s\" 的标签页. 是否关闭它们？"
+msgstr "CudaText 已打开 %d 个不属于项目 \"%s\" 的选项卡. 是否关闭它们？"
 
 #: projman_dlg.py:58
 msgid "Ignore &files:"
@@ -396,7 +396,7 @@ msgstr "在执行 \"跳转到文件\" 命令后打开文件(&G)"
 
 #: projman_dlg.py:74
 msgid "&Use \"preview tab\" on item clicking"
-msgstr "点击项目时使用 \"预览标签页\" (&C)"
+msgstr "点击项目时使用 \"预览选项卡\" (&C)"
 
 #: projman_dlg.py:76
 msgid "Open files by &double-click"
@@ -408,7 +408,7 @@ msgstr "在 Git/SVN 仓库中打开文件时, 从存储库创建项目 (*)"
 
 #: projman_dlg.py:80
 msgid "Suggest to close tabs not belonging to project"
-msgstr "建议关闭不属于项目的标签页"
+msgstr "建议关闭不属于项目的选项卡"
 
 #: projman_dlg.py:83
 msgid "File type icons:"

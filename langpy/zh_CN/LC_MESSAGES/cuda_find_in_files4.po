@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-08 11:43+0800\n"
-"PO-Revision-Date: 2023-09-13 16:41+0800\n"
+"PO-Revision-Date: 2023-09-14 11:14+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -356,7 +356,7 @@ msgstr "已关闭用于 \"所有片段的词法分析器路径\" 的 \"替换\""
 
 #: cd_fif4.py:1492
 msgid "Replace all in files/tabs?"
-msgstr "是否替换所有文件/标签页?"
+msgstr "是否替换所有文件/选项卡?"
 
 #: cd_fif4.py:1505
 msgid "With"
@@ -466,15 +466,15 @@ msgstr "转到上一个找到的片段"
 
 #: cd_fif4.py:1698
 msgid "Go to next tab/file found fragment"
-msgstr "转到下一个标签页/文件中找到的片段"
+msgstr "转到下一个选项卡/文件中找到的片段"
 
 #: cd_fif4.py:1699
 msgid "Go to prev tab/file found fragment"
-msgstr "转到上一个标签页/文件中找到的片段"
+msgstr "转到上一个选项卡/文件中找到的片段"
 
 #: cd_fif4.py:1701
 msgid "Open found fragment in tab"
-msgstr "在标签页中打开找到的片段"
+msgstr "在选项卡中打开找到的片段"
 
 #: cd_fif4.py:1703
 msgid "Prepare to search in the So&urce"
@@ -486,7 +486,7 @@ msgstr "预备在源和词法分析器路径中搜索(&R)"
 
 #: cd_fif4.py:1718 cd_fif4.py:1795
 msgid "Copy Results to new tab"
-msgstr "将结果复制到新标签页"
+msgstr "将结果复制到新选项卡"
 
 #: cd_fif4.py:1725
 msgid "Choose start &folder"
@@ -510,11 +510,11 @@ msgstr "预备在当前文件 (硬盘中) 中搜索(&I)"
 
 #: cd_fif4.py:1738
 msgid "Prepare a search in the current ta&b (in memory)"
-msgstr "预备在当前标签页 (内存中) 中搜索(&B)"
+msgstr "预备在当前选项卡 (内存中) 中搜索(&B)"
 
 #: cd_fif4.py:1740
 msgid "Prepare a search in &all tabs (in memory)"
-msgstr "预备在所有标签页中搜索(&A)"
+msgstr "预备在所有选项卡中搜索(&A)"
 
 #: cd_fif4.py:1744
 msgid " swaps with"
@@ -1278,7 +1278,7 @@ msgstr ""
 "空格分隔的文件夹.\n"
 "双引号文件夹, 需要空格.\n"
 "\"~\" 是用户主文件夹.\n"
-"{} 或 {{t}} 在标签页中搜索.\n"
+"{} 或 {{t}} 在选项卡中搜索.\n"
 "Ctrl+Shift+Up - 剪切最后一个文件夹部分."
 
 #: cd_fif4_cs.py:370
@@ -1354,7 +1354,7 @@ msgstr ""
 
 #: cd_fif4_cs.py:396
 msgid "To search in tabs"
-msgstr "在标签页中搜索"
+msgstr "在选项卡中搜索"
 
 #: cd_fif4_cs.py:399
 msgid "Folder(s) of the loaded project"
