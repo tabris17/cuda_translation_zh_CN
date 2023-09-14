@@ -1,0 +1,1526 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-13 16:52+0800\n"
+"PO-Revision-Date: 2023-09-14 11:12+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_find_in_files\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cd_fi_in_fi.py:62
+msgid "+All"
+msgstr "+全部"
+
+#: cd_fi_in_fi.py:62
+msgid "Only"
+msgstr "仅当前"
+
+#: cd_fi_in_fi.py:62
+msgid "+1 level"
+msgstr "+1 层"
+
+#: cd_fi_in_fi.py:62
+msgid "+2 levels"
+msgstr "+2 层"
+
+#: cd_fi_in_fi.py:62
+msgid "+3 levels"
+msgstr "+3 层"
+
+#: cd_fi_in_fi.py:62
+msgid "+4 levels"
+msgstr "+4 层"
+
+#: cd_fi_in_fi.py:62
+msgid "+5 levels"
+msgstr "+5 层"
+
+#: cd_fi_in_fi.py:63
+msgid "Don't skip"
+msgstr "不要跳过"
+
+#: cd_fi_in_fi.py:63
+msgid "-Hidden"
+msgstr "-隐藏"
+
+#: cd_fi_in_fi.py:63
+msgid "-Binary"
+msgstr "-二进制"
+
+#: cd_fi_in_fi.py:63
+msgid "-Hidden, -Binary"
+msgstr "-隐藏, -二进制"
+
+#: cd_fi_in_fi.py:64
+msgid "Don't sort"
+msgstr "不要排序"
+
+#: cd_fi_in_fi.py:64
+msgid "By date, from newest"
+msgstr "按日期, 从晚到早"
+
+#: cd_fi_in_fi.py:64
+msgid "By date, from oldest"
+msgstr "按日期, 从早到晚"
+
+#: cd_fi_in_fi.py:121 cd_fi_in_fi.py:132 cd_fi_in_fi.py:140 cd_fi_in_fi.py:152
+#: cd_fi_in_fi.py:156 cd_fi_in_fi.py:159 cd_fi_in_fi.py:162
+msgid "Must update the application"
+msgstr "必须更新应用程序"
+
+#: cd_fi_in_fi.py:142
+msgid "The command works only with reports of FindInFiles plugin"
+msgstr "该命令仅适用于 \"文件中查找\" 插件的报告"
+
+#: cd_fi_in_fi.py:145
+msgid "No info to repeat search"
+msgstr "没有可重复搜索的信息"
+
+#: cd_fi_in_fi.py:198
+msgid ""
+"Option allows to save separate search settings\n"
+"                (search text, source folder, files mask etc)\n"
+"                per each mentioned session or project.\n"
+"                Each item in the option is RegEx,\n"
+"                which is compared with the full path of session (project).\n"
+"                First matched item is used."
+msgstr ""
+"选项允许保存单独的搜索设置\n"
+"                (搜索文本, 源文件夹, 文件掩码等)\n"
+"                每一个被提及的会话或项目.\n"
+"                选项中的每一项都是正则表达式,\n"
+"                与会话 (项目) 的完整路径进行比较.\n"
+"                使用第一个匹配的项目."
+
+#: cd_fi_in_fi.py:207
+msgid "History"
+msgstr "历史"
+
+#: cd_fi_in_fi.py:211
+msgid ""
+"Copy options [.*], [aA], [\"w\"] from CudaText dialog to plugin's dialog."
+msgstr "从 CudaText 对话框复制选项 [.*], [aA], [\"w\"] 到插件对话框."
+
+#: cd_fi_in_fi.py:215 cd_fi_in_fi.py:222 cd_fi_in_fi.py:229
+msgid "Start"
+msgstr "开始"
+
+#: cd_fi_in_fi.py:218
+msgid "Use selection text from current file when dialog opens."
+msgstr "对话框打开时使用当前文件内选中的文本."
+
+#: cd_fi_in_fi.py:225
+msgid "Store Results between dialog call if setting is \"[ ]Send\"."
+msgstr "如果设置为 \"[]发送\", 则在对话调用间存储结果."
+
+#: cd_fi_in_fi.py:234
+msgid ""
+"List of lexer names to use for report file.\n"
+"                  First available lexer is used."
+msgstr ""
+"用于报告文件的词法分析器名称列表.\n"
+"                  使用第一个可用的词法分析器."
+
+#: cd_fi_in_fi.py:242 cd_fi_in_fi.py:251 cd_fi_in_fi.py:268 cd_fi_in_fi.py:275
+#: cd_fi_in_fi.py:289 cd_fi_in_fi.py:296 cd_fi_in_fi.py:303 cd_fi_in_fi.py:312
+#: cd_fi_in_fi.py:365 cd_fi_in_fi.py:384 cd_fi_in_fi.py:403 cd_plug_lib.py:2129
+msgid "Report"
+msgstr "报告"
+
+#: cd_fi_in_fi.py:246
+msgid ""
+"Auto-write 'tab_size' to report's lexer-specific config,\n"
+"               if no such setting. Use 0 to skip."
+msgstr ""
+"自动写入 \"tab_size\" 到报告的词法分析器指定的配置,\n"
+"               如果没有此设置. 使用 0 跳过."
+
+#: cd_fi_in_fi.py:255
+msgid ""
+"Allows Esc key to stop all stages of current search.\n"
+"                If false, Esc stops only the current stage."
+msgstr ""
+"允许 Esc 键停止当前搜索的所有阶段.\n"
+"                如果是 false, Esc 仅停止当前阶段."
+
+#: cd_fi_in_fi.py:260 cd_fi_in_fi.py:320 cd_fi_in_fi.py:327 cd_fi_in_fi.py:334
+#: cd_fi_in_fi.py:345
+msgid "Searching"
+msgstr "搜索中"
+
+#: cd_fi_in_fi.py:264
+msgid "Show report even if nothing found."
+msgstr "即使没有发现任何内容也显示报告."
+
+#: cd_fi_in_fi.py:271
+msgid "[x]Append: Need to fold previous results."
+msgstr "[x]添加: 需要折叠之前的结果."
+
+#: cd_fi_in_fi.py:278
+msgid "Close dialog if search has found matches."
+msgstr "如果搜索找到匹配项则关闭对话框."
+
+#: cd_fi_in_fi.py:285
+msgid ""
+"Length of substring (from field \"Find\"), which appears in the report "
+"document title."
+msgstr "出现在报告文档标题中的子字符串长度 (来自 \"查找\" 字段)."
+
+#: cd_fi_in_fi.py:292
+msgid "If report document has a filename, save report after filling it."
+msgstr "如果报告文档有文件名, 则填写后保存报告."
+
+#: cd_fi_in_fi.py:299
+msgid "Activate document with report after filling it."
+msgstr "填写后激活带有报告的文档."
+
+#: cd_fi_in_fi.py:307
+msgid ""
+"Save search details (\"Find\", \"In folder\", …) in the first line of "
+"report.\n"
+"                The info will be used in command \"Repeat search for this "
+"report-tab\"."
+msgstr ""
+"将搜索详细信息 (\"查找\", \"在文件夹中\" 等) 保存在报告的第一行中.\n"
+"                 该信息将在命令 \"在此报告选项卡中重复搜索\" 中使用."
+
+#: cd_fi_in_fi.py:316
+msgid "Append specified string to the field 'Not in files'."
+msgstr "将指定的字符串添加到 \"不在文件中\" 字段."
+
+#: cd_fi_in_fi.py:323
+msgid "Size of buffer (at file start) to detect binary files."
+msgstr "用于检测二进制文件的缓冲区大小 (在文件开始处)."
+
+#: cd_fi_in_fi.py:330
+msgid ""
+"If value>0, skip all files, which sizes are bigger than this value (in Kb)."
+msgstr "如果值>0, 则跳过所有大小大于该值 (以 Kb 计) 的文件."
+
+#: cd_fi_in_fi.py:338
+msgid ""
+"Default encoding to read files.\n"
+"                If value is empty, then the following is used:\n"
+"                  cp1252 for Linux,\n"
+"                  preferred encoding from locale for others (Win, macOS, …)."
+msgstr ""
+"读取文件的默认编码.\n"
+"                如果值为空, 则使用以下内容:\n"
+"                  cp1252 用于 Linux,\n"
+"                  其余使用系统语言环境的首选编码 (Win、macOS...)."
+
+#: cd_fi_in_fi.py:350
+msgid ""
+"Style to mark found fragment in report.\n"
+"                Full form:\n"
+"                   \"fif_mark_style\":{\n"
+"                     \"color_back\":\"\", \n"
+"                     \"color_font\":\"\",\n"
+"                     \"font_bold\":false, \n"
+"                     \"font_italic\":false,\n"
+"                     \"color_border\":\"\", \n"
+"                     \"borders\":{\"left\":\"\",\"right\":\"\",\"bottom\":"
+"\"\",\"top\":\"\"}\n"
+"                   },\n"
+"                Color values: \"\" - skip, \"#RRGGBB\" - hex-digits\n"
+"                Values for border sides: \"solid\", \"dash\", \"2px\", "
+"\"dotted\", \"rounded\", \"wave\" "
+msgstr ""
+"在报告中标记已找到的片段样式.\n"
+"                完整形式:\n"
+"                   \"mark_style\":{\n"
+"                     \"color_back\":\"\", \n"
+"                     \"color_font\":\"\",\n"
+"                     \"font_bold\":false, \n"
+"                     \"font_italic\":false,\n"
+"                     \"color_border\":\"\", \n"
+"                     \"borders\":{\"left\":\"\",\"right\":\"\",\"bottom\":"
+"\"\",\"top\":\"\"}\n"
+"                   },\n"
+"                颜色值: \"\" - skip, \"#RRGGBB\" - hex-digits\n"
+"                边框值: \"solid\", \"dash\", \"2px\", \"dotted\", "
+"\"rounded\", \"wave\" "
+
+#: cd_fi_in_fi.py:369
+msgid ""
+"Style to mark replaced fragment in report (unique in line).\n"
+"                Full form:\n"
+"                   \"fif_mark_true_replace_style\":{\n"
+"                     \"color_back\":\"\", \n"
+"                     \"color_font\":\"\",\n"
+"                     \"font_bold\":false, \n"
+"                     \"font_italic\":false,\n"
+"                     \"color_border\":\"\", \n"
+"                     \"borders\":{\"left\":\"\",\"right\":\"\",\"bottom\":"
+"\"\",\"top\":\"\"}\n"
+"                   },\n"
+"                Color values: \"\" - skip, \"#RRGGBB\" - hex-digits\n"
+"                Values for border sides: \"solid\", \"dash\", \"2px\", "
+"\"dotted\", \"rounded\", \"wave\" "
+msgstr ""
+"在报告中标记已替换的片段样式 (行内唯一).\n"
+"                完整形式:\n"
+"                   \"fif_mark_true_replace_style\":{\n"
+"                     \"color_back\":\"\", \n"
+"                     \"color_font\":\"\",\n"
+"                     \"font_bold\":false, \n"
+"                     \"font_italic\":false,\n"
+"                     \"color_border\":\"\", \n"
+"                     \"borders\":{\"left\":\"\",\"right\":\"\",\"bottom\":"
+"\"\",\"top\":\"\"}\n"
+"                   },\n"
+"                颜色值: \"\" - skip, \"#RRGGBB\" - hex-digits\n"
+"                边框值: \"solid\", \"dash\", \"2px\", \"dotted\", "
+"\"rounded\", \"wave\" "
+
+#: cd_fi_in_fi.py:388
+msgid ""
+"Style to mark replaced fragment in report (not unique in line).\n"
+"                Full form:\n"
+"                   \"fif_mark_false_replace_style\":{\n"
+"                     \"color_back\":\"\", \n"
+"                     \"color_font\":\"\",\n"
+"                     \"font_bold\":false, \n"
+"                     \"font_italic\":false,\n"
+"                     \"color_border\":\"\", \n"
+"                     \"borders\":{\"left\":\"\",\"right\":\"\",\"bottom\":"
+"\"\",\"top\":\"\"}\n"
+"                   },\n"
+"                Color values: \"\" - skip, \"#RRGGBB\" - hex-digits\n"
+"                Values for border sides: \"solid\", \"dash\", \"2px\", "
+"\"dotted\", \"rounded\", \"wave\" "
+msgstr ""
+"在报告中标记已替换的片段样式 (在行中不唯一).\n"
+"                完整形式:\n"
+"                   \"fif_mark_false_replace_style\":{\n"
+"                     \"color_back\":\"\", \n"
+"                     \"color_font\":\"\",\n"
+"                     \"font_bold\":false, \n"
+"                     \"font_italic\":false,\n"
+"                     \"color_border\":\"\", \n"
+"                     \"borders\":{\"left\":\"\",\"right\":\"\",\"bottom\":"
+"\"\",\"top\":\"\"}\n"
+"                   },\n"
+"                颜色值: \"\" - skip, \"#RRGGBB\" - hex-digits\n"
+"                边框值: \"solid\", \"dash\", \"2px\", \"dotted\", "
+"\"rounded\", \"wave\" "
+
+#: cd_fi_in_fi.py:475
+msgid "To view/edit options install plugin \"Options Editor\""
+msgstr "要查看/编辑选项, 请安装 \"选项编辑器\" 插件"
+
+#: cd_fi_in_fi.py:495
+msgid "\"Find in Files\" options"
+msgstr "\"文件中查找\" 选项"
+
+#: cd_fi_in_fi.py:521
+msgid "No"
+msgstr "否"
+
+#: cd_fi_in_fi.py:521
+msgid "Yes"
+msgstr "是"
+
+#: cd_fi_in_fi.py:550
+msgid "No preset to config"
+msgstr "没有预设可配置"
+
+#: cd_fi_in_fi.py:560
+msgid "Options is restored from preset"
+msgstr "选项从预设恢复"
+
+#: cd_fi_in_fi.py:670
+msgid "&Presets:"
+msgstr "预设(&P):"
+
+#: cd_fi_in_fi.py:673 cd_fi_in_fi.py:721
+msgid "&Name:"
+msgstr "名称(&N):"
+
+#: cd_fi_in_fi.py:676
+msgid "Move &up"
+msgstr "上移(&U)"
+
+#: cd_fi_in_fi.py:677
+msgid "Move &down"
+msgstr "下移(&D)"
+
+#: cd_fi_in_fi.py:678
+msgid "Clon&e"
+msgstr "克隆(&E)"
+
+#: cd_fi_in_fi.py:679
+msgid "Dele&te"
+msgstr "删除(&T)"
+
+#: cd_fi_in_fi.py:681
+msgid "&What to restore:"
+msgstr "要恢复的(&W):"
+
+#: cd_fi_in_fi.py:683 cd_fi_in_fi.py:725
+msgid "With values:"
+msgstr "使用值:"
+
+#: cd_fi_in_fi.py:686
+msgid "Apply"
+msgstr "应用"
+
+#: cd_fi_in_fi.py:687 cd_fi_in_fi.py:728 cd_fi_in_fi.py:1044
+#: cd_plug_lib.py:2202
+msgid "Cancel"
+msgstr "取消"
+
+#: cd_fi_in_fi.py:689
+msgid "Presets"
+msgstr "预设"
+
+#: cd_fi_in_fi.py:720
+msgid "Save preset"
+msgstr "保存预设"
+
+#: cd_fi_in_fi.py:723
+msgid "&What to save:"
+msgstr "要保存的(&W):"
+
+#: cd_fi_in_fi.py:727 cd_fi_in_fi.py:1043
+msgid "OK"
+msgstr "确定"
+
+#: cd_fi_in_fi.py:729
+msgid "#{}: \"{}\" in \"{}\""
+msgstr "#{}: \"{}\" 于 \"{}\""
+
+#: cd_fi_in_fi.py:748
+msgid "Options is saved to preset: "
+msgstr "选项已保存到预设: "
+
+#: cd_fi_in_fi.py:791
+msgid "Options is restored from preset: "
+msgstr "选项从预设恢复: "
+
+#: cd_fi_in_fi.py:839
+#, python-brace-format
+msgid ""
+"\n"
+"If report will be sent to tab \n"
+"    [x] Send\n"
+"then option \"Tree type\" in dialog \"{morp}\" allows to set:\n"
+" \n"
+"{shtp}\n"
+msgstr ""
+"\n"
+"如果报告会被发送到选项卡 \n"
+"    [x] 发送\n"
+"则允许设置对话框 \"{morp}\" 中的选项 \"树类型\":\n"
+" \n"
+"{shtp}\n"
+
+#: cd_fi_in_fi.py:847
+msgid ""
+"\n"
+"┌────────────────────────────┬──────────────┬────────────────────────────┬───────────────────────────────────────────┐\n"
+"│          Command           │    Hotkey    │           Trick            "
+"│                  Comment                  │\n"
+"╞════════════════════════════╪══════════════╪════════════════════════════╪═══════════════════════════════════════════╡\n"
+"│ Find                       │        Enter │                            │ "
+"If focus not in Results/Source            │\n"
+"│ Count matches              │        Alt+T │                            "
+"│                                           │\n"
+"│ Find filenames             │       Ctrl+T │                            "
+"│                                           │\n"
+"├────────────────────────────┼──────────────┼────────────────────────────┼───────────────────────────────────────────┤\n"
+"│ Focus to Results           │   Ctrl+Enter │                            │ "
+"If focus not in Results/Source            │\n"
+"│ Open found fragment        │        Enter │                            │ "
+"If focus in Results. Selects the fragment │\n"
+"│ Close and go to found      │   Ctrl+Enter │                            │ "
+"If focus in Results. Selects the fragment │\n"
+"│ Close and go to found      │   Ctrl+Enter │                            │ "
+"If focus in Source. Restores selection    │\n"
+"│ Fold Results branch        │       Ctrl+= │                            │ "
+"If focus in Results                       │\n"
+"├────────────────────────────┼──────────────┼────────────────────────────┼───────────────────────────────────────────┤\n"
+"│ In current file            │ Ctrl+Shift+C │      Shift+Сlick \"Current\" "
+"│                                           │\n"
+"│ In all tabs                │              │ Ctrl      +Сlick \"Current\" "
+"│                                           │\n"
+"│ In current tab             │              │ Ctrl+Shift+Сlick \"Current\" "
+"│                                           │\n"
+"│ Choose file                │       Ctrl+B │      Shift+Сlick  \"Browse\" "
+"│                                           │\n"
+"│ Depth \"Only\"               │        Alt+Y │                  Ctrl+Num0 "
+"│                                           │\n"
+"│ Depth \"+1 level\"           │        Alt+! │                  Ctrl+Num1 "
+"│                                           │\n"
+"│ Depth \"All\"                │        Alt+L │                  Ctrl+Num9 "
+"│                                           │\n"
+"├────────────────────────────┼──────────────┼────────────────────────────┼───────────────────────────────────────────┤\n"
+"│ Save values as preset      │       Ctrl+S │                            "
+"│                                           │\n"
+"│ Presets dialog             │   Ctrl+Alt+S │                            "
+"│                                           │\n"
+"│ Use Preset #1(..#5)        │  Ctrl+1(..5) │                            │ "
+"Others from menu/dialog                   │\n"
+"│ Use Layout #1(..#5)        │   Alt+1(..5) │                            │ "
+"Others from menu                          │\n"
+"├────────────────────────────┼──────────────┼────────────────────────────┼───────────────────────────────────────────┤\n"
+"│ ±\"Not in\"/±\"Replace\"       │        Alt+V │                            "
+"│ 4-states loop to show/hide                │\n"
+"│ Engine options             │       Ctrl+E │                            "
+"│                                           │\n"
+"│ Configure vert. alignments │              │             Ctrl+Сlick \"=\" "
+"│                                           │\n"
+"├────────────────────────────┼──────────────┼────────────────────────────┼───────────────────────────────────────────┤\n"
+"│ Call CudaText's \"Find\"     │       Ctrl+F │                            │ "
+"With transfer patern/.*/aA/\"w\"            │\n"
+"│ Call CudaText's \"Replace\"  │       Ctrl+R │                            │ "
+"With transfer paterns/.*/aA/\"w\"           │\n"
+"│ Dialog \"Help\"              │        Alt+H │                            "
+"│                                           │\n"
+"└────────────────────────────┴──────────────┴────────────────────────────┴───────────────────────────────────────────┘\n"
+msgstr ""
+
+#: cd_fi_in_fi.py:884
+#, python-brace-format
+msgid ""
+"\n"
+"• \".*\" - Option \"Regular Expression\". \n"
+"It allows to use in field \"Find what\" special symbols:\n"
+"    .   any character\n"
+"    \\d  digit character (0..9)\n"
+"    \\w  word-like character (digits, letters, \"_\")\n"
+"In field \"Replace with\":\n"
+"    \\1  to insert first found group,\n"
+"    \\2  to insert second found group, ... \n"
+"See full documentation on page\n"
+"    docs.python.org/3/library/re.html\n"
+" \n"
+"• \"w\" - {word}\n"
+" \n"
+"—————————————————————————————————————————————— \n"
+" \n"
+"• Values in fields \"{incl}\" and \"{excl}\" can contain\n"
+"    ?       for any single char,\n"
+"    *       for any substring (may be empty),\n"
+"    [seq]   any character in seq,\n"
+"    [!seq]  any character not in seq. \n"
+"Note: \n"
+"    *       matches all names, \n"
+"    *.*     doesn't match all.\n"
+" \n"
+"• Values in fields \"{incl}\" and \"{excl}\" can filter subfolder names \n"
+"if they start with \"/\".\n"
+"Example.\n"
+"    {incl:12}: /a*  *.txt\n"
+"    {excl:12}: /ab*\n"
+"    {fold:12}: c:/root\n"
+"    Depth       : All\n"
+"    Search will consider all *.txt files in folder c:/root\n"
+"    and in all subfolders a* except ab*.\n"
+" \n"
+"• Set special value \"{tags}\" (in short <t> or <Tabs>) for field \"{fold}\" "
+"to search in opened documents.\n"
+"Fields \"{incl}\" and \"{excl}\" will be used to filter tab titles, in this "
+"case.\n"
+"To search in all tabs, use mask \"*\" in field \"{incl}\".\n"
+"See also: menu items under button \"=\", \"Scope\".\n"
+" \n"
+"• Set special value \"{proj}\" (in short <p>) for field \"{fold}\" to search "
+"in project files.\n"
+"See also: menu items under button \"=\", \"Scope\".\n"
+" \n"
+"—————————————————————————————————————————————— \n"
+" \n"
+"• \"Age\" (advanced search options).\n"
+"    {olde}\n"
+" \n"
+"• \"First\" (advanced search options).\n"
+"    {frst}\n"
+" \n"
+"—————————————————————————————————————————————— \n"
+" \n"
+"• Long-term searches can be interrupted by ESC.\n"
+"Search has three stages: \n"
+"    picking files, \n"
+"    finding fragments, \n"
+"    reporting.\n"
+"ESC stops any stage. \n"
+"When picking and finding, ESC stops only this stage, so next stage begins.\n"
+" \n"
+"—————————————————————————————————————————————— \n"
+" \n"
+"• Use right click or Context keyboard button \n"
+"to see context menu over these elements\n"
+"    \"Find\", \"Replace\", \"Current\", \"Browse\", Depth combobox\n"
+" \n"
+"—————————————————————————————————————————————— \n"
+"You are welcome to plugin forum. See bottom link.\n"
+msgstr ""
+
+#: cd_fi_in_fi.py:976
+msgid "\"Find in Files\" help"
+msgstr "\"文件中查找\" 帮助"
+
+#: cd_fi_in_fi.py:983
+msgid "Hotkeys+Tricks"
+msgstr "热键+技巧"
+
+#: cd_fi_in_fi.py:984
+msgid "Hints"
+msgstr "提示"
+
+#: cd_fi_in_fi.py:985
+msgid "Tree types"
+msgstr "树类型"
+
+#: cd_fi_in_fi.py:991
+msgid "Plugin forum"
+msgstr "插件论坛"
+
+#: cd_fi_in_fi.py:1011
+msgid "See \"mouse_goto_definition\" in default.json and user.json"
+msgstr "参见 default.json 和 user.json 中的 \"mouse_goto_definition\""
+
+#: cd_fi_in_fi.py:1012
+msgid "<no action>"
+msgstr "<无动作>"
+
+#: cd_fi_in_fi.py:1013
+msgid "Navigate to same group"
+msgstr "导航到相同组"
+
+#: cd_fi_in_fi.py:1014
+msgid "Navigate to next group"
+msgstr "导航到下个组"
+
+#: cd_fi_in_fi.py:1015
+msgid "Navigate to prev group"
+msgstr "导航到上个组"
+
+#: cd_fi_in_fi.py:1016
+msgid "Navigate to next group, activate"
+msgstr "导航到下个组, 激活"
+
+#: cd_fi_in_fi.py:1017
+msgid "Navigate to prev group, activate"
+msgstr "导航到上个组, 激活"
+
+#: cd_fi_in_fi.py:1026
+msgid "Configure found result navigation by double-click"
+msgstr "配置查找结果的双击导航"
+
+#: cd_fi_in_fi.py:1070
+msgid ""
+"Space-separated file or folder masks.\n"
+"Folder mask starts with \"/\".\n"
+"Double-quote mask, which needs space-char.\n"
+"Use ? for any character and * for any fragment.\n"
+"Note: \"*\" matchs all names, \"*.*\" doesnt match all."
+msgstr ""
+"空格分隔的文件或文件夹掩码.\n"
+"文件夹掩码以 \"/\" 开头.\n"
+"双引号掩码, 需要空格.\n"
+"使用 \"?\" 表示任意字符, \"*\" 表示任意片段.\n"
+"注意: \"*\" 匹配所有名称, \"*.*\" 不匹配全部."
+
+#: cd_fi_in_fi.py:1075
+msgid ""
+"\n"
+" \n"
+"Always excluded: {}\n"
+"See option \"fif_always_not_in_files\" to change."
+msgstr ""
+"\n"
+"\n"
+"总是排除:\n"
+"   {}\n"
+"请参阅引擎选项 \"always_not_in_files\" 进行更改."
+
+#: cd_fi_in_fi.py:1080
+msgid ""
+"Regular expression\n"
+"Format for found groups in Replace: \\1"
+msgstr ""
+"正则表达式\n"
+"在替换中已找到的分组格式: \\1"
+
+#: cd_fi_in_fi.py:1083
+msgid "Case sensitive"
+msgstr "大小写敏感"
+
+#: cd_fi_in_fi.py:1084
+msgid ""
+"Option \"Whole words\". It is ignored when:\n"
+"  Regular expression (\".*\") is turned on,\n"
+"  \"Find what\" contains not only letters, digits and \"_\"."
+msgstr ""
+"选项 \"整个单词\" 会被忽略, 当:\n"
+"  启用正则表达式 (\".*\"),\n"
+"  \"查找内容\" 不仅包含字母, 数字和 \"_\"."
+
+#: cd_fi_in_fi.py:1088
+msgid ""
+"Choose folder.\n"
+"Shift+Click or Ctrl+B - Choose file to find in it."
+msgstr ""
+"选择文件夹.\n"
+"Shift+Click 或 Ctrl+B - 选择要查找的文件."
+
+#: cd_fi_in_fi.py:1091
+msgid ""
+"Start folder(s).\n"
+"Space-separated folders.\n"
+"Double-quote folder, which needs space-char.\n"
+"~ is user Home folder.\n"
+"$VAR or ${{VAR}} is environment variable.\n"
+"{} to search in tabs (in short <Tabs> or <t>).\n"
+"{} to search in project folders (in short <p>)."
+msgstr ""
+"开始文件夹.\n"
+"空格分隔的文件夹.\n"
+"双引号文件夹, 需要空格符.\n"
+"~ 是用户主文件夹.\n"
+"$VAR 或 ${{VAR}} 是环境变量.\n"
+"{} 在标签页中搜索 (简写为 <Tabs> 或 <t>).\n"
+"{} 在项目文件夹中搜索 (简写为 <p>)."
+
+#: cd_fi_in_fi.py:1099
+msgid ""
+"Which subfolders will be searched.\n"
+"Alt+Y or Ctrl+Num0 - Apply \"Only\".\n"
+"Alt+! or Ctrl+Num1 - Apply \"+1 level\".\n"
+"Alt+L or Ctrl+Num9 - Apply \"+All\" subfolders."
+msgstr ""
+"将搜索哪些子文件夹.\n"
+"Alt+Y 或 Ctrl+Num0 - 应用 \"仅当前\".\n"
+"Alt+! 或 Ctrl+Num1 - 应用 \"+1 层\".\n"
+"Alt+L 或 Ctrl+Num9 - 应用 \"+全部\" 子文件夹."
+
+#: cd_fi_in_fi.py:1104
+msgid ""
+"Use folder of current file.\n"
+"Shift+Click or Ctrl+Shift+C - Prepare search in the current file.\n"
+"Ctrl+Click   - Prepare search in all tabs.\n"
+"Shift+Ctrl+Click - Prepare search in the current tab."
+msgstr ""
+"使用当前文件的文件夹.\n"
+"Shift+Click 或 Ctrl+Shift+C - 准备在当前文件中搜索.\n"
+"Ctrl+Click   - 准备在所有选项卡中搜索.\n"
+"Shift+Ctrl+Click - 准备在当前选项卡中搜索."
+
+#: cd_fi_in_fi.py:1109
+msgid "Advanced search options"
+msgstr "高级搜索选项"
+
+#: cd_fi_in_fi.py:1110
+msgid "Output report to tab/file"
+msgstr "输出报告到选项卡/文件"
+
+#: cd_fi_in_fi.py:1111
+msgid "Advanced tab report options"
+msgstr "高级选项卡报告选项"
+
+#: cd_fi_in_fi.py:1112
+msgid ""
+"Local menu\n"
+"Ctrl+Click - Adjust vertical alignments..."
+msgstr ""
+"本地菜单\n"
+"Ctrl+点击 - 调整垂直对齐方式..."
+
+#: cd_fi_in_fi.py:1125
+msgid ""
+"M[, F]\n"
+"Stop after M fragments will be found.\n"
+"Search only inside F first proper files.\n"
+"    Note: If Sort is on then steps are\n"
+"     - Collect all proper files\n"
+"     - Sort the list\n"
+"     - Use first F files to search"
+msgstr ""
+"M[, F]\n"
+"找到 M 个片段后停止.\n"
+"只搜索前 F 个文件内第一个符合条件的文件.\n"
+"    注意: 如果已开启排序, 则顺序为\n"
+"     - 收集所有符合条件的文件\n"
+"     - 对列表进行排序\n"
+"     - 搜索前 F 个文件"
+
+#: cd_fi_in_fi.py:1134
+msgid "hour(s)"
+msgstr "小时"
+
+#: cd_fi_in_fi.py:1134
+msgid "day(s)"
+msgstr "天"
+
+#: cd_fi_in_fi.py:1134
+msgid "week(s)"
+msgstr "周"
+
+#: cd_fi_in_fi.py:1134
+msgid "month(s)"
+msgstr "月"
+
+#: cd_fi_in_fi.py:1134
+msgid "year(s)"
+msgstr "年"
+
+#: cd_fi_in_fi.py:1135
+msgid ""
+"\"N\" or \"<N\" or \">N\".\n"
+"Skip files if the age less or more then N.\n"
+"\"N\" and \"<N\" are equal.\n"
+"\"0\" to all ages."
+msgstr ""
+"\"N\" 或 \"<N\" 或 \">N\".\n"
+"跳过文件当年龄少于或大于 N.\n"
+"\"N\" 和 \"<N\" 是等价的.\n"
+"\"0\" 表示不限年龄."
+
+#: cd_fi_in_fi.py:1140
+msgid ""
+"Format of the reported tree structure.\n"
+"Compact - report all found line with full file info:\n"
+"    path(r[:c:l]):line\n"
+"    path/(r[:c:l]):line\n"
+"  Tree schemes\n"
+"    +Search for \"*\"\n"
+"      <full_path(row[:col:len])>: line with ALL marked fragments\n"
+"    +Search for \"*\"\n"
+"      <full_path>: #count\n"
+"         <(row[:col:len])>: line with ALL marked fragments\n"
+"Sparse - report separated folders and fragments:\n"
+"    dir/file(r[:c:l]):line\n"
+"    dir/file/(r[:c:l]):line\n"
+"  Tree schemes\n"
+"    +Search for \"*\"\n"
+"      <root>: #count\n"
+"        <dir>: #count\n"
+"          <file.ext(row[:col:len])>: line with ONE marked fragment\n"
+"    +Search for \"*\"\n"
+"      <root>: #count\n"
+"        <dir>: #count\n"
+"          <file.ext>: #count\n"
+"            <(row[:col:len])>: line with ONE marked fragment\n"
+"For \n"
+"  sorted files\n"
+"and for search in tabs\n"
+"  In folder={}\n"
+"only Compact options are used.\n"
+"When a conflict occurs, \"Tree type\" is automatically changed."
+msgstr ""
+"报告树结构的格式.\n"
+"紧凑 - report all found line with full file info:\n"
+"    path(r[:c:l]):line\n"
+"    path/(r[:c:l]):line\n"
+"  Tree schemes\n"
+"    +Search for \"*\"\n"
+"      <full_path(row[:col:len])>: line with ALL marked fragments\n"
+"    +Search for \"*\"\n"
+"      <full_path>: #count\n"
+"         <(row[:col:len])>: line with ALL marked fragments\n"
+"稀疏 - report separated folders and fragments:\n"
+"    dir/file(r[:c:l]):line\n"
+"    dir/file/(r[:c:l]):line\n"
+"  Tree schemes\n"
+"    +Search for \"*\"\n"
+"      <root>: #count\n"
+"        <dir>: #count\n"
+"          <file.ext(row[:col:len])>: line with ONE marked fragment\n"
+"    +Search for \"*\"\n"
+"      <root>: #count\n"
+"        <dir>: #count\n"
+"          <file.ext>: #count\n"
+"            <(row[:col:len])>: line with ONE marked fragment\n"
+"For \n"
+"  sorted files\n"
+"and for search in tabs\n"
+"  In folder={}\n"
+"only Compact options are used.\n"
+"当发生冲突时, \"树类型\" 会自动更改."
+
+#: cd_fi_in_fi.py:1171
+msgid "Conte&xt -{}+{}"
+msgstr "上下文(&X) -{}+{}"
+
+#: cd_fi_in_fi.py:1172
+msgid "Show result line and both its nearest lines, above and below result."
+msgstr "显示结果行及其最近的行 (位于结果上方和下方)"
+
+#: cd_fi_in_fi.py:1173
+msgid "Align columns (filenames/numbers) by widest cell width"
+msgstr "按最宽的单元格宽度对齐列 (文件名/数字)"
+
+#: cd_fi_in_fi.py:1174
+msgid ""
+"Start search.\n"
+"Shift+Click  - Put report to new tab.\n"
+"   It is like pressing Find with option \"Show in: {}\".\n"
+"Ctrl+Click  - Append result to existing report.\n"
+"   It is like pressing Find with option \"[x]Append results\"."
+msgstr ""
+"开始搜索.\n"
+"Shift+点击 - 将报告放到新的选项卡.\n"
+"   这就像按下查找按钮, 并选择 \"显示在: {}\".\n"
+"Ctrl+点击 - 将结果附加到现有的报告.\n"
+"   就像按下带 \"[x]附加结果\" 选项的查找按钮一样。"
+
+#: cd_fi_in_fi.py:1180
+msgid ""
+"Start search and replacement.\n"
+"Shift+Click  - Run without question\n"
+"   \"Do you want to replace...?\""
+msgstr ""
+"开始搜索和替换.\n"
+"Shift+点击 - 不询问直接运行\n"
+"   ”你要替换......吗?\""
+
+#: cd_fi_in_fi.py:1184
+msgid ""
+"Count matches only.\n"
+"Shift+Click or Ctrl+T - Find file names only.\n"
+" \n"
+"Note: Alt+T and Ctrl+T works if button is hidden."
+msgstr ""
+"仅计算匹配项.\n"
+"Shift+Click 或 Ctrl+T - 仅查找文件名.\n"
+" \n"
+"注意: Alt+T 和 Ctrl+T 在按钮隐藏时生效."
+
+#: cd_fi_in_fi.py:1189
+msgid ""
+"Save options for future. Restore saved options.\n"
+"Shift+Click - Show presets list in applying history order.\n"
+"Ctrl+Click   - Apply last used preset.\n"
+" \n"
+"Note: Alt+S works if button is hidden.\n"
+"Ctrl+1 - Apply first preset.\n"
+"Ctrl+2 - Apply second preset.\n"
+"Ctrl+3 - Apply third preset."
+msgstr ""
+"保存选项以供将来使用. 恢复保存的选项.\n"
+"Shift+点击 - 按应用历史顺序显示预设列表\n"
+"Ctrl+点击   - 应用上次使用的预设.\n"
+" \n"
+"注意: Alt+S 按钮隐藏时生效.\n"
+"Ctrl+1 - 应用第一个预设.\n"
+"Ctrl+2 - 应用第二个预设.\n"
+"Ctrl+3 - 应用第三个预设."
+
+#: cd_fi_in_fi.py:1199
+msgid ""
+"In which encodings try to read files.\n"
+"First suitable will be used.\n"
+"\"{}\" is slow.\n"
+" \n"
+"Default encoding: {}"
+msgstr ""
+"使用哪种编码尝试读取文件.\n"
+"将使用第一个适用的编码.\n"
+"\"{}\" 会很慢.\n"
+" \n"
+"默认编码: {}"
+
+#: cd_fi_in_fi.py:1282 cd_fi_in_fi.py:1735 cd_fi_in_fi.py:1743
+msgid "[Clear fixed files]"
+msgstr "[清空固定的文件]"
+
+#: cd_fi_in_fi.py:1283 cd_fi_in_fi.py:1745
+msgid "[Add fixed file]"
+msgstr "[添加固定的文件]"
+
+#: cd_fi_in_fi.py:1306
+msgid "(no results)"
+msgstr "(没有结果)"
+
+#: cd_fi_in_fi.py:1315
+msgid "Find in Files ({})"
+msgstr "在文件中查找 ({})"
+
+#: cd_fi_in_fi.py:1545
+msgid "sorted"
+msgstr "已排序"
+
+#: cd_fi_in_fi.py:1547
+msgid "age"
+msgstr "年龄"
+
+#: cd_fi_in_fi.py:1548
+msgid "first \""
+msgstr "开头 \""
+
+#: cd_fi_in_fi.py:1555
+msgid "append to "
+msgstr "添加到 "
+
+#: cd_fi_in_fi.py:1556
+msgid "Report: "
+msgstr "报告: "
+
+#: cd_fi_in_fi.py:1558
+msgid "aligned"
+msgstr "对齐"
+
+#: cd_fi_in_fi.py:1559
+msgid "context-{}+{}"
+msgstr "上下文-{}+{}"
+
+#: cd_fi_in_fi.py:1562
+msgid "Search: "
+msgstr "搜索: "
+
+#: cd_fi_in_fi.py:1685
+msgid "S&kip files:"
+msgstr "跳过文件(&K):"
+
+#: cd_fi_in_fi.py:1687
+msgid "S&ort file list:"
+msgstr "文件列表排序(&O):"
+
+#: cd_fi_in_fi.py:1689
+msgid "A&ge (0=all):"
+msgstr "年龄(&G) (0=全部):"
+
+#: cd_fi_in_fi.py:1692
+msgid "&Firsts (0=all):"
+msgstr "开头(&F) (0=全部):"
+
+#: cd_fi_in_fi.py:1694
+msgid "&Encodings:"
+msgstr "编码(&E):"
+
+#: cd_fi_in_fi.py:1737
+msgid "Clear all fixed files ({}) for \"{}\"?"
+msgstr "清空全部固定的文件 ({}) 于 \"{}\"?"
+
+#: cd_fi_in_fi.py:1737
+msgid "Report to"
+msgstr "报告至"
+
+#: cd_fi_in_fi.py:1783
+msgid "&Report to:"
+msgstr "报告至(&R):"
+
+#: cd_fi_in_fi.py:1785
+msgid "Appen&d results"
+msgstr "添加到结果(&D)"
+
+#: cd_fi_in_fi.py:1786
+msgid "&Tree type:"
+msgstr "树类型(&T):"
+
+#: cd_fi_in_fi.py:1788
+msgid "&Align (r:c:l)"
+msgstr "对齐(&A) (r:c:l)"
+
+#: cd_fi_in_fi.py:1789
+msgid "Add conte&xt lines"
+msgstr "添加上下文行(&X)"
+
+#: cd_fi_in_fi.py:1790
+msgid "&Before:"
+msgstr "此前(&B):"
+
+#: cd_fi_in_fi.py:1792
+msgid "A&fter:"
+msgstr "此后(&F):"
+
+#: cd_fi_in_fi.py:1960 cd_fi_in_fi.py:1976 cd_fif_api.py:69
+msgid "detect"
+msgstr "检测"
+
+#: cd_fi_in_fi.py:1977
+msgid "<{}> (search setting)"
+msgstr "<{}> (搜索设置)"
+
+#: cd_fi_in_fi.py:1979
+msgid "Source encoding"
+msgstr "源文件编码"
+
+#: cd_fi_in_fi.py:2004
+msgid "<ERROR. See \"Source encoding\" in menu>"
+msgstr "<错误. 参见菜单 \"源文件编码\">"
+
+#: cd_fi_in_fi.py:2010
+msgid "(no source)"
+msgstr "(没有源文件)"
+
+#: cd_fi_in_fi.py:2034 cd_fi_in_fi.py:2055 cd_fi_in_fi.py:2073
+msgid "Fill the \"{}\" field"
+msgstr "填写 \"{}\" 字段"
+
+#: cd_fi_in_fi.py:2039
+msgid "Do you want to replace in {}?"
+msgstr "你想替换 {} 中的内容吗?"
+
+#: cd_fi_in_fi.py:2040
+msgid "current tab"
+msgstr "当前选项卡"
+
+#: cd_fi_in_fi.py:2041
+msgid "all tabs"
+msgstr "所有选项卡"
+
+#: cd_fi_in_fi.py:2042
+msgid "all found files"
+msgstr "所有找到的文件"
+
+#: cd_fi_in_fi.py:2051 cd_fi_in_fi.py:2076 cd_fi_in_fi.py:2079
+msgid "Fix quotes in the \"{}\" field"
+msgstr "修复 \"{}\" 字段中的引号"
+
+#: cd_fi_in_fi.py:2062 cd_fi_in_fi.py:2069
+msgid ""
+"Set correct \"{}\" reg.ex.\n"
+"\n"
+"Error:\n"
+"{}"
+msgstr ""
+"设置正确的 \"{}\" reg.ex.\n"
+"\n"
+"错误:\n"
+"{}"
+
+#: cd_fi_in_fi.py:2095
+msgid ""
+"Set existing folder in \"{}\" \n"
+"or use \"{}\" \n"
+"or use \"{}\".\n"
+"\n"
+"=/Presets can help."
+msgstr ""
+"在 \"{}\" 中设置现有文件夹 \n"
+"或使用 \"{}\" \n"
+"或使用 \"{}\".\n"
+"\n"
+"=/Presets 可能有帮助."
+
+#: cd_fi_in_fi.py:2170
+msgid "tab"
+msgstr "选项卡"
+
+#: cd_fi_in_fi.py:2170
+msgid "file"
+msgstr "文件"
+
+#: cd_fi_in_fi.py:2192
+msgid "Search stopped"
+msgstr "搜索停止"
+
+#: cd_fi_in_fi.py:2197
+msgid "No {}s picked"
+msgstr "没有选取 {}"
+
+#: cd_fi_in_fi.py:2212
+msgid "No matches found (in {} {})"
+msgstr "未找到匹配 (在 {} {} 中)"
+
+#: cd_fi_in_fi.py:2214
+msgid "Found {} {} in {}({}) {}"
+msgstr "找到 {} {} 于 {}({}) {}"
+
+#: cd_fi_in_fi.py:2352
+msgid "Remove \"{}\"?"
+msgstr "移除 \"{}\"?"
+
+#: cd_fi_in_fi.py:2362
+msgid "Name to save dialog and controls positions"
+msgstr "保存对话框和控件位置的名称"
+
+#: cd_fi_in_fi.py:2368
+msgid "Name \"{}\" already used. Overwrite?"
+msgstr "名称 \"{}\" 已被使用. 是否要覆盖?"
+
+#: cd_fi_in_fi.py:2402
+msgid "Apply layout: {}"
+msgstr "应用布局: {}"
+
+#: cd_fi_in_fi.py:2426 cd_fif_api.py:177
+msgid "Results"
+msgstr "结果"
+
+#: cd_fi_in_fi.py:2464
+msgid "Open fragment"
+msgstr "打开片段"
+
+#: cd_fi_in_fi.py:2465 cd_fi_in_fi.py:2473
+msgid "Go to fragment"
+msgstr "跳转到片段"
+
+#: cd_fi_in_fi.py:2467
+msgid "Fold branch"
+msgstr "折叠分支"
+
+#: cd_fi_in_fi.py:2469
+msgid "Copy Results to tab"
+msgstr "将结果复制到选项卡"
+
+#: cd_fi_in_fi.py:2486
+msgid "Count matches only"
+msgstr "仅计算匹配项"
+
+#: cd_fi_in_fi.py:2487
+msgid "Find file names only"
+msgstr "仅查找文件名"
+
+#: cd_fi_in_fi.py:2490
+msgid "Find and replace"
+msgstr "查找并替换"
+
+#: cd_fi_in_fi.py:2491
+msgid "Find and replace (without question)   [Shift+\"{}\"]"
+msgstr "查找并替换(不询问)   [Shift+\"{}\"]"
+
+#: cd_fi_in_fi.py:2494 cd_fi_in_fi.py:2780
+msgid "Find"
+msgstr "查找"
+
+#: cd_fi_in_fi.py:2495
+msgid "Find and put report to new tab   [Shift+\"{}\"]"
+msgstr "查找并将报告放到新选项卡   [Shift+\"{}\"]"
+
+#: cd_fi_in_fi.py:2496
+msgid "Find and append result to existing report   [Ctrl+\"{}\"]"
+msgstr "查找并将结果附加到现有报告   [Ctrl+\"{}\"]"
+
+#: cd_fi_in_fi.py:2502
+msgid "Use folder of current file"
+msgstr "使用当前文件的文件夹"
+
+#: cd_fi_in_fi.py:2503
+msgid "Prepare search in the current file   [Shift+\"{}\"]"
+msgstr "预备在当前文件中搜索   [Shift+\"{}\"]"
+
+#: cd_fi_in_fi.py:2505
+msgid "Prepare search in all tabs   [Ctrl+\"{}\"]"
+msgstr "预备在所有选项卡中进行搜索   [Ctrl+\"{}\"]"
+
+#: cd_fi_in_fi.py:2506
+msgid "Prepare search in the current tab   [Shift+Ctrl+\"{}\"]"
+msgstr "预备在当前选项卡中搜索   [Shift+Ctrl+\"{}\"]"
+
+#: cd_fi_in_fi.py:2508
+msgid "Fill \"{}\" to find in project folders"
+msgstr "填写 \"{}\" 以在项目文件夹中查找"
+
+#: cd_fi_in_fi.py:2509
+msgid "Fill \"{}\" to find in tabs"
+msgstr "填写 \"{}\" 以在选项卡中查找"
+
+#: cd_fi_in_fi.py:2512
+msgid "Choose folder…"
+msgstr "选择文件夹…"
+
+#: cd_fi_in_fi.py:2513
+msgid "Choose file to find in it…"
+msgstr "选择要查找的文件…"
+
+#: cd_fi_in_fi.py:2516
+msgid "Apply \"Onl&y\"   [Ctrl+Num0]"
+msgstr "应用 \"仅当前\"(&Y)   [Ctrl+Num0]"
+
+#: cd_fi_in_fi.py:2517
+msgid "Apply \"+1 level\"   [Ctrl+Num1]"
+msgstr "应用 \"+1 层\"   [Ctrl+Num1]"
+
+#: cd_fi_in_fi.py:2518
+msgid "Apply \"+A&ll\"   [Ctrl+Num9]"
+msgstr "应用 \"+全部\"(&l)   [Ctrl+Num9]"
+
+#: cd_fi_in_fi.py:2521
+msgid "Options for report t&o tab…"
+msgstr "报告选项卡的选项(&O)…"
+
+#: cd_fi_in_fi.py:2522
+msgid "Extra options for s&earch…"
+msgstr "额外搜索选项(&E)…"
+
+#: cd_fi_in_fi.py:2523
+msgid "&View and edit engine options…"
+msgstr "查看和编辑引擎选项(&V)…"
+
+#: cd_fi_in_fi.py:2524
+msgid "&Configure navigation with double-click in tab report…"
+msgstr "配置结果页中的双击导航(&C)…"
+
+#: cd_fi_in_fi.py:2525
+msgid "Source encod&ing{}…"
+msgstr "源文件编码{}(&I)…"
+
+#: cd_fi_in_fi.py:2528
+msgid "Show \"{}\""
+msgstr "显示 \"{}\""
+
+#: cd_fi_in_fi.py:2529
+msgid "Show \"{}\" and \"{}\""
+msgstr "显示 \"{}\" 和 \"{}\""
+
+#: cd_fi_in_fi.py:2534
+msgid "&Save preset as…"
+msgstr "预设另存为(&S)…"
+
+#: cd_fi_in_fi.py:2535
+msgid "Presets [{}]…"
+msgstr "预设 [{}]…"
+
+#: cd_fi_in_fi.py:2549
+msgid "Set Results o&ver Source"
+msgstr "在源文件上设置结果(&V)"
+
+#: cd_fi_in_fi.py:2550
+msgid "&Save dialog and controls positions..."
+msgstr "保存对话框和控制位置(&S)..."
+
+#: cd_fi_in_fi.py:2555
+msgid "&{}: Restore \"{}\""
+msgstr "&{}: 恢复 \"{}\""
+
+#: cd_fi_in_fi.py:2559
+msgid "&Forget"
+msgstr "清除(&F)"
+
+#: cd_fi_in_fi.py:2564
+msgid "&Find"
+msgstr "查找(&F)"
+
+#: cd_fi_in_fi.py:2565
+msgid "Sco&pe"
+msgstr "查找范围(&P)"
+
+#: cd_fi_in_fi.py:2566
+msgid "&Browse"
+msgstr "浏览(&B)"
+
+#: cd_fi_in_fi.py:2567
+msgid "&Depth"
+msgstr "深度(&D)"
+
+#: cd_fi_in_fi.py:2568
+msgid "Pre&sets"
+msgstr "预设(&S)"
+
+#: cd_fi_in_fi.py:2569
+msgid "&Layout"
+msgstr "布局(&L)"
+
+#: cd_fi_in_fi.py:2573
+msgid "&Help…"
+msgstr "帮助(&H)…"
+
+#: cd_fi_in_fi.py:2759
+msgid "&aA"
+msgstr "&aA"
+
+#: cd_fi_in_fi.py:2760
+msgid "\"&w\""
+msgstr "\"&w\""
+
+#: cd_fi_in_fi.py:2762
+msgid "*&Find what:"
+msgstr "*查找内容(&F):"
+
+#: cd_fi_in_fi.py:2764
+msgid "&Replace with:"
+msgstr "替换为(&R):"
+
+#: cd_fi_in_fi.py:2766
+msgid "*&In files:"
+msgstr "*在文件中(&I):"
+
+#: cd_fi_in_fi.py:2768
+msgid "Not in files:"
+msgstr "不在文件中:"
+
+#: cd_fi_in_fi.py:2770
+msgid "*I&n folder:"
+msgstr "*在文件夹中(&N):"
+
+#: cd_fi_in_fi.py:2773
+msgid "&Browse…"
+msgstr "浏览(&B)…"
+
+#: cd_fi_in_fi.py:2774
+msgid "&Current"
+msgstr "当前(&C)"
+
+#: cd_fi_in_fi.py:2776
+msgid "For s&earch…"
+msgstr "用于搜索(&E)…"
+
+#: cd_fi_in_fi.py:2777
+msgid "Sen&d"
+msgstr "发送(&D)"
+
+#: cd_fi_in_fi.py:2778
+msgid "t&o…"
+msgstr "至(&O)…"
+
+#: cd_fi_in_fi.py:2781
+msgid "Re&place"
+msgstr "替换(&P)"
+
+#: cd_fif_api.py:50
+msgid "+Search"
+msgstr "+搜索"
+
+#: cd_fif_api.py:51
+msgid "+Replace"
+msgstr "+替换"
+
+#: cd_fif_api.py:53
+msgid "<Project Folders>"
+msgstr "<项目文件夹>"
+
+#: cd_fif_api.py:54
+msgid "<Open Files>"
+msgstr "<打开文件>"
+
+#: cd_fif_api.py:59
+msgid "<prior tab>"
+msgstr "<先前的选项卡>"
+
+#: cd_fif_api.py:60
+msgid "<new tab>"
+msgstr "<新建选项卡>"
+
+#: cd_fif_api.py:61
+msgid "path(r):line"
+msgstr "路径(r):行"
+
+#: cd_fif_api.py:62
+msgid "path(r:c:l):line"
+msgstr "路径(r:c:l):行"
+
+#: cd_fif_api.py:63
+msgid "path/(r):line"
+msgstr "路径/(r):行"
+
+#: cd_fif_api.py:64
+msgid "path/(r:c:l):line"
+msgstr "路径/(r:c:l):行"
+
+#: cd_fif_api.py:65
+msgid "dir/file(r):line"
+msgstr "目录/文件(r):行"
+
+#: cd_fif_api.py:66
+msgid "dir/file(r:c:l):line"
+msgstr "目录/文件(r:c:l):行"
+
+#: cd_fif_api.py:67
+msgid "dir/file/(r):line"
+msgstr "目录/文件/(r):行"
+
+#: cd_fif_api.py:68
+msgid "dir/file/(r:c:l):line"
+msgstr "目录/文件/(r:c:l):行"
+
+#: cd_fif_api.py:333
+msgid "{} for \"{}\" in \"{}\" from {} ({} matches in {}({}) files)"
+msgstr "{} 为 \"{}\" 在 \"{}\" 自 {} ({} 匹配于 {}({}) 个文件)"
+
+#: cd_fif_api.py:343
+msgid "{} \"{}\" to \"{}\" in \"{}\" from {} ({} changes in {}({}) files)"
+msgstr "{} \"{}\" 至 \"{}\" 于 \"{}\" 自 {} ({} 变更在 {}({}) 个文件)"
+
+#: cd_fif_api.py:362 cd_fif_api.py:414
+msgid "[ESC?] Report: {}%"
+msgstr "[ESC?] 报告: {}%"
+
+#: cd_fif_api.py:364 cd_fif_api.py:416
+msgid "(Report stopped on {}%) "
+msgstr "(报告停止在 {}%) "
+
+#: cd_fif_api.py:527 cd_fif_api.py:578
+msgid "No tab for navigation"
+msgstr "没有用于导航的选项卡"
+
+#: cd_fif_api.py:580
+msgid "No file for navigation"
+msgstr "没有用于导航的文件"
+
+#: cd_fif_api.py:673
+msgid "Line {} has bad data for navigation"
+msgstr "行 {} 用于导航的数据已损坏"
+
+#: cd_fif_api.py:711 cd_fif_api.py:713
+msgid "Undefined report to jump. Fill new report or navigate with old one."
+msgstr "跳转到未定义的报告. 填写新报告或使用旧报告进行导航."
+
+#: cd_fif_api.py:715 cd_fif_api.py:820
+msgid "Command doesn't work with multi-carets"
+msgstr "命令不适用于多个光标"
+
+#: cd_fif_api.py:734
+msgid "Line \"{}\":{} has no data for navigation"
+msgstr "行 \"{}\":{} 没有用于导航的数据"
+
+#: cd_fif_api.py:760 cd_fif_api.py:763
+msgid "No data to jump"
+msgstr "无数据可跳转"
+
+#: cd_fif_api.py:831
+msgid "Line {} has no data for navigation"
+msgstr "行 {} 没有用于导航的数据"
+
+#: cd_fif_api.py:1124
+msgid "[ESC?] Search: {}% [found {} matches in {}({}) files]"
+msgstr "[ESC?] 搜索: {}% [已发现 {} 匹配于 {}({}) 个文件]"
+
+#: cd_fif_api.py:1130
+msgid "(Search stopped on {}%) "
+msgstr "(搜索停止在 {}%) "
+
+#: cd_fif_api.py:1195
+msgid "Cannot read \"{}\" (encoding={}/{}): {}"
+msgstr "无法读取 \"{}\" (编码={}/{}): {}"
+
+#: cd_fif_api.py:1267
+msgid "tab:"
+msgstr "选项卡:"
+
+#: cd_fif_api.py:1348
+msgid "[ESC?][Found {} file(s) in {} dir(s)] Picking in: {}"
+msgstr "[ESC?][已发现 {} 个文件于 {} 目录] 选取于: {}"
+
+#: cd_fif_api.py:1353
+msgid "(Picking stopped) "
+msgstr "(选取已停止) "
+
+#: cd_fif_api.py:1462
+msgid "Stop?"
+msgstr "停止?"
+
+#: cd_plug_lib.py:2131
+msgid "Send the report to the address"
+msgstr "将报告发送到地址"
+
+#: cd_plug_lib.py:2133
+msgid "or post it on"
+msgstr "或将其发布在"
+
+#: cd_plug_lib.py:2135
+msgid "Close"
+msgstr "关闭"
+
+#: cd_plug_lib.py:2199
+msgid "&Save"
+msgstr "保存(&S)"
+
+#: cd_plug_lib.py:2200
+msgid ""
+"Apply the fittings to controls of all dialogs.\rCtrl+Click  - Show data to "
+"mail report."
+msgstr "将配件应用到所有对话框的控件.\rCtrl+Click  - 将数据显示在邮件报告."
+
+#: cd_plug_lib.py:2204
+msgid "Adjust vertical alignments"
+msgstr "调整垂直对齐方式"
