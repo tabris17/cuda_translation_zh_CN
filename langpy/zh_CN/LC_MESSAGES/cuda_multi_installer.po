@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-14 12:03+0800\n"
+"PO-Revision-Date: 2023-09-14 12:14+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_multi_installer\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: __init__.py:39 __init__.py:162
+msgid "CudaText Multi Installer"
+msgstr "CudaText 批量安装器"
+
+#: __init__.py:49
+msgid "Downloading data..."
+msgstr "正在下载数据..."
+
+#: __init__.py:119
+msgid "Not found: {} {}"
+msgstr "未找到: {} {}"
+
+#: __init__.py:123
+msgid "Installing: {} {}"
+msgstr "正在安装: {} {}"
+
+#: __init__.py:147
+msgid "Multi Installer: cannot download list"
+msgstr "批量安装器: 无法下载列表"
+
+#: __init__.py:163
+msgid "Check groups of add-ons needed for you."
+msgstr "检查你所需要的附加组件的组."
+
+#: __init__.py:164
+msgid "Plugin will suggest items for checked groups."
+msgstr "插件将为选中的组提出项目建议."
+
+#: __init__.py:165
+#, python-format
+msgid "Note: only ~30% of all plugins are here."
+msgstr "注意: 这里只有大约 30% 插件."
+
+#: __init__.py:169
+msgid "Cancel"
+msgstr "取消"
+
+#: __init__.py:170 __init__.py:250
+msgid "Next"
+msgstr "下一步"
+
+#: __init__.py:208 __init__.py:364
+msgid "Multi Installer: nothing selected"
+msgstr "批量安装器: 未选择任何内容"
+
+#: __init__.py:244
+msgid "Back"
+msgstr "返回"
+
+#: __init__.py:256
+msgid "Step {} of {}"
+msgstr "步骤 {} / {}"
+
+#: __init__.py:261
+msgid "Select add-ons - "
+msgstr "选择附加组件 - "
+
+#: __init__.py:354
+msgid "Multi Installer: done"
+msgstr "批量安装器: 完成"
+
+#: __init__.py:358
+msgid ""
+"\n"
+"{} add-on(s) installed"
+msgstr ""
+"\n"
+"{} 个附加组件已安装"
+
+#: __init__.py:360
+msgid ""
+"\n"
+"{} download error(s) (SF.net has problems?)"
+msgstr ""
+"\n"
+"{} 个下载错误 (SF.net 有问题?)"
+
+#: __init__.py:371
+msgid "Multi Installer"
+msgstr "批量安装器"
+
+#: __init__.py:380
+msgid "Installing..."
+msgstr "正在安装..."
