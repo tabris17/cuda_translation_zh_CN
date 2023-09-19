@@ -33,3 +33,17 @@
 3. 主菜单选择 Options - Select Translation ，选择 zh_CN
 4. 重启软件使设置生效
 
+## for developers
+
+Requirements:
+
+- GNU Make (windows: [WinLibs](https://winlibs.com/) |[MinGW-w64](https://www.mingw-w64.org/))
+- GNU gettext utilities ([windows](https://mlocati.github.io/articles/gettext-iconv-windows.html))
+
+Build translations:
+
+```shell
+make build
+```
+
+You will find the generated translation files in the `./build` directory.
