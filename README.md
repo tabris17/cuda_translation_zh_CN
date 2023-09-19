@@ -37,7 +37,7 @@
 
 Requirements:
 
-- GNU Make (windows: [WinLibs](https://winlibs.com/) |[MinGW-w64](https://www.mingw-w64.org/))
+- GNU Make (windows: [WinLibs](https://winlibs.com/) | [MinGW-w64](https://www.mingw-w64.org/))
 - GNU gettext utilities ([windows](https://mlocati.github.io/articles/gettext-iconv-windows.html))
 
 Build translations:
