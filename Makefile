@@ -10,9 +10,9 @@ BUILD_DIR := ./build
 all: $(PLUGINS)
 
 $(PLUGINS):
-	msgfmt --output-file=./langpy/zh_CN/LC_MESSAGES/$@.mo ./langpy/zh_CN/LC_MESSAGES/$@.po
+	@msgfmt -v --statistics --output-file=./langpy/zh_CN/LC_MESSAGES/$@.mo ./langpy/zh_CN/LC_MESSAGES/$@.po
 
-build: clean
+build: clean all
 	@mkdir -p $(BUILD_DIR)
 	@cp -v ./install.inf $(BUILD_DIR)/install.inf
 	@cp -rv ./lang $(BUILD_DIR)/lang
