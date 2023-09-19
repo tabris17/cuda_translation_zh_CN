@@ -27,4 +27,4 @@ jobs:
           publish_dir: ./build
           keep_files: false
           publish_branch: main
-          enable_jekyll: false
+          enable_jekyll: true
