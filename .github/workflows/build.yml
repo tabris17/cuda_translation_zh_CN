@@ -1,0 +1,29 @@
+name: Release translation files
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+        
+      - name: Install gettext
+        run: sudo apt install -y gettext
+          
+      - name: Build translation files
+        run: make build
+        
+      - name: Release
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.DEPLOY_TOKEN }}
+          publish_dir: ./build
+          keep_files: false
+          publish_branch: main
