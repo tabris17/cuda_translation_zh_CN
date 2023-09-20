@@ -1,0 +1,409 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-20 14:00+0800\n"
+"PO-Revision-Date: 2023-09-20 15:31+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_config_keys\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cd_config_keys.py:46
+msgid "Need update CudaText"
+msgstr "需要更新 CudaText"
+
+#: cd_config_keys.py:101
+msgid ""
+"Suitable command names will contain all specified words.\n"
+"Tips:\n"
+" · Use \"_\" for word boundary.\n"
+"   \"_up\" selects \"upper\" but not \"group\"."
+msgstr ""
+"适当的命令名称应该包含所有特定的单词.\n"
+"技巧:\n"
+" · 使用 \"_\" 作为单词边界.\n"
+"   \"_up\" 选择 \"upper\" 而不用 \"group\"."
+
+#: cd_config_keys.py:105
+msgid ""
+"Suitable command hotkeys will contain all specified words.\n"
+"Tips:\n"
+" · Use \"_\" for key-name boundary.\n"
+"   \"_f\" selects \"F1\" and \"Ctrl+F\" but not \"Left\"."
+msgstr ""
+"适当的命令热键应该包含所有特定的单词.\n"
+"技巧:\n"
+" · 使用 \"_\" 作为按键名称的边界.\n"
+"   \"_f\" 选择 \"F1\" 和 \"Ctrl+F\" 而不用 \"Left\"."
+
+#: cd_config_keys.py:109
+msgid ""
+"Suitable command snips will match specified string.\n"
+"Usage:\n"
+" · Type \"/\" and snip string and push Tab-key.\n"
+"Tips:\n"
+" · Use ? for any character and * for any fragment."
+msgstr ""
+"适当的命令 snips 将匹配指定的字符串.\n"
+"用法:\n"
+" · 输入 \"/\" 并剪切字符串并按 Tab 键.\n"
+"技巧:\n"
+" · ? 用于任意字符, * 用于任意片段."
+
+#: cd_config_keys.py:114
+msgid ""
+"Set hotkey for command (if no one).\n"
+"Extend to series hotkeys (if command already has hotkeys)."
+msgstr ""
+"为命令设置热键 (如果未设置).\n"
+"扩展为系列热键 (如果命令已经有热键)."
+
+#: cd_config_keys.py:116
+msgid ""
+"Shows HTML page with report of all hotkeys in editor.\n"
+"The report is usefull to analyze hotkeys in a whole."
+msgstr ""
+"显示 HTML 页面, 其中包含编辑器中所有热键的报告.\n"
+"该报告有助于整体分析热键."
+
+#: cd_config_keys.py:118
+msgid ""
+"Show compact report of hotkeys in new tab.\n"
+"The report is usefull to find free hotkeys."
+msgstr ""
+"在新选项卡中显示热键的紧凑报告.\n"
+"该报告对于查找可用热键很有用."
+
+#: cd_config_keys.py:120
+msgid "Copy command name to clipboard"
+msgstr "复制命令名称到剪贴板"
+
+#: cd_config_keys.py:121
+msgid "Open source of plugin code"
+msgstr "打开插件源代码"
+
+#: cd_config_keys.py:122
+msgid ""
+"Sort data by click on table header\n"
+"3-stage loop of sorting:\n"
+" · in alphabetical order,\n"
+" · in reverse alphabetical order,\n"
+" · in natural order (as at start)"
+msgstr ""
+"通过点击表格标题对数据进行排序\n"
+"排序在三个阶段内循环:\n"
+" · 按字母顺序排列,\n"
+" · 按字母倒序排列,\n"
+" · 按自然顺序 (开始状态)"
+
+#: cd_config_keys.py:152
+msgid "Configure Hotkeys ({})"
+msgstr "配置热键 ({})"
+
+#: cd_config_keys.py:225 cd_keys_report.py:222
+msgid "Command"
+msgstr "命令"
+
+#: cd_config_keys.py:225
+msgid "Hotkey-1"
+msgstr "热键-1"
+
+#: cd_config_keys.py:225
+msgid "Hotkey-2"
+msgstr "热键-2"
+
+#: cd_config_keys.py:225
+msgid "Snips"
+msgstr ""
+
+#: cd_config_keys.py:233
+msgid "&Filter"
+msgstr "过滤(&F)"
+
+#: cd_config_keys.py:234
+msgid "&All"
+msgstr "全部(&A)"
+
+#: cd_config_keys.py:235
+msgid "&OR"
+msgstr "或(&O)"
+
+#: cd_config_keys.py:236
+msgid "O&R"
+msgstr "或(&R)"
+
+#: cd_config_keys.py:237
+msgid "In &Command:"
+msgstr "查找命令(&C):"
+
+#: cd_config_keys.py:239
+msgid "In &Hotkeys:"
+msgstr "查找热键(&H):"
+
+#: cd_config_keys.py:242
+msgid "In &Snip(s):"
+msgstr "查找 &Snip(s):"
+
+#: cd_config_keys.py:243
+msgid "&?"
+msgstr ""
+
+#: cd_config_keys.py:253
+msgid "Copy &name"
+msgstr "复制名称(&N)"
+
+#: cd_config_keys.py:254
+msgid "Open code &#"
+msgstr "打开代码 &#"
+
+#: cd_config_keys.py:255
+msgid "Report to HT&ML"
+msgstr "报告为 HT&ML"
+
+#: cd_config_keys.py:256
+msgid "Report to new &Tab"
+msgstr "报告显示在新的选项卡(&T)"
+
+#: cd_config_keys.py:257
+msgid "Set/Add Hotkey-&1"
+msgstr "设置/添加热键-&1"
+
+#: cd_config_keys.py:258
+msgid "Remove Hotkey-1 &!"
+msgstr "删除热键-1 &!"
+
+#: cd_config_keys.py:259
+msgid "Set/Add Hotkey-&2"
+msgstr "设置/添加热键-&2"
+
+#: cd_config_keys.py:260
+msgid "Remove Hotkey-2 &@"
+msgstr "删除热键-2 &@"
+
+#: cd_config_keys.py:261
+msgid "Set/A&dd Snip"
+msgstr "设置/添加 Snip(&D)"
+
+#: cd_config_keys.py:262
+msgid "R&emove Snip(s)"
+msgstr "删除 Snip(s)(&E)"
+
+#: cd_config_keys.py:263
+msgid "Hel&p"
+msgstr "帮助(&P)"
+
+#: cd_config_keys.py:302 cd_keys_report.py:461
+msgid "Opened browser with file "
+msgstr "已打开文件的浏览器 "
+
+#: cd_config_keys.py:309
+msgid "Help for \"Config Hotkeys\""
+msgstr "\"配置热键\" 帮助"
+
+#: cd_config_keys.py:311
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: cd_config_keys.py:313
+msgid ""
+"• In Command.\n"
+"{}\n"
+"\n"
+"• In Hotkeys.\n"
+"{}{}\n"
+"\n"
+"• Set/Add.\n"
+"{}\n"
+"\n"
+"• HTML-report.\n"
+"{}\n"
+"\n"
+"• Tab-report.\n"
+"{}\n"
+"\n"
+"• Sorting.\n"
+"{}"
+msgstr ""
+"• 查找命令.\n"
+"{}\n"
+"\n"
+"• 查找热键.\n"
+"{}{}\n"
+"\n"
+"• 设置/添加.\n"
+"{}\n"
+"\n"
+"• HTML 报告.\n"
+"{}\n"
+"\n"
+"• 选项卡报告.\n"
+"{}\n"
+"\n"
+"• 排序.\n"
+"{}"
+
+#: cd_config_keys.py:321
+msgid ""
+"\n"
+"\n"
+"• In Snip.\n"
+"{}"
+msgstr ""
+"\n"
+"\n"
+"• 查找 Snip.\n"
+"{}"
+
+#: cd_config_keys.py:468
+msgid ""
+"Hotkey \"{}\" is already assigned \n"
+"to command \"{}\".\n"
+"\n"
+"Do you want to reassign the hotkey \n"
+"to selected command \"{}\"?"
+msgstr ""
+"热键 \"{}\" 已被指定 \n"
+"给命令 \"{}\".\n"
+"\n"
+"你想要重新指定热键 \n"
+"给选中的命令 \"{}\" 吗?"
+
+#: cd_config_keys.py:493
+msgid "Add snip for \"{}\""
+msgstr "为 \"{}\" 添加 Snip"
+
+#: cd_config_keys.py:497
+msgid "Snip for \"{}\""
+msgstr "用于 \"{}\" 的 Snip"
+
+#: cd_config_keys.py:503
+msgid ""
+"Snippet \"{}\" is already assigned\n"
+"to command \"{}\".\n"
+"\n"
+"Do you want to reassign the snippet\n"
+"to command \"{}\"?"
+msgstr ""
+"Snip \"{}\" 已被指定\n"
+"给命令 \"{}\".\n"
+"\n"
+"你想要重新指定 Snip\n"
+"给命令 \"{}\" 吗?"
+
+#: cd_config_keys.py:515
+msgid ""
+"Do you want to remove snip(s) \n"
+"    {}\n"
+"for command \"{}\"?"
+msgstr ""
+"你是否要删除 snip(s) \n"
+"    {}\n"
+"对应命令 \"{}\"?"
+
+#: cd_keys_report.py:112 cd_keys_report.py:139 cd_keys_report.py:223
+msgid "Commands"
+msgstr "命令"
+
+#: cd_keys_report.py:119 cd_keys_report.py:153
+msgid "Plugins"
+msgstr "插件"
+
+#: cd_keys_report.py:149
+msgid "Plugin: "
+msgstr "插件: "
+
+#: cd_keys_report.py:211 cd_keys_report.py:212
+msgid "All commands"
+msgstr "全部命令"
+
+#: cd_keys_report.py:213
+msgid "All keys with full command names"
+msgstr "全部按键包括完整的命令名称"
+
+#: cd_keys_report.py:214
+msgid "All keys"
+msgstr "全部按键"
+
+#: cd_keys_report.py:215 cd_keys_report.py:216
+msgid "All series-keys"
+msgstr "全部系列按键"
+
+#: cd_keys_report.py:217
+msgid "All keys, compact view"
+msgstr "全部按键, 紧凑视图"
+
+#: cd_keys_report.py:218
+msgid "Compact keys"
+msgstr "紧凑型按键"
+
+#: cd_keys_report.py:219
+msgid "No conflicts"
+msgstr "没有冲突"
+
+#: cd_keys_report.py:220 cd_keys_report.py:221 cd_keys_report.py:431
+msgid "Conflicts"
+msgstr "冲突"
+
+#: cd_keys_report.py:224
+msgid "Key"
+msgstr "按键"
+
+#: cd_keys_report.py:225 cd_keys_report.py:432
+msgid "Keys"
+msgstr "按键"
+
+#: cd_keys_report.py:226
+msgid "Button"
+msgstr "按钮"
+
+#: cd_keys_report.py:432
+msgid "Command 1"
+msgstr "命令 1"
+
+#: cd_keys_report.py:432
+msgid "Command 2"
+msgstr "命令 2"
+
+#: cd_keys_report.py:455 cd_keys_report.py:465
+msgid "Plugin needs newer app version"
+msgstr "插件需要应用升级更新的版本"
+
+#: cd_plug_lib.py:2068
+msgid "Report"
+msgstr "报告"
+
+#: cd_plug_lib.py:2070
+msgid "Send the report to the address"
+msgstr "将报告发送到地址"
+
+#: cd_plug_lib.py:2072
+msgid "or post it on"
+msgstr "或将其发布在"
+
+#: cd_plug_lib.py:2074
+msgid "Close"
+msgstr "关闭"
+
+#: cd_plug_lib.py:2138
+msgid "&Save"
+msgstr "保存(&S)"
+
+#: cd_plug_lib.py:2139
+msgid ""
+"Apply the fittings to controls of all dialogs.\rCtrl+Click  - Show data to "
+"mail report."
+msgstr "将配件应用到所有对话框的控件.\rCtrl+Click  - 将数据显示在邮件报告."
+
+#: cd_plug_lib.py:2141
+msgid "Cancel"
+msgstr "取消"
+
+#: cd_plug_lib.py:2143
+msgid "Adjust vertical alignments"
+msgstr "调整垂直对齐方式"

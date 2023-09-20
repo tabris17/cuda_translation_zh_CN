@@ -24,7 +24,8 @@
   - Session Manager
   - FTP
   - Macros
-  - Menu configurator
+  - Menu Configurator
+  - Hotkey Configurator
 
 ## 下载地址
 
