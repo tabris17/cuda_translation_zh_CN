@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-20 10:47+0800\n"
+"PO-Revision-Date: 2023-09-20 10:50+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_sess_manager\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cd_sess_manager.py:24
+msgid "Plugin needs newer app version"
+msgstr "插件需要应用升级更新的版本"
+
+#: cd_sess_manager.py:25
+msgid "No recent sessions"
+msgstr "没有最近的会话"
+
+#: cd_sess_manager.py:26
+msgid "No previous session"
+msgstr "没有上一次会话"
+
+#: cd_sess_manager.py:27
+#, python-brace-format
+msgid "Session \"{stem}\" is saved"
+msgstr "会话 \"{stem}\" 已保存"
+
+#: cd_sess_manager.py:28
+#, python-brace-format
+msgid "Session \"{stem}\" is opened"
+msgstr "会话 \"{stem}\" 已打开"
+
+#: cd_sess_manager.py:29
+#, python-brace-format
+msgid ""
+"Session \"{stem}\" not found\n"
+"\n"
+"Create it?"
+msgstr ""
+"会话 \"{stem}\" 未找到\n"
+"\n"
+"是否要创建它?"
+
+#: cd_sess_manager.py:30
+#, python-brace-format
+msgid "Session \"{stem}\" is created"
+msgstr "会话 \"{stem}\" 已创建"
+
+#: cd_sess_manager.py:31
+msgid "CudaText sessions|*{}|SynWrite sessions|*{}|All files|*.*"
+msgstr "CudaText 会话|*{}|SynWrite 会话|*{}|所有文件|*.*"
+
+#: cd_sess_manager.py:32
+msgid "CudaText sessions|*{}"
+msgstr "CudaText 会话|*{}"

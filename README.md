@@ -21,6 +21,7 @@
 - 第三方插件
   - Find In Files
   - Find in Files 4
+  - Session Manager
 
 ## 下载地址
 
