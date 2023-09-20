@@ -24,6 +24,7 @@
   - Session Manager
   - FTP
   - Macros
+  - Menu configurator
 
 ## 下载地址
 

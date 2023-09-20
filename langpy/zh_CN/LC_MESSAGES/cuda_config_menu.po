@@ -1,0 +1,178 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-20 13:32+0800\n"
+"PO-Revision-Date: 2023-09-20 13:52+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_config_menu\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cd_config_menu.py:107
+msgid "No menu config file"
+msgstr "没有菜单配置文件"
+
+#: cd_config_menu.py:113
+msgid "No menu config file \"{}\""
+msgstr "没有菜单配置文件 \"{}\""
+
+#: cd_config_menu.py:130 cd_config_menu.py:152
+msgid "Loading menus: {}"
+msgstr "加载菜单: {}"
+
+#: cd_config_menu.py:146
+msgid "Skip config for id=\"{}\" - no such main submenu"
+msgstr "跳过 id=\"{}\" 的配置 - 没有此类主子菜单"
+
+#: cd_config_menu.py:387
+msgid "Need update CudaText"
+msgstr "需要更新 CudaText"
+
+#: cd_config_menu.py:461
+msgid "&Create config file with native menu..."
+msgstr "使用本地菜单创建配置文件(&C)..."
+
+#: cd_config_menu.py:462
+msgid ""
+"Save current menus (main and text) to file.\rOnly for native CudaText menus."
+msgstr "保存当前菜单 (主菜单和文本) 到文件.\r仅适用于 CudaText 原生菜单."
+
+#: cd_config_menu.py:464
+msgid "\rReload CudaText with \r   [ ] Apply on start"
+msgstr "\r重新加载 CudaText 使用 \r   [ ] 启动时应用"
+
+#: cd_config_menu.py:468
+msgid "Confi&g file (default folder is \"settings\")"
+msgstr "配置文件(&G) (默认文件夹是 \"settings\")"
+
+#: cd_config_menu.py:469
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#: cd_config_menu.py:471
+msgid "Browse&..."
+msgstr "浏览&..."
+
+#: cd_config_menu.py:472
+msgid "Apply on &start"
+msgstr "在启动时应用(&S)"
+
+#: cd_config_menu.py:473
+msgid "Apply menu once on CudaText start"
+msgstr "在 CudaText 启动时应用一次菜单"
+
+#: cd_config_menu.py:474
+msgid "Apply on &focus"
+msgstr "获得焦点时应用(&F)"
+
+#: cd_config_menu.py:475
+msgid "Apply menu (common or lexer specific) when file tab gets focus"
+msgstr "当文件选项卡获得焦点时应用菜单 (通用或词法分析器专用)"
+
+#: cd_config_menu.py:476
+msgid "&Apply now"
+msgstr "立即应用(&A)"
+
+#: cd_config_menu.py:477
+msgid ""
+"Apply menu file now.\rShift+Click - perform syntax checking of JSON file."
+msgstr "立即应用菜单文件.\rShift+点击 - 执行 JSON 文件的语法检查."
+
+#: cd_config_menu.py:479
+msgid "&Help..."
+msgstr "帮助(&H)..."
+
+#: cd_config_menu.py:480
+msgid "Save"
+msgstr "保存"
+
+#: cd_config_menu.py:481
+msgid "Close"
+msgstr "关闭"
+
+#: cd_config_menu.py:483
+msgid "Config Menu"
+msgstr "配置菜单"
+
+#: cd_config_menu.py:496 cd_config_menu.py:537
+msgid "Choose existed file"
+msgstr "选择已存在的文件"
+
+#: cd_config_menu.py:521
+msgid ""
+"You cannot create menu config now, because custom menu is already loaded. To "
+"enable creation of menu config, uncheck the \"Apply on start\" and restart "
+"CudaText."
+msgstr ""
+"你现在无法创建菜单配置, 因为自定义菜单已加载. 要启用创建菜单配置, 请取消选中 "
+"\"启动时应用\" 并重新启动 CudaText."
+
+#: cd_config_menu.py:549
+msgid "Correct JSON"
+msgstr "正确的 JSON"
+
+#: cd_config_menu.py:556
+msgid "JSON error:"
+msgstr "JSON 错误:"
+
+#: cd_config_menu.py:564
+msgid ""
+"Config file has JSON format.\n"
+"Main container is list of items, which create menu elements.\n"
+"  Examples of correct items in main container:\n"
+"  {\"cap\":\"\", \"hint\":\"text\", \"sub\": [???]}          - context menu\n"
+"  {\"cap\":\"\", \"hint\":\"top\", \"sub\": [???]}           - main menu\n"
+"  {\"cap\":\"&File\", \"hint\":\"top-file\", \"sub\": [???]} - main menu, "
+"submenu File\n"
+"  {\"cap\":\"&Edit\", \"hint\":\"top-ed\", \"sub\": [???]}   - main menu, "
+"submenu Edit\n"
+"\"cap\" value can be any (in any language).\n"
+"    Char \"&\" is hotkey accelerator character.\n"
+"\"hint\" value can be any, but predefined values exist\n"
+"  \"text\" is special hint for context menu\n"
+"  \"top\" is special hint for main menu\n"
+"  \"recents\", \n"
+"  \"themes\", \n"
+"  \"langs\", \n"
+"  \"plugins\" are special hints for autofilled submenus\n"
+"\"sub\" value must be list of separator, commands or submenu items. \n"
+"Separator item: {\"cap\":\"-\"}\n"
+"Command item:   {\"cap\":\"<any>\", \"cmd\":\"???\"}\n"
+"\"cmd\" value can be:\n"
+"  Identifiers cCommand_* or cmd_* from module cudatext_cmd.py\n"
+"  <plugin>,<method>[,<param>] for plugin commands\n"
+"Submenu item:   {\"cap\":\"<any>\", \"hint\":\"<special/any>\", \"sub\":"
+"[???]}\n"
+"----------------------------------------\n"
+"Convenient way to customize menu\n"
+"1. Call \"Create config file...\" to get JSON copy of default CudaText "
+"menu.\n"
+"2. Move/Copy/Translate/Delete/Insert items.\n"
+"3. Save to new file and specify it as \"Config file\".\n"
+"4. Turn on option \"Apply on start\".\n"
+"----\n"
+"Tips\n"
+"1. Any command/submenu (except \"text\" and \"top\") can be used many "
+"times.\n"
+"  For example submenu File can be copied to context menu.\n"
+"2. Item {\"cap\":\"\", \"hint\":\"top\", \"sub\": []} hides main menu. \n"
+"  It's correct state. \n"
+msgstr ""
+
+#: cd_config_menu.py:601
+msgid "Help - Config Menu"
+msgstr "帮助 - 配置菜单"
+
+#: cd_config_menu.py:603
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: cd_config_menu.py:733
+msgid "Config &menu..."
+msgstr "配置菜单(&M)..."
