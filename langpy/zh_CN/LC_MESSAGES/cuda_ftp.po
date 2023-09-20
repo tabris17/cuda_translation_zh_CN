@@ -1,0 +1,368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-20 11:33+0800\n"
+"PO-Revision-Date: 2023-09-20 11:54+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_ftp\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: __init__.py:42
+msgid "FTP Log"
+msgstr "FTP 日志"
+
+#: __init__.py:94
+msgid "Password for {}:"
+msgstr "{} 的密码:"
+
+#: __init__.py:311
+msgid "Enter private key passphrase:"
+msgstr "输入私钥密码:"
+
+#: __init__.py:417
+msgid "Please install 'Paramiko' library for SFTP support"
+msgstr "请安装 'Paramiko' 库以支持 SFTP"
+
+#: __init__.py:471
+msgid "New server"
+msgstr "新建服务器"
+
+#: __init__.py:474
+msgid "New server..."
+msgstr "新建服务器..."
+
+#: __init__.py:475
+msgid "Edit server..."
+msgstr "编辑服务器..."
+
+#: __init__.py:476
+msgid "Rename server..."
+msgstr "重命名服务器..."
+
+#: __init__.py:477
+msgid "Remove server"
+msgstr "移除服务器"
+
+#: __init__.py:479
+msgid "Go to dir..."
+msgstr "跳转到目录..."
+
+#: __init__.py:480
+msgid "Go to file..."
+msgstr "跳转到文件..."
+
+#: __init__.py:481
+msgid "History..."
+msgstr "历史..."
+
+#: __init__.py:483 __init__.py:490
+msgid "New file..."
+msgstr "新建文件..."
+
+#: __init__.py:484 __init__.py:491
+msgid "New dir..."
+msgstr "新建目录..."
+
+#: __init__.py:485 __init__.py:495
+msgid "Upload here..."
+msgstr "在这里上传..."
+
+#: __init__.py:487 __init__.py:500
+msgid "Refresh"
+msgstr "刷新"
+
+#: __init__.py:493
+msgid "Remove"
+msgstr "移除"
+
+#: __init__.py:494
+msgid "Rename"
+msgstr "重命名"
+
+#: __init__.py:497 __init__.py:510
+msgid "Copy path"
+msgstr "复制路径"
+
+#: __init__.py:498 __init__.py:511
+msgid "Copy link"
+msgstr "复制链接"
+
+#: __init__.py:503
+msgid "Open"
+msgstr "打开"
+
+#: __init__.py:505
+msgid "Remove..."
+msgstr "移除..."
+
+#: __init__.py:506
+msgid "Rename..."
+msgstr "重命名..."
+
+#: __init__.py:507
+msgid "Download"
+msgstr "下载"
+
+#: __init__.py:508
+msgid "Backup..."
+msgstr "备份..."
+
+#: __init__.py:513
+msgid "Get properties"
+msgstr "获取属性"
+
+#: __init__.py:598
+msgid "Connect to server"
+msgstr "连接服务器"
+
+#: __init__.py:604
+msgid "Connect to: "
+msgstr "连接: "
+
+#: __init__.py:629
+msgid "Cannot find server with label \"{}\""
+msgstr "无法找到标签为 \"{}\" 的服务器"
+
+#: __init__.py:715
+msgid ""
+"First connection to this host.\n"
+"Accept host's certificate?\n"
+"\n"
+msgstr ""
+"第一次连接该主机.\n"
+"是否接受主机的证书?\n"
+"\n"
+
+#: __init__.py:727
+msgid ""
+"Host's certificate changed! Proceed?\n"
+"\n"
+msgstr ""
+"主机证书已变更! 是否继续?\n"
+"\n"
+
+#: __init__.py:753
+msgid "Downloading '{}': {} Kbytes"
+msgstr "下载: '{}': {} Kb"
+
+#: __init__.py:920
+msgid "Rename server: {}"
+msgstr "重命名服务器: {}"
+
+#: __init__.py:922
+msgid ""
+"\n"
+"Name taken: {}"
+msgstr ""
+"\n"
+"已设置名称: {}"
+
+#: __init__.py:940
+msgid "Do you really want to remove server?"
+msgstr "是否真的要移除服务器?"
+
+#: __init__.py:951
+msgid "Go to directory"
+msgstr "跳转到目录"
+
+#: __init__.py:952 __init__.py:962
+msgid "Path:"
+msgstr "路径:"
+
+#: __init__.py:961
+msgid "Go to file"
+msgstr "跳转到文件"
+
+#: __init__.py:993
+msgid "Error: file not found on server!"
+msgstr "错误: 服务器上未找到文件!"
+
+#: __init__.py:1070
+msgid "History"
+msgstr "历史"
+
+#: __init__.py:1079
+msgid "No history found"
+msgstr "未找到历史"
+
+#: __init__.py:1131
+msgid "FTP new file"
+msgstr "FTP 新建文件"
+
+#: __init__.py:1132
+msgid "File name:"
+msgstr "文件名:"
+
+#: __init__.py:1165
+msgid "Do you really want to remove file?"
+msgstr "确定要删除文件吗?"
+
+#: __init__.py:1184
+msgid "FTP new directory"
+msgstr "FTP 新建目录"
+
+#: __init__.py:1185
+msgid "Directory name:"
+msgstr "目录名:"
+
+#: __init__.py:1211 __init__.py:1216
+msgid "Removing ftp dir: "
+msgstr "删除 FTP 目录: "
+
+#: __init__.py:1214
+msgid "Removing ftp file: "
+msgstr "删除 FTP 文件: "
+
+#: __init__.py:1222
+msgid "Do you really want to remove directory?"
+msgstr "确定要删除目录吗?"
+
+#: __init__.py:1265
+msgid "today "
+msgstr "今日 "
+
+#: __init__.py:1279
+msgid "Size: "
+msgstr "大小: "
+
+#: __init__.py:1281
+msgid "Modification: "
+msgstr "修改: "
+
+#: __init__.py:1283
+msgid "Permissions: "
+msgstr "权限: "
+
+#: __init__.py:1326
+msgid "Link copied to clipboard: "
+msgstr "链接已复制到剪贴板: "
+
+#: __init__.py:1356
+msgid "File downloaded to: "
+msgstr "文件下载到: "
+
+#: __init__.py:1368
+msgid "Backup: "
+msgstr "备份: "
+
+#: __init__.py:1400
+msgid "Rename: "
+msgstr "重命名: "
+
+#: dlg.py:23
+msgid "FTP server info"
+msgstr "FTP 服务器信息"
+
+#: dlg.py:38
+msgid "Choose private key file"
+msgstr "选择私钥文件"
+
+#: dlg.py:42
+msgid ""
+"You chose a private key in the PuTTYgen format,\n"
+"which is not supported.\n"
+"You need to convert it to the OpenSSH format first.\n"
+"PuTTYgen can accomplish that."
+msgstr ""
+"你选择了不被支持的 PuTTYgen 格式的私钥.\n"
+"你需要先将其转换为 OpenSSH 格式.\n"
+"可以用 PuTTYgen 进行转换."
+
+#: dlg.py:65
+msgid "Fill the Host field"
+msgstr "填写主机字段"
+
+#: dlg.py:68
+msgid "Fill the Username field"
+msgstr "填写用户名字段"
+
+#: dlg.py:98
+msgid "Server"
+msgstr "服务器"
+
+#: dlg.py:111
+msgid "Server Type: "
+msgstr "服务器类型: "
+
+#: dlg.py:147
+msgid "Host: "
+msgstr "主机: "
+
+#: dlg.py:170
+msgid "Port: "
+msgstr "端口: "
+
+#: dlg.py:196
+msgid "Authentication"
+msgstr "身份验证"
+
+#: dlg.py:209
+msgid "Username: "
+msgstr "用户名: "
+
+#: dlg.py:232
+msgid "Password: "
+msgstr "密码: "
+
+#: dlg.py:257
+msgid "Default anonymous login"
+msgstr "默认匿名登录"
+
+#: dlg.py:271
+msgid "Ask password every time"
+msgstr "每次都询问密码"
+
+#: dlg.py:284
+msgid "or Private key: "
+msgstr "或者私钥: "
+
+#: dlg.py:296
+msgid "Choose file..."
+msgstr "选择文件.."
+
+#: dlg.py:308
+msgid "In OpenSSH format, not .ppk"
+msgstr "使用 OpenSSH 格式, 而不是 .ppk"
+
+#: dlg.py:323
+msgid "Misc"
+msgstr "杂项"
+
+#: dlg.py:335
+msgid "Initial remote dir: "
+msgstr "初始远程目录: "
+
+#: dlg.py:358
+msgid "Timeout (seconds): "
+msgstr "超时 (秒): "
+
+#: dlg.py:385
+msgid "Label (for menu): "
+msgstr "标签 (用于菜单): "
+
+#: dlg.py:414
+msgid "Use old LIST command"
+msgstr "使用旧的 LIST 命令"
+
+#: dlg.py:431
+msgid "OK"
+msgstr "确定"
+
+#: dlg.py:446
+msgid "Cancel"
+msgstr "取消"
+
+#: dlg.py:529
+msgid "&OK"
+msgstr "确定(&O)"
+
+#: dlg.py:544
+msgid "&Cancel"
+msgstr "取消(&C)"

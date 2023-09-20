@@ -22,6 +22,7 @@
   - Find In Files
   - Find in Files 4
   - Session Manager
+  - FTP
 
 ## 下载地址
 
