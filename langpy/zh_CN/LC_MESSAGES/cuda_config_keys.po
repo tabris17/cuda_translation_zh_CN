@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-20 14:00+0800\n"
-"PO-Revision-Date: 2023-09-20 15:31+0800\n"
+"PO-Revision-Date: 2023-09-20 16:06+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -164,7 +164,7 @@ msgstr "打开代码 &#"
 
 #: cd_config_keys.py:255
 msgid "Report to HT&ML"
-msgstr "报告为 HT&ML"
+msgstr "生成 HT&ML 报告"
 
 #: cd_config_keys.py:256
 msgid "Report to new &Tab"
