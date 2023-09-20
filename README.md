@@ -24,8 +24,9 @@
   - Session Manager
   - FTP
   - Macros
-  - Menu Configurator
-  - Hotkey Configurator
+  - Config Menu
+  - Configure Hotkey
+  - SnipToCall
 
 ## 下载地址
 

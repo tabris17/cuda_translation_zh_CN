@@ -1,0 +1,181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-20 16:18+0800\n"
+"PO-Revision-Date: 2023-09-20 16:41+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_snip2call\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cd_snip2call.py:42
+msgid ""
+"Snip characters: letters, digits, \"_\". First character must be letter."
+msgstr "Snip 字符: 字母, 数字, \"_\". 第一个字符必须是字母."
+
+#: cd_snip2call.py:43
+msgid ""
+"\n"
+"\"Snip\" is an alternative way to call commands.\n"
+"    \n"
+"• Simple case:\n"
+"    \"pu\" is snip for command PageUp.\n"
+"    Type in any text\n"
+"        /pu\n"
+"    and press Tab-key.\n"
+"    Fragment \"/pu\" will be removed from text and undo-history, \n"
+"    command PageUp will be called.\n"
+"• More complex case:\n"
+"    Type\n"
+"        /3pu\n"
+"    and command will be called 3 times.\n"
+"    \n"
+"Snip contains only letters, digits, \"_\", and starts with a letter.\n"
+"        \n"
+"Any command can have many snips assigned to it.\n"
+"It's a good idea to assign keystrokes, for all available keyboard layouts, "
+"to the same command.\n"
+"                        "
+msgstr ""
+"\n"
+"\"Snip\" 一种调用命令的替代方法.\n"
+"    \n"
+"• 简单案例:\n"
+"    \"pu\" 是命令PageUp 的 Snip.\n"
+"    在任意文本中输入\n"
+"        /pu\n"
+"    并按下 Tab 键盘.\n"
+"    片段 \"/pu\" 将从文本和撤消历史记录中删除, \n"
+"    命令 PageUp 会被调用.\n"
+"• 更多复制案例:\n"
+"    输入\n"
+"        /3pu\n"
+"    命令会被调用三次.\n"
+"    \n"
+"Snip 仅包含字母, 数字, \"_\", 并且以字母开头.\n"
+"        \n"
+"命令可以被分配多个 Snips.\n"
+"最好将所有可用键盘布局的按键分配给同一命令.\n"
+"                        "
+
+#: cd_snip2call.py:181 cd_snip2call.py:319
+msgid "Need update CudaText"
+msgstr "需要更新 CudaText"
+
+#: cd_snip2call.py:200
+msgid ""
+"Suitable command names will contain all specified words.\r · Case is ignored."
+"\r · Use \"_\" for word boundary.\r     \"_up\" selects \"upper\" but not "
+"\"group\"."
+msgstr ""
+"适当的命令名称将包含所有指定的单词.\r · 忽略大小写.\r · 使用 \"_\" 表示单词边"
+"界.\r     \"_up\" 选择 \"upper\" 而不是 \"group\"."
+
+#: cd_snip2call.py:204
+msgid ""
+"Suitable command snips will match specified string.\r · Case is important.\r "
+"· Use ? for any character and * for any fragment."
+msgstr ""
+"适当的命令 snips 将匹配指定的字符串.\r · 注意大小写.\r · ? 表示任意字符, * 表"
+"示任意字符串."
+
+#: cd_snip2call.py:225
+msgid "Command"
+msgstr "命令"
+
+#: cd_snip2call.py:225
+msgid "Snip(s)"
+msgstr ""
+
+#: cd_snip2call.py:228
+msgid "&Filter"
+msgstr "过滤(&F)"
+
+#: cd_snip2call.py:229
+msgid "&All"
+msgstr "全部(&A)"
+
+#: cd_snip2call.py:230
+msgid "&OR"
+msgstr "或(&O)"
+
+#: cd_snip2call.py:231
+msgid "In &Command:"
+msgstr "查找命令(&C):"
+
+#: cd_snip2call.py:233
+msgid "In &Snip(s):"
+msgstr "查找 &Snip(s):"
+
+#: cd_snip2call.py:234
+msgid "&?"
+msgstr ""
+
+#: cd_snip2call.py:237
+msgid "A&dd Snip"
+msgstr "添加 Snip(&D)"
+
+#: cd_snip2call.py:238
+msgid "F&ree Snip(s)"
+msgstr "释放 Snip(s)(&R)"
+
+#: cd_snip2call.py:239
+msgid "Hel&p"
+msgstr "帮助(&P)"
+
+#: cd_snip2call.py:240
+msgid "Close"
+msgstr "关闭"
+
+#: cd_snip2call.py:251
+msgid "Configure \"SnipToCall\""
+msgstr "配置 \"SnipToCall\""
+
+#: cd_snip2call.py:272
+msgid "Help for \"Config SnipToCall\""
+msgstr "配置 SnipToCall 的帮助"
+
+#: cd_snip2call.py:274
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: cd_snip2call.py:275
+#, python-brace-format
+msgid "• In Command.\r{ccnd_h}\r \r• In Snip. \r{scnd_h}\r "
+msgstr ""
+"• 查找命令.\r{ccnd_h}\r \r• 查找 Snip. \r{scnd_h}\n"
+" "
+
+#: cd_snip2call.py:287
+msgid ""
+"Do you want to remove snip(s) \n"
+"    {}\n"
+"for command \"{}\"?"
+msgstr ""
+"你是否要删除 snip(s) \n"
+"    {}\n"
+"对应命令 \"{}\"?"
+
+#: cd_snip2call.py:296
+msgid "Snippet for \"{}\" without leading \"/\""
+msgstr "\"{}\" 的 Snippet, 不需要以 \"/\" 开头"
+
+#: cd_snip2call.py:307
+msgid ""
+"Snippet \"{}\" is already assigned\n"
+"to command \"{}\".\n"
+"\n"
+"Do you want to reassign the snippet\n"
+"to command \"{}\"?"
+msgstr ""
+"Snip \"{}\" 已被分配\n"
+"给命令 \"{}\".\n"
+"\n"
+"你想要重新分配 Snip\n"
+"给命令 \"{}\" 吗?"
