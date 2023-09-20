@@ -1,0 +1,317 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-20 12:20+0800\n"
+"PO-Revision-Date: 2023-09-20 12:56+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_macros\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cd_macros.py:60
+msgid "Repeated values in cudatext_cmd.py"
+msgstr "cudatext_cmd.py 中有重复值"
+
+#: cd_macros.py:89 cd_macros.py:131 cd_macros.py:223 cd_macros.py:285
+msgid "Need update CudaText"
+msgstr "需要更新 CudaText"
+
+#: cd_macros.py:104
+msgid "&Macros"
+msgstr "宏(&M)"
+
+#: cd_macros.py:106
+msgid "&Macros..."
+msgstr "宏(&M)..."
+
+#: cd_macros.py:109
+msgid "&Start/stop recording"
+msgstr "开始/停止录制(&S)"
+
+#: cd_macros.py:111
+msgid "&Playback last recorded macro"
+msgstr "回放最后录制的宏(&P)"
+
+#: cd_macros.py:114
+msgid "&Export..."
+msgstr "导出(&E)..."
+
+#: cd_macros.py:116
+msgid "&Import..."
+msgstr "导入(&I)..."
+
+#: cd_macros.py:132
+msgid "No macros for export"
+msgstr "没有可导出的宏"
+
+#: cd_macros.py:133 cd_macros.py:166
+msgid "CudaText macros|*.cuda-macros"
+msgstr "CudaText 宏|*.cuda-macros"
+
+#: cd_macros.py:146
+msgid "Export &to"
+msgstr "导出到(&T)"
+
+#: cd_macros.py:148 cd_macros.py:238
+msgid "&..."
+msgstr "&..."
+
+#: cd_macros.py:150 cd_macros.py:240
+msgid "Check &all"
+msgstr "全部选中(&A)"
+
+#: cd_macros.py:151 cd_macros.py:241
+msgid "U&ncheck all"
+msgstr "全部不选中(&N)"
+
+#: cd_macros.py:152
+msgid "&Export"
+msgstr "导出(&E)"
+
+#: cd_macros.py:153 cd_macros.py:243 cd_macros.py:358
+msgid "Close"
+msgstr "关闭"
+
+#: cd_macros.py:160
+msgid "Export macros"
+msgstr "导出宏"
+
+#: cd_macros.py:176 cd_macros.py:269
+msgid "Select some names"
+msgstr "选择某个名称"
+
+#: cd_macros.py:186
+msgid "CudaText macros|*.cuda-macros|All file|*.*"
+msgstr "CudaText 宏|*.cuda-macros|所有文件|*.*"
+
+#: cd_macros.py:191 cd_macros.py:213
+msgid ""
+"No macros in file\n"
+"  {}\n"
+"\n"
+"Choose another file?"
+msgstr ""
+"文件中没有宏\n"
+"  {}\n"
+"\n"
+"是否选择另一个文件?"
+
+#: cd_macros.py:198
+msgid ""
+"Macros from\n"
+"  \"{}\"\n"
+"are recorded in CudaText with version\n"
+"  \"{}\"\n"
+"Your CudaText has older version\n"
+"  \"{}\"\n"
+"\n"
+"No guarantee of correct working!\n"
+"\n"
+"Continue import?"
+msgstr ""
+"已记录的宏来自\n"
+"  \"{}\"\n"
+"使用的 CudaText 版本为\n"
+"  \"{}\"\n"
+"你的 CudaText 版本过旧\n"
+"  \"{}\"\n"
+"\n"
+"不保证正确工作!\n"
+"\n"
+"是否继续导入?"
+
+#: cd_macros.py:236
+msgid "Import &from"
+msgstr "导入于(&F)"
+
+#: cd_macros.py:242
+msgid "&Import"
+msgstr "导入(&I)"
+
+#: cd_macros.py:250
+msgid "Import macros"
+msgstr "导入宏"
+
+#: cd_macros.py:274
+msgid "Import macros:"
+msgstr "导入宏:"
+
+#: cd_macros.py:276
+msgid "Skip duplicates:"
+msgstr "跳过重复项:"
+
+#: cd_macros.py:338
+msgid "&Stop record"
+msgstr "停止记录(&S)"
+
+#: cd_macros.py:338
+msgid "&Start record"
+msgstr "开始记录(&S)"
+
+#: cd_macros.py:344
+msgid "Hot&keys..."
+msgstr "热键(&K)..."
+
+#: cd_macros.py:345
+msgid "Re&name..."
+msgstr "重命名(&N)..."
+
+#: cd_macros.py:346
+msgid "&Delete..."
+msgstr "删除(&D)..."
+
+#: cd_macros.py:347
+msgid "&Run!"
+msgstr "运行(&R)!"
+
+#: cd_macros.py:348
+msgid "&Times"
+msgstr "次数(&T)"
+
+#: cd_macros.py:350
+msgid "&Wait"
+msgstr "等待(&W)"
+
+#: cd_macros.py:352
+msgid "sec"
+msgstr "秒"
+
+#: cd_macros.py:353
+msgid "While text c&hanges"
+msgstr "当文本更改​​时(&H)"
+
+#: cd_macros.py:354
+msgid "Until c&aret on last line"
+msgstr "直到光标在最后一行(&A)"
+
+#: cd_macros.py:356
+msgid "Show actions"
+msgstr "显示动作"
+
+#: cd_macros.py:357
+msgid "Ad&just..."
+msgstr "调整(&J)..."
+
+#: cd_macros.py:375
+msgid "Macros"
+msgstr "宏"
+
+#: cd_macros.py:391
+msgid "Custom dialog Macros"
+msgstr "自定义对话框宏"
+
+#: cd_macros.py:392
+msgid "Height of macro list (min 450)"
+msgstr "宏列表高度 (最小 450)"
+
+#: cd_macros.py:393
+msgid "Width of macro list (min 200)"
+msgstr "宏列表宽度 (最小 200)"
+
+#: cd_macros.py:394
+msgid "Width of action list (min 200, <=0-hide)"
+msgstr "动作列表宽度 (最小 200, 小于等于0-隐藏)"
+
+#: cd_macros.py:395
+msgid "Width of buttons (min 150)"
+msgstr "按钮宽度 (最小 150)"
+
+#: cd_macros.py:396
+msgid "Max run times (min 100)"
+msgstr "最大运行次数 (最小 100)"
+
+#: cd_macros.py:408
+msgid "Select macro"
+msgstr "选择宏"
+
+#: cd_macros.py:419 cd_macros.py:424
+msgid "New name for: {}"
+msgstr "新名称: {}"
+
+#: cd_macros.py:423
+msgid ""
+"Select other name.\n"
+"Macro names now are:\n"
+"\n"
+msgstr ""
+"选择其他名称.\n"
+"当前宏名称是:\n"
+"\n"
+
+#: cd_macros.py:433
+msgid ""
+"Delete macro\n"
+"    {}"
+msgstr ""
+"删除宏\n"
+"    {}"
+
+#: cd_macros.py:450
+msgid "Select stop condition"
+msgstr "选择停止条件"
+
+#: cd_macros.py:478
+msgid "Last macro recording was empty"
+msgstr "最后一次录制的宏为空"
+
+#: cd_macros.py:487
+msgid ""
+"Macro name.\n"
+"Tricks: \"!NM\" overwrites NM, \"=NM\" shows NM in dialog.\n"
+"\"Cancel\" button still allows to run the \"last recorded macro\"."
+msgstr ""
+"宏名称.\n"
+"技巧: \"!NM\" 覆盖 NM, \"=NM\" 在对话框中显示 NM.\n"
+"\"取消\" 按钮仍然允许运行 \"最后录制的宏\"."
+
+#: cd_macros.py:509
+msgid ""
+"Select other name.\n"
+"Macros names now:\n"
+"\n"
+msgstr ""
+"选择其他名称.\n"
+"当前宏名称:\n"
+"\n"
+
+#: cd_macros.py:615
+msgid "No macro was recorded yet"
+msgstr "尚未录制宏"
+
+#: cd_macros.py:627
+msgid "No macros: {}"
+msgstr "没有宏: {}"
+
+#: cd_macros.py:655 cd_macros.py:755
+msgid "Macro \"{}\" playback time is too long"
+msgstr "宏 \"{}\" 回放时间过长"
+
+#: cd_macros.py:656 cd_macros.py:756
+msgid "Wait &another {} sec"
+msgstr "再等 {} 秒(&A)"
+
+#: cd_macros.py:657 cd_macros.py:757
+msgid "Continue &without control"
+msgstr "继续(&W)"
+
+#: cd_macros.py:658 cd_macros.py:758
+msgid "&Cancel playback [ESC]"
+msgstr "取消回放(&C) [ESC]"
+
+#: cd_macros.py:672
+msgid "Macro playback"
+msgstr "宏回放"
+
+#: cd_macros.py:678
+msgid "Cancel playback macro: {}"
+msgstr "取消回放宏: {}"
+
+#: cd_macros.py:760
+msgid "Playback macro"
+msgstr "回放宏"

@@ -23,6 +23,7 @@
   - Find in Files 4
   - Session Manager
   - FTP
+  - Macros
 
 ## 下载地址
 
