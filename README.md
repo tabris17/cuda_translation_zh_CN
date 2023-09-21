@@ -34,6 +34,7 @@
   - Terminal
   - ExTerminal
   - Terminal Plus
+  - Runner
 
 ## 下载地址
 
