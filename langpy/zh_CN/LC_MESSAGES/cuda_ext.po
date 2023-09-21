@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-20 16:52+0800\n"
-"PO-Revision-Date: 2023-09-20 17:33+0800\n"
+"PO-Revision-Date: 2023-09-21 12:49+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -80,7 +80,7 @@ msgstr "没有行 #{}"
 
 #: cd_ext.py:718 cd_ext.py:728 cd_ext.py:739
 msgid "No staple to jump"
-msgstr ""
+msgstr "没有订书针可以跳转"
 
 #: cd_ext.py:751
 msgid "No fold-ranges to jump to"
@@ -108,35 +108,35 @@ msgstr "所有选项卡书签: {}"
 
 #: cd_ext.py:992
 msgid "Align paragraphs - options (default values)"
-msgstr ""
+msgstr "对齐段落 - 选项 (默认值)"
 
 #: cd_ext.py:993
 msgid "Paragraph right margin ({})"
-msgstr ""
+msgstr "段落右边距 ({})"
 
 #: cd_ext.py:994
 msgid "Indent of first line (0)"
-msgstr ""
+msgstr "第一行的缩进 (0)"
 
 #: cd_ext.py:995
 msgid "Indent of other lines (0)"
-msgstr ""
+msgstr "其余行的缩进 (0)"
 
 #: cd_ext.py:1217
 msgid "Only for saved file"
-msgstr ""
+msgstr "仅已保存文件"
 
 #: cd_ext.py:1221
 msgid "In output no errors or no current file: "
-msgstr ""
+msgstr "输出中没有错误或没有当前文件: "
 
 #: cd_ext.py:1302
 msgid "No text selected"
-msgstr ""
+msgstr "没有文本被选中"
 
 #: cd_ext.py:1320
 msgid "Indented {n2-n1+1} lines"
-msgstr ""
+msgstr "已缩进 {n2-n1+1} 行"
 
 #: cd_ext.py:1362
 msgid "Empty clip"
@@ -148,27 +148,27 @@ msgstr ""
 
 #: cd_ext.py:1375
 msgid "Command works only if no selection"
-msgstr ""
+msgstr "仅当没有选中内容时命令才有效"
 
 #: cd_ext.py:1434
 msgid "Clipboard has no text"
-msgstr ""
+msgstr "剪贴板没有文本数据"
 
 #: cd_ext.py:1450
 msgid "Pasted trimmed text"
-msgstr ""
+msgstr "粘贴删去首尾空格的文本"
 
 #: cd_ext.py:1461
 msgid "Need selection"
-msgstr ""
+msgstr "需要选择内容"
 
 #: cd_ext.py:1473
 msgid "Text already trimmed"
-msgstr ""
+msgstr "文本已被删去首尾空格"
 
 #: cd_ext.py:1478
 msgid "Text trimmed"
-msgstr ""
+msgstr "文本已删去首尾空格"
 
 #: cd_ext.py:1485
 msgid "Enter string to fill selection"
@@ -202,31 +202,31 @@ msgstr ""
 #: cd_ext.py:1560
 #, python-brace-format
 msgid "Layout with name \"{nm}\" already exists. Replace?"
-msgstr ""
+msgstr "名为 \"{nm}\" 的布局已存在. 是否替换?"
 
 #: cd_ext.py:1581
 msgid "No saved layout"
-msgstr ""
+msgstr "未保存布局"
 
 #: cd_ext.py:1588
 msgid "Remove layout?"
-msgstr ""
+msgstr "是否移除布局?"
 
 #: cd_ext.py:1588
 msgid "Restore layout?"
-msgstr ""
+msgstr "是否恢复布局?"
 
 #: cd_ext.py:1611
 msgid "Restored layout: "
-msgstr ""
+msgstr "已恢复布局: "
 
 #: cd_ext.py:1797
 msgid "Entered the same filename"
-msgstr ""
+msgstr "输入了相同的文件名"
 
 #: cd_ext.py:1800
 msgid "Directory separator char is not allowed"
-msgstr ""
+msgstr "不允许使用目录分隔符"
 
 #: cd_ext.py:1803
 msgid ""
@@ -235,6 +235,10 @@ msgid ""
 "\n"
 "Choose another name."
 msgstr ""
+"已存在同名目录:\n"
+"{}\n"
+"\n"
+"选择另一个名称."
 
 #: cd_ext.py:1806
 msgid ""
@@ -244,14 +248,19 @@ msgid ""
 "\n"
 "Replace?"
 msgstr ""
+"文件\n"
+"{}\n"
+"已存在.\n"
+"\n"
+"是否替换?"
 
 #: cd_ext.py:1814
 msgid "Rename file"
-msgstr ""
+msgstr "重命名文件"
 
 #: cd_ext.py:1820
 msgid "Enter n&ew file name:"
-msgstr ""
+msgstr "输入新的文件名(&E):"
 
 #: cd_ext.py:1824 cd_ext_find_repl.py:1255 cd_ext_find_repl.py:1435
 #: cd_ext_find_repl.py:1787
@@ -268,78 +277,80 @@ msgid ""
 "Could not save the file as:\n"
 "{}"
 msgstr ""
+"无法将文件另存为:\n"
+"{}"
 
 #: cd_ext.py:1872
 msgid "Save file first"
-msgstr ""
+msgstr "先保存文件"
 
 #: cd_ext.py:1880
 msgid "No need to do anything"
-msgstr ""
+msgstr "不需要做任何事"
 
 #: cd_ext.py:1884
 msgid "Reopened in text editor"
-msgstr ""
+msgstr "在文本编辑器中重新打开"
 
 #: cd_ext.py:1887
 msgid "Reopened in hex viewer"
-msgstr ""
+msgstr "在十六进制查看器中重新打开"
 
 #: cd_ext.py:1892
 msgid "Warning: the command needs a named tab."
-msgstr ""
+msgstr "警告: 命令需要一个已命名的选项卡."
 
 #: cd_ext.py:1928
 msgid "sorted by time"
-msgstr ""
+msgstr "按时间排序"
 
 #: cd_ext.py:1929
 msgid "sorted by path"
-msgstr ""
+msgstr "按路径排序"
 
 #: cd_ext.py:1930
 msgid "sorted by last closed"
-msgstr ""
+msgstr "按最后关闭排序"
 
 #: cd_ext.py:1933
 msgid "sorted by name"
-msgstr ""
+msgstr "按名称排序"
 
 #: cd_ext.py:1936
 msgid "Recent files:"
-msgstr ""
+msgstr "最近的文件:"
 
 #: cd_ext.py:1944
 msgid "<Show \"name (path)\">"
-msgstr ""
+msgstr "<显示 \"名称 (路径)\">"
 
 #: cd_ext.py:1945
 msgid "<Show \"path/name\">"
-msgstr ""
+msgstr "<显示 \"路径/名称\">"
 
 #: cd_ext.py:1946
 msgid "<Sort by path>"
-msgstr ""
+msgstr "<按路径排序>"
 
 #: cd_ext.py:1947
 msgid "<Sort by name>"
-msgstr ""
+msgstr "<按名称排序>"
 
 #: cd_ext.py:1948
 msgid "<Sort by time>"
-msgstr ""
+msgstr "<按时间排序>"
 
 #: cd_ext.py:1949
 msgid "<Sort by last closed>"
-msgstr ""
+msgstr "<按最后关闭排序>"
 
 #: cd_ext.py:1978
 msgid "Mask(s) for filename (\"*\" - all files; \"*.txt *.bat\" - two masks)"
-msgstr ""
+msgstr "文件掩码 (\"*\" - 全部文件; \"*.txt *.bat\" - 两个掩码)"
 
 #: cd_ext.py:1980
 msgid "Non-text files:"
-msgstr ""
+msgstr "非文本文件:"
 
 #: cd_ext.py:1981
 msgid "View in &text mode"
@@ -363,7 +374,7 @@ msgstr ""
 
 #: cd_ext.py:1986
 msgid "Do &not open"
-msgstr ""
+msgstr "不要打开(&N)"
 
 #: cd_ext.py:1987 cd_ext.py:2083
 msgid "&OK"
@@ -371,11 +382,11 @@ msgstr "确定(&O)"
 
 #: cd_ext.py:2025
 msgid "Open {} file(s) from {} folder(s)?{}"
-msgstr ""
+msgstr "是否打开 {} 个文件, 位于 {} 个文件夹中?{}"
 
 #: cd_ext.py:2044
 msgid "No file to open."
-msgstr ""
+msgstr "没有文件可打开."
 
 #: cd_ext.py:2046
 msgid ""
@@ -384,22 +395,26 @@ msgid ""
 "\n"
 "Continue?"
 msgstr ""
+"文本已被修改!\n"
+"命令将使用硬盘上的文件内容.\n"
+"\n"
+"是否继续?"
 
 #: cd_ext.py:2067
 msgid "Error: "
-msgstr ""
+msgstr "错误: "
 
 #: cd_ext.py:2076
 msgid "Save editors to a single file"
-msgstr ""
+msgstr "将编辑器保存到一个单独文件"
 
 #: cd_ext.py:2079
 msgid "Save all tabs (including not visible)"
-msgstr ""
+msgstr "保存所有选项卡 (包括不可见的)"
 
 #: cd_ext.py:2080
 msgid "Save visible editors in all groups"
-msgstr ""
+msgstr "保存所有分组中可见的编辑器"
 
 #: cd_ext.py:2081
 msgid "Separator line:"
@@ -407,11 +422,11 @@ msgstr ""
 
 #: cd_ext.py:2101
 msgid "saved.txt"
-msgstr ""
+msgstr "已保存.txt"
 
 #: cd_ext.py:2108
 msgid "Saved: "
-msgstr ""
+msgstr "已保存: "
 
 #: cd_ext.py:2118
 msgid "Removed characters: {}"
@@ -435,7 +450,7 @@ msgstr ""
 
 #: cd_ext.py:2151
 msgid "Incorrect RegEx: "
-msgstr ""
+msgstr "不正确的正则表达式: "
 
 #: cd_ext.py:2158
 msgid "No tags were found"
@@ -443,7 +458,7 @@ msgstr ""
 
 #: cd_ext.py:2165
 msgid "Removed {} tag(s)"
-msgstr ""
+msgstr "移除 {} 个标签"
 
 #: cd_ext.py:2167
 msgid "Removed {} comment(s), {} tag(s)"
@@ -501,7 +516,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:66
 msgid "Replace all"
-msgstr ""
+msgstr "替换全部"
 
 #: cd_ext_find_repl.py:67
 msgid "Replace all for all pairs from the kit"
@@ -517,7 +532,7 @@ msgstr "查找(&F)"
 
 #: cd_ext_find_repl.py:173
 msgid "&Replace"
-msgstr ""
+msgstr "替换(&R)"
 
 #: cd_ext_find_repl.py:175
 msgid "&All"
@@ -529,7 +544,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:178
 msgid "A&LL"
-msgstr ""
+msgstr "全部(&L)"
 
 #: cd_ext_find_repl.py:214
 msgid "Activate kit \"{}\""
@@ -593,11 +608,11 @@ msgstr ""
 
 #: cd_ext_find_repl.py:246
 msgid "Hide dialog"
-msgstr ""
+msgstr "隐藏对话框"
 
 #: cd_ext_find_repl.py:247
 msgid "Hide dialog and restore selection &="
-msgstr ""
+msgstr "隐藏对话框并恢复选中内容 &="
 
 #: cd_ext_find_repl.py:248 cd_ext_find_repl.py:1072 cd_ext_tree.py:237
 msgid "&Help..."
@@ -605,15 +620,15 @@ msgstr "帮助(&H)..."
 
 #: cd_ext_find_repl.py:249
 msgid "Help - &show guide in browser"
-msgstr ""
+msgstr "帮助 - 用浏览器打开指南(&S)"
 
 #: cd_ext_find_repl.py:251 cd_ext_find_repl.py:1074 cd_ext_tree.py:239
 msgid "Find &previous"
-msgstr ""
+msgstr "查找上一个(&P)"
 
 #: cd_ext_find_repl.py:252 cd_ext_find_repl.py:1075 cd_ext_tree.py:240
 msgid "F&ind next"
-msgstr ""
+msgstr "查找下一个(&I)"
 
 #: cd_ext_find_repl.py:256
 msgid "Copy down: Find->Replace"
@@ -633,7 +648,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:262 cd_ext_find_repl.py:1080
 msgid "=== Options ==="
-msgstr ""
+msgstr "=== 选项 ==="
 
 #: cd_ext_find_repl.py:263 cd_ext_find_repl.py:1081
 msgid "Use &selection from document"
@@ -711,15 +726,15 @@ msgstr ""
 
 #: cd_ext_find_repl.py:493
 msgid ". c w"
-msgstr ""
+msgstr ". c w"
 
 #: cd_ext_find_repl.py:495
 msgid "&Find patterns:"
-msgstr ""
+msgstr "查找模式(&F):"
 
 #: cd_ext_find_repl.py:497
 msgid "&Replace patterns:"
-msgstr ""
+msgstr "替换模式(&P):"
 
 #: cd_ext_find_repl.py:499
 msgid "&Name:"
@@ -727,7 +742,7 @@ msgstr "名称(&N):"
 
 #: cd_ext_find_repl.py:502
 msgid "&ы"
-msgstr ""
+msgstr "&ы"
 
 #: cd_ext_find_repl.py:503 cd_ext_find_repl.py:586 cd_kv_dlg.py:1929
 msgid "&Save"
@@ -766,7 +781,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:587
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: cd_ext_find_repl.py:623 cd_ext_find_repl.py:642
 msgid "Loaded pair {}/{}"
@@ -797,7 +812,7 @@ msgstr "是"
 
 #: cd_ext_find_repl.py:700
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: cd_ext_find_repl.py:713
 msgid ""
@@ -805,6 +820,9 @@ msgid ""
 "   {}\n"
 "   {}"
 msgstr ""
+"{}! {}\n"
+"   {}\n"
+"   {}"
 
 #: cd_ext_find_repl.py:714
 msgid "Results for kit (\"{}\")"
@@ -816,11 +834,11 @@ msgstr "关闭"
 
 #: cd_ext_find_repl.py:736
 msgid "Not found. "
-msgstr ""
+msgstr "未找到. "
 
 #: cd_ext_find_repl.py:739
 msgid "Not found"
-msgstr ""
+msgstr "未找到"
 
 #: cd_ext_find_repl.py:767
 msgid "Replaces made: {}. "
@@ -832,7 +850,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:786
 msgid "Find in Lines"
-msgstr ""
+msgstr "在行内查找"
 
 #: cd_ext_find_repl.py:787
 msgid ""
@@ -914,11 +932,11 @@ msgstr ""
 
 #: cd_ext_find_repl.py:1244
 msgid "At &line:"
-msgstr ""
+msgstr "位于行(&L):"
 
 #: cd_ext_find_repl.py:1246
 msgid "At &column:"
-msgstr ""
+msgstr "位于列(&C):"
 
 #: cd_ext_find_repl.py:1248
 msgid "&Height in lines:"
@@ -934,7 +952,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:1274
 msgid "Added {} caret(s)"
-msgstr ""
+msgstr "已添加 {} 个光标"
 
 #: cd_ext_find_repl.py:1287 cd_ext_find_repl.py:1354
 msgid "{} works with multiline selection"
@@ -946,7 +964,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:1328
 msgid "Make selection first"
-msgstr ""
+msgstr "首先进行选择"
 
 #: cd_ext_find_repl.py:1330
 msgid "Reversed 1 fragment"
@@ -958,21 +976,21 @@ msgstr ""
 
 #: cd_ext_find_repl.py:1355
 msgid "Enter separator string"
-msgstr ""
+msgstr "输入分隔符字符串"
 
 #: cd_ext_find_repl.py:1364
 msgid "No separator '{}' in selected lines"
-msgstr ""
+msgstr "所选行中没有分隔符 \"{}\""
 
 #: cd_ext_find_repl.py:1369
 msgid "Text change not needed"
-msgstr ""
+msgstr "不需要更改文本"
 
 #: cd_ext_find_repl.py:1380 cd_ext_find_repl.py:1588 cd_ext_find_repl.py:1624
 #: cd_ext_find_repl.py:1722 cd_ext_find_repl.py:1759 cd_ext_find_repl.py:1774
 #: cd_ext_find_repl.py:1970
 msgid "Need to update application"
-msgstr ""
+msgstr "必须更新应用程序"
 
 #: cd_ext_find_repl.py:1397
 msgid ""
@@ -986,38 +1004,51 @@ msgid ""
 "To specify TAB enter \"t\".\n"
 "                  "
 msgstr ""
+"\n"
+"要指定 2/4/8 个空格, 输入\n"
+"    这些空格\n"
+"或\n"
+"    \"2b\"/\"4b\"/\"8b\"\n"
+"或\n"
+"    \"..\"/\"....\"/\"........\" (点).\n"
+"要指定制表符, 输入 \"t\".\n"
+"                  "
 
 #: cd_ext_find_repl.py:1417
 msgid ""
 "Fill \"Old step\".\n"
 "\n"
 msgstr ""
+"填写 \"旧步骤\".\n"
+"\n"
 
 #: cd_ext_find_repl.py:1420
 msgid ""
 "Fill \"New step\".\n"
 "\n"
 msgstr ""
+"填写 \"新步骤\".\n"
+"\n"
 
 #: cd_ext_find_repl.py:1426
 msgid "Reindent selected lines ({})"
-msgstr ""
+msgstr "重新缩进选中的行 ({})"
 
 #: cd_ext_find_repl.py:1431
 msgid "&Old indent step:"
-msgstr ""
+msgstr "旧的缩进步骤(&O):"
 
 #: cd_ext_find_repl.py:1433
 msgid "&New indent step:"
-msgstr ""
+msgstr "新的缩进步骤(&N):"
 
 #: cd_ext_find_repl.py:1447
 msgid "Reindent skipped"
-msgstr ""
+msgstr "已跳过重新缩进"
 
 #: cd_ext_find_repl.py:1477
 msgid "Need selected lines"
-msgstr ""
+msgstr "需要被选中的行"
 
 #: cd_ext_find_repl.py:1482
 msgid "Need more than one selected lines"
@@ -1033,7 +1064,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:1546
 msgid "Nothing to align"
-msgstr ""
+msgstr "没有可对齐的对象"
 
 #: cd_ext_find_repl.py:1553
 msgid "Fail to use Tab to align"
@@ -1053,7 +1084,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:1725
 msgid "Margin value:"
-msgstr ""
+msgstr "边距值:"
 
 #: cd_ext_find_repl.py:1732
 msgid "Incorrect margin value: "
@@ -1082,7 +1113,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:1782
 msgid "&Margin:"
-msgstr ""
+msgstr "边距(&M):"
 
 #: cd_ext_find_repl.py:1784
 msgid "&Comment sign:"
@@ -1090,23 +1121,23 @@ msgstr ""
 
 #: cd_ext_find_repl.py:1786
 msgid "&Keep indent"
-msgstr ""
+msgstr "保持缩进(&K)"
 
 #: cd_ext_find_repl.py:1798
 msgid "Not digit margin"
-msgstr ""
+msgstr "边距不是数字"
 
 #: cd_ext_find_repl.py:1850
 msgid "Separator char:"
-msgstr ""
+msgstr "分隔符:"
 
 #: cd_ext_find_repl.py:1853
 msgid "Wrong separator char"
-msgstr ""
+msgstr "错误的分隔符"
 
 #: cd_ext_find_repl.py:1884 cd_ext_find_repl.py:1888
 msgid "No selection"
-msgstr ""
+msgstr "没有选中内容"
 
 #: cd_ext_find_repl.py:1912
 msgid "Replaced {} line(s)"
@@ -1135,47 +1166,47 @@ msgstr ""
 
 #: cd_ext_tabs.py:279
 msgid "Find tab by title"
-msgstr ""
+msgstr "按标题查找选项卡"
 
 #: cd_ext_tabs.py:310
 msgid "Cannot arrange tabs with single group"
-msgstr ""
+msgstr "无法在单个分组排列选项卡"
 
 #: cd_ext_tabs.py:323
 msgid "Arranged {} tab(s) across {} group(s)"
-msgstr ""
+msgstr "排列了 {} 个选项卡, 在 {} 个分组内"
 
 #: cd_ext_tabs.py:328
 msgid "What tab number to activate? Input: [group:]number"
-msgstr ""
+msgstr "要激活哪个编号的选项卡? 输入: [分组:]编号"
 
 #: cd_ext_tabs.py:340
 msgid "No tab \"{}\""
-msgstr ""
+msgstr "没有 \"{}\" 选项卡"
 
 #: cd_ext_tabs.py:376
 msgid "No files in group"
-msgstr ""
+msgstr "分组内没有文件"
 
 #: cd_ext_tabs.py:394
 msgid "Closed {} untitled tab(s)"
-msgstr ""
+msgstr "已关闭 {} 个无标题选项卡"
 
 #: cd_ext_tabs.py:399 cd_ext_tabs.py:407
 msgid "Not a paired ui-tab"
-msgstr ""
+msgstr "不是配对的选项卡"
 
 #: cd_ext_tabs.py:411
 msgid "Paired ui-tab has modified file(s)"
-msgstr ""
+msgstr "配对的选项卡有被修改的文件"
 
 #: cd_ext_tree.py:102
 msgid "No items in Code Tree"
-msgstr ""
+msgstr "代码树中没有项目"
 
 #: cd_ext_tree.py:112
 msgid "Code Tree symbols"
-msgstr ""
+msgstr "代码树符号"
 
 #: cd_ext_tree.py:116
 msgid "<Update Code Tree>"
@@ -1183,19 +1214,19 @@ msgstr ""
 
 #: cd_ext_tree.py:117
 msgid "              <All levels>"
-msgstr ""
+msgstr "              <全部层级>"
 
 #: cd_ext_tree.py:118
 msgid "              <Only 1 up level>"
-msgstr ""
+msgstr "              <仅向上 1 层>"
 
 #: cd_ext_tree.py:119
 msgid "              <Only 2 up levels>"
-msgstr ""
+msgstr "              <仅向上 2 层>"
 
 #: cd_ext_tree.py:120
 msgid "              <Only 3 up levels>"
-msgstr ""
+msgstr "              <仅向上 3 层>"
 
 #: cd_ext_tree.py:148
 msgid ""
