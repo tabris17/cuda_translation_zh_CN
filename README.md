@@ -27,7 +27,7 @@
   - Config Menu
   - Configure Hotkey
   - SnipToCall
-  - CudaExt
+  - CudaExt (64%)
   - External Tools
 
 ## 下载地址

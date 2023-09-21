@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-20 16:52+0800\n"
-"PO-Revision-Date: 2023-09-21 12:49+0800\n"
+"PO-Revision-Date: 2023-09-21 13:01+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -172,32 +172,32 @@ msgstr "文本已删去首尾空格"
 
 #: cd_ext.py:1485
 msgid "Enter string to fill selection"
-msgstr ""
+msgstr "输入字符串填充选中区域"
 
 #: cd_ext.py:1500
 #, python-format
 msgid "Changed %d selection(s)"
-msgstr ""
+msgstr "已更改 %d 个选中区域"
 
 #: cd_ext.py:1502
 msgid "Need single-line selection(s)"
-msgstr ""
+msgstr "需要选中单行"
 
 #: cd_ext.py:1519
 msgid "Character hex code, optional 0x prefix:"
-msgstr ""
+msgstr "字符十六进制代码, 可选 0x 前缀:"
 
 #: cd_ext.py:1523 cd_ext.py:1534
 msgid "Not valid hex code: "
-msgstr ""
+msgstr "无效的十六进制代码: "
 
 #: cd_ext.py:1539
 msgid "Character inserted: U+"
-msgstr ""
+msgstr "插入的字符: U+"
 
 #: cd_ext.py:1557
 msgid "Name to save splitters layout"
-msgstr ""
+msgstr "保存拆分布局的名称"
 
 #: cd_ext.py:1560
 #, python-brace-format
@@ -354,23 +354,23 @@ msgstr "非文本文件:"
 
 #: cd_ext.py:1981
 msgid "View in &text mode"
-msgstr ""
+msgstr "以文本模式查看(&T)"
 
 #: cd_ext.py:1982
 msgid "View in &binary mode"
-msgstr ""
+msgstr "以二进制模式查看(&B)"
 
 #: cd_ext.py:1983
 msgid "View in &hex mode"
-msgstr ""
+msgstr "以十六进制模式查看(&H)"
 
 #: cd_ext.py:1984
 msgid "View in &unicode mode"
-msgstr ""
+msgstr "以 &Unicode 模式查看"
 
 #: cd_ext.py:1985
 msgid "View in un&icode/hex mode"
-msgstr ""
+msgstr "以 Un&icode/十六进制模式查看"
 
 #: cd_ext.py:1986
 msgid "Do &not open"
@@ -422,7 +422,7 @@ msgstr ""
 
 #: cd_ext.py:2101
 msgid "saved.txt"
-msgstr "已保存.txt"
+msgstr "saved.txt"
 
 #: cd_ext.py:2108
 msgid "Saved: "
@@ -430,23 +430,23 @@ msgstr "已保存: "
 
 #: cd_ext.py:2118
 msgid "Removed characters: {}"
-msgstr ""
+msgstr "已删除字符: {}"
 
 #: cd_ext.py:2130
 msgid "Removed {} line(s)"
-msgstr ""
+msgstr "已删除 {} 行"
 
 #: cd_ext.py:2137
 msgid "No lines with \"{}\" were found"
-msgstr ""
+msgstr "未找到包含有 \"{}\" 的行"
 
 #: cd_ext.py:2140
 msgid "Remove lines containing text:"
-msgstr ""
+msgstr "删除包含文本的行:"
 
 #: cd_ext.py:2145
 msgid "Remove lines containing RegEx:"
-msgstr ""
+msgstr "删除匹配正则表达式的行:"
 
 #: cd_ext.py:2151
 msgid "Incorrect RegEx: "
@@ -454,7 +454,7 @@ msgstr "不正确的正则表达式: "
 
 #: cd_ext.py:2158
 msgid "No tags were found"
-msgstr ""
+msgstr "没有找到标签"
 
 #: cd_ext.py:2165
 msgid "Removed {} tag(s)"
@@ -466,15 +466,15 @@ msgstr ""
 
 #: cd_ext.py:2220
 msgid "Folded {} range(s)"
-msgstr ""
+msgstr "已折叠 {} 个区块"
 
 #: cd_ext_find_repl.py:45
 msgid "Replace all in Lines"
-msgstr ""
+msgstr "在行内替换全部"
 
 #: cd_ext_find_repl.py:46
 msgid "(Enter in first field to find)"
-msgstr ""
+msgstr "(输入在第一个字段来查找)"
 
 #: cd_ext_find_repl.py:47
 msgid ""
@@ -490,7 +490,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:53
 msgid "Regular expression\rRegEx engine from CudaText is used"
-msgstr ""
+msgstr "正则表达式\r使用来自 CudaText 的 RegEx 引擎"
 
 #: cd_ext_find_repl.py:55 cd_ext_find_repl.py:897 cd_ext_tree.py:343
 msgid "Case sensitive"
@@ -524,7 +524,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:68
 msgid "<def>"
-msgstr ""
+msgstr "<def>"
 
 #: cd_ext_find_repl.py:171
 msgid "&Find"
@@ -576,7 +576,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:232
 msgid "Replace &all"
-msgstr ""
+msgstr "替换去不(&A)"
 
 #: cd_ext_find_repl.py:236
 msgid "Create &new kit..."
@@ -640,7 +640,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:259
 msgid "Move to app Find dialog"
-msgstr ""
+msgstr "移至应用程序查找对话框"
 
 #: cd_ext_find_repl.py:260
 msgid "Move to app Replace dialog"
