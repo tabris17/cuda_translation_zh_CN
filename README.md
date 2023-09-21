@@ -35,6 +35,7 @@
   - ExTerminal
   - Terminal Plus
   - Runner
+  - Open URL
 
 ## 下载地址
 
