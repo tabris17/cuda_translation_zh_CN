@@ -1,0 +1,1044 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-20 17:42+0800\n"
+"PO-Revision-Date: 2023-09-20 18:33+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_exttools\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cd_exttools.py:64
+msgid "(Int, Default=4) Interpret output symbol TAB as \"N spaces\"."
+msgstr ""
+
+#: cd_exttools.py:65
+msgid "Set 8 for a tool likes \"tidy\""
+msgstr ""
+
+#: cd_exttools.py:75
+msgid "Ignore"
+msgstr "忽略"
+
+#: cd_exttools.py:76
+msgid "Output panel"
+msgstr "输出面板"
+
+#: cd_exttools.py:77
+msgid "Output panel, append"
+msgstr ""
+
+#: cd_exttools.py:78
+msgid "Console"
+msgstr "控制台"
+
+#: cd_exttools.py:79
+msgid "Copy to new document"
+msgstr ""
+
+#: cd_exttools.py:80
+msgid "Copy to new document, group 1"
+msgstr ""
+
+#: cd_exttools.py:81
+msgid "Copy to new document, group 2"
+msgstr ""
+
+#: cd_exttools.py:82
+msgid "Copy to new document, group 3"
+msgstr ""
+
+#: cd_exttools.py:83
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+#: cd_exttools.py:84
+msgid "Replace selection"
+msgstr "替换选定的内容"
+
+#: cd_exttools.py:96
+msgid "Nothing"
+msgstr ""
+
+#: cd_exttools.py:97
+msgid "Current document"
+msgstr "当前文档"
+
+#: cd_exttools.py:98
+msgid "All documents"
+msgstr "全部文档"
+
+#: cd_exttools.py:132
+msgid ""
+"In tool properties \"File name\", \"Parameters\", \"Initial folder\"\n"
+"    the following macros are processed.\n"
+"• Application:\n"
+"   {AppDir}           - Directory with app executable\n"
+"   {AppDrive}         - (Windows) Disk of app executable, eg \"C:\"\n"
+"• Currently focused file:\n"
+"   {FileName}         - Full path\n"
+"   {FileDir}          - Folder path, without file name\n"
+"   {FileNameOnly}     - Name only, without folder path\n"
+"   {FileNameNoExt}    - Name without extension and path\n"
+"   {FileExt}          - Extension\n"
+"   {ContentAsTemp}    - Name of [temporary] file with current text\n"
+"   {Lexer}            - Name of global lexer\n"
+"• Current file in group N (N is 1...6):\n"
+"   {FileName_gN}      - Full path\n"
+"   {FileDir_gN}       - Folder path, without file name\n"
+"   {FileNameOnly_gN}  - Name only, without folder path\n"
+"   {FileNameNoExt_gN} - Name without extension and path\n"
+"   {FileExt_gN}       - Extension\n"
+"   {ContentAsTemp_gN} - Name of [temporary] file with current text\n"
+"   {Lexer_gN}         - Name of global lexer\n"
+"• Currently focused editor (for top caret):\n"
+"   {CurrentLine}      - Text of caret's line\n"
+"   {CurrentLineNum}   - Index of caret's line\n"
+"   {CurrentLineNum0}  - Index of caret's line, 0-based\n"
+"   {CurrentColumnNum} - Index of caret's column\n"
+"   {CurrentColumnNum0}- Index of caret's column, 0-based\n"
+"   {LexerAtCaret}     - Name of lexer at caret position\n"
+"   {SelectedText}     - Text of selection\n"
+"   {CurrentWord}      - Word at caret position\n"
+"• Prompts:\n"
+"   {Interactive}      - Text will be asked at each running\n"
+"   {InteractiveFile}  - File name will be asked\n"
+"• Project:\n"
+"    {PRJNAME}         - If current project is loaded and has the PRJNAME "
+"var\n"
+"• OS environments:\n"
+"    {OS:ENVNAME}      - If OS has ENVNAME environment\n"
+"\n"
+"All macros can include suffix (function) to transform value.\n"
+"   {Lexer|fun}             - gets fun({Lexer})\n"
+"   {Lexer|fun:p1,p2}       - gets fun({Lexer},p1,p2)\n"
+"   {Lexer|f1st:p1,p2|f2nd} - gets f2nd(f1st({Lexer},p1,p2))\n"
+"Predefined functions are:\n"
+"   q - quote: \"AB=?\"    -> \"AB%3D%3F\"\n"
+"   u - upper: \"word\"    -> \"WORD\"\n"
+"   l - lower: \"WORD\"    -> \"word\"\n"
+"   t - title: \"we he\"   -> \"We He\"\n"
+"All functions from all std Python modules can be used, but not methods.\n"
+"   q is short form of urllib.parse.quote\n"
+msgstr ""
+
+#: cd_exttools.py:182
+msgid "Tool macros"
+msgstr "工具宏"
+
+#: cd_exttools.py:184
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: cd_exttools.py:286 cd_exttools.py:361 cd_exttools.py:370 cd_exttools.py:809
+#: cd_exttools.py:1200 cd_exttools.py:1491
+msgid "Need update CudaText"
+msgstr "需要更新 CudaText"
+
+#: cd_exttools.py:391 cd_exttools.py:1216
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#: cd_exttools.py:395
+msgid "Con&fig..."
+msgstr "配置(&F)..."
+
+#: cd_exttools.py:397
+msgid "R&un main lexer tool"
+msgstr ""
+
+#: cd_exttools.py:399
+msgid "Resul&ts"
+msgstr "结果(&T)"
+
+#: cd_exttools.py:400
+msgid "&Next tool result"
+msgstr ""
+
+#: cd_exttools.py:402
+msgid "&Previous tool result"
+msgstr ""
+
+#: cd_exttools.py:464
+msgid "Main tool for lexer \"{}\" is not configured yet"
+msgstr ""
+
+#: cd_exttools.py:477
+msgid "No URL: {}"
+msgstr ""
+
+#: cd_exttools.py:484
+msgid "Cannot open URL \"{}\" for untitled tab, because of macro \"{}\""
+msgstr ""
+
+#: cd_exttools.py:491
+msgid "Opened \"{}\": {}"
+msgstr ""
+
+#: cd_exttools.py:519
+msgid "No tool: {}"
+msgstr ""
+
+#: cd_exttools.py:527
+msgid "Tool \"{}\" is only for lexer(s): {}"
+msgstr ""
+
+#: cd_exttools.py:545 cd_exttools.py:551
+msgid "Cancel running tool \"{}\""
+msgstr ""
+
+#: cd_exttools.py:560
+msgid "Cannot run \"{}\" for untitled tab, because of macro \"{}\""
+msgstr ""
+
+#: cd_exttools.py:590 cd_exttools.py:605
+msgid "Run: \"{}\""
+msgstr ""
+
+#: cd_exttools.py:613
+msgid "Fail running: {} {}"
+msgstr ""
+
+#: cd_exttools.py:616
+msgid "Run: {} {}"
+msgstr ""
+
+#: cd_exttools.py:708
+msgid "No tool to parse the output line"
+msgstr ""
+
+#: cd_exttools.py:709
+msgid "Tool \"{}\" has not Pattern property"
+msgstr ""
+
+#: cd_exttools.py:714
+msgid "Tool \"{}\" could not find a line-number into output line"
+msgstr ""
+
+#: cd_exttools.py:727 cd_exttools.py:732
+msgid "Cannot open: {}"
+msgstr "无法打开: {}"
+
+#: cd_exttools.py:757
+msgid "No any results for navigation"
+msgstr ""
+
+#: cd_exttools.py:783
+msgid "No more results for navigation"
+msgstr ""
+
+#: cd_exttools.py:818
+msgid "Join several tools to single tool"
+msgstr ""
+
+#: cd_exttools.py:819
+msgid "Use the URL"
+msgstr ""
+
+#: cd_exttools.py:820
+msgid "Move current tool to upper position"
+msgstr ""
+
+#: cd_exttools.py:821
+msgid "Move current tool to lower position"
+msgstr ""
+
+#: cd_exttools.py:822
+msgid "For call by command \"Run main lexer tool\""
+msgstr ""
+
+#: cd_exttools.py:823
+msgid "Edit list of user's macros to use in tool properties"
+msgstr ""
+
+#: cd_exttools.py:825
+msgid "Change this dialog sizes\rCtrl+Click - Restore default values"
+msgstr "更改此对话框大小\rCtrl+点击 - 恢复默认值"
+
+#: cd_exttools.py:838 cd_exttools.py:848 cd_exttools.py:865 cd_exttools.py:869
+#: cd_exttools.py:1265
+msgid "Name"
+msgstr "名称"
+
+#: cd_exttools.py:839 cd_exttools.py:849
+msgid "Hotkey"
+msgstr "热键"
+
+#: cd_exttools.py:840 cd_exttools.py:873
+msgid "File | [Tools]"
+msgstr "文件 | [工具]"
+
+#: cd_exttools.py:841
+msgid "Params"
+msgstr "参数"
+
+#: cd_exttools.py:842
+msgid "Folder"
+msgstr "文件夹"
+
+#: cd_exttools.py:843
+msgid "Lexers"
+msgstr "词法分析器"
+
+#: cd_exttools.py:844
+msgid "Capture"
+msgstr ""
+
+#: cd_exttools.py:845
+msgid "Saving"
+msgstr "保存"
+
+#: cd_exttools.py:850 cd_exttools.py:877
+msgid "URL"
+msgstr ""
+
+#: cd_exttools.py:933
+msgid "&Tools ({})"
+msgstr ""
+
+#: cd_exttools.py:934
+msgid "&URLs ({})"
+msgstr ""
+
+#: cd_exttools.py:935 cd_exttools.py:1271
+msgid "Expanded mac&ros"
+msgstr ""
+
+#: cd_exttools.py:939 cd_exttools.py:1273
+msgid "&Edit..."
+msgstr "编辑(&E)..."
+
+#: cd_exttools.py:940 cd_exttools.py:1274 cd_exttools.py:1791
+msgid "&Add..."
+msgstr "添加(&A)..."
+
+#: cd_exttools.py:941 cd_exttools.py:1276
+msgid "&Delete..."
+msgstr "删除(&D)..."
+
+#: cd_exttools.py:942
+msgid "Clo&ne..."
+msgstr "克隆(&N)..."
+
+#: cd_exttools.py:944
+msgid "Jo&in..."
+msgstr "加入(&I)..."
+
+#: cd_exttools.py:946
+msgid "&Call"
+msgstr "调用(&C)"
+
+#: cd_exttools.py:948
+msgid "Hotke&y..."
+msgstr "热键(&Y)"
+
+#: cd_exttools.py:949
+msgid "U&p"
+msgstr "上(&P)"
+
+#: cd_exttools.py:950 cd_exttools.py:1278
+msgid "Do&wn"
+msgstr "下(&W)"
+
+#: cd_exttools.py:952
+msgid "Set &main for lexers..."
+msgstr "设置主词法分析器(&M)..."
+
+#: cd_exttools.py:955
+msgid "User macro &vars..."
+msgstr "用户宏变量(&V)..."
+
+#: cd_exttools.py:960
+msgid "Ad&just..."
+msgstr "调整(&J)..."
+
+#: cd_exttools.py:961 cd_exttools.py:1220 cd_exttools.py:1281
+#: cd_plug_lib.py:688
+msgid "Close"
+msgstr "关闭"
+
+#: cd_exttools.py:964
+msgid "Tools and URLs ({})"
+msgstr "工具和 URLs ({})"
+
+#: cd_exttools.py:1116
+msgid "Delete URL?\n"
+msgstr "是否删除 URL?\n"
+
+#: cd_exttools.py:1133
+msgid ""
+"Delete tool?\n"
+"\n"
+msgstr ""
+"是否删除工具?\n"
+"\n"
+
+#: cd_exttools.py:1136
+msgid ""
+"\n"
+"Delete with joined tool(s)\n"
+"   "
+msgstr ""
+
+#: cd_exttools.py:1164
+msgid "Customization. Widths prefix \"C\"/\"R\" to align, \"-\" to hide."
+msgstr ""
+
+#: cd_exttools.py:1165
+msgid "Width of Name    (min 100)"
+msgstr ""
+
+#: cd_exttools.py:1166
+msgid "Width of Keys    (min  50)"
+msgstr ""
+
+#: cd_exttools.py:1167
+msgid "Width of File    (min 150)"
+msgstr ""
+
+#: cd_exttools.py:1168
+msgid "Width of Params  (min 150)"
+msgstr ""
+
+#: cd_exttools.py:1169
+msgid "Width of Folder  (min 100)"
+msgstr ""
+
+#: cd_exttools.py:1170
+msgid "Width of Lexers  (min  50)"
+msgstr ""
+
+#: cd_exttools.py:1171
+msgid "Width of Capture (min  50)"
+msgstr ""
+
+#: cd_exttools.py:1172
+msgid "Width of Saving  (min  30)"
+msgstr ""
+
+#: cd_exttools.py:1173
+msgid "List height  (min 200)"
+msgstr ""
+
+#: cd_exttools.py:1174
+msgid "Width of Url     (min 500)"
+msgstr ""
+
+#: cd_exttools.py:1214
+msgid "&Lexer  >>>  main tool"
+msgstr ""
+
+#: cd_exttools.py:1218
+msgid "&Assign tool"
+msgstr ""
+
+#: cd_exttools.py:1219
+msgid "&Break link"
+msgstr ""
+
+#: cd_exttools.py:1222
+msgid "Main tool for lexers"
+msgstr ""
+
+#: cd_exttools.py:1265
+msgid "Current value"
+msgstr "当前值"
+
+#: cd_exttools.py:1265
+msgid "Expression"
+msgstr ""
+
+#: cd_exttools.py:1265
+msgid "Comment"
+msgstr ""
+
+#: cd_exttools.py:1270
+msgid "&Vars"
+msgstr ""
+
+#: cd_exttools.py:1275
+msgid "Clo&ne"
+msgstr ""
+
+#: cd_exttools.py:1277 cd_exttools.py:1550
+msgid "&Up"
+msgstr ""
+
+#: cd_exttools.py:1279
+msgid "Pro&ject macros..."
+msgstr ""
+
+#: cd_exttools.py:1280 cd_exttools.py:1441 cd_exttools.py:1595
+msgid "Help"
+msgstr "帮助"
+
+#: cd_exttools.py:1285
+msgid "User macros"
+msgstr ""
+
+#: cd_exttools.py:1299 cd_exttools.py:1430 cd_exttools.py:1543
+msgid "&Name:"
+msgstr "名称(&N):"
+
+#: cd_exttools.py:1301
+msgid "Val&ue:"
+msgstr "值(&U):"
+
+#: cd_exttools.py:1303
+msgid "Add &file..."
+msgstr ""
+
+#: cd_exttools.py:1304
+msgid "Add &dir..."
+msgstr ""
+
+#: cd_exttools.py:1305
+msgid "Add &var..."
+msgstr ""
+
+#: cd_exttools.py:1306
+msgid "&Comment:"
+msgstr ""
+
+#: cd_exttools.py:1308 cd_exttools.py:1395 cd_exttools.py:1443
+#: cd_exttools.py:1598 cd_exttools.py:1719 cd_exttools.py:1761
+#: cd_exttools.py:1810 cd_plug_lib.py:726
+msgid "OK"
+msgstr "确定"
+
+#: cd_exttools.py:1309 cd_exttools.py:1396 cd_exttools.py:1444
+#: cd_exttools.py:1599 cd_exttools.py:1720 cd_exttools.py:1762
+#: cd_exttools.py:1811 cd_plug_lib.py:644 cd_plug_lib.py:727
+msgid "Cancel"
+msgstr "取消"
+
+#: cd_exttools.py:1313
+msgid "Edit user macro var"
+msgstr ""
+
+#: cd_exttools.py:1335 cd_exttools.py:1460 cd_exttools.py:1631
+msgid "Set Name"
+msgstr ""
+
+#: cd_exttools.py:1339
+msgid "Set Value"
+msgstr ""
+
+#: cd_exttools.py:1361
+msgid ""
+"Delete Macro?\n"
+"\n"
+msgstr ""
+
+#: cd_exttools.py:1362
+msgid "Name: {}"
+msgstr ""
+
+#: cd_exttools.py:1363
+msgid "Value: {}"
+msgstr ""
+
+#: cd_exttools.py:1364
+msgid "Comment: {}"
+msgstr ""
+
+#: cd_exttools.py:1400
+msgid "Select tools for join"
+msgstr ""
+
+#: cd_exttools.py:1433
+msgid "&URL:"
+msgstr ""
+
+#: cd_exttools.py:1435
+msgid "&Macro..."
+msgstr ""
+
+#: cd_exttools.py:1437 cd_exttools.py:1578
+msgid "Hotkey:"
+msgstr ""
+
+#: cd_exttools.py:1442 cd_exttools.py:1596
+msgid "Pro&ject..."
+msgstr ""
+
+#: cd_exttools.py:1449
+msgid "URL properties"
+msgstr ""
+
+#: cd_exttools.py:1546
+msgid "Se&ries:"
+msgstr ""
+
+#: cd_exttools.py:1548
+msgid "&Select..."
+msgstr ""
+
+#: cd_exttools.py:1549
+msgid "Vie&w..."
+msgstr ""
+
+#: cd_exttools.py:1551
+msgid "&Down"
+msgstr ""
+
+#: cd_exttools.py:1553
+msgid "&File name:"
+msgstr ""
+
+#: cd_exttools.py:1555
+msgid "&Browse..."
+msgstr ""
+
+#: cd_exttools.py:1556
+msgid "&Shell command"
+msgstr ""
+
+#: cd_exttools.py:1557
+msgid ""
+"Run the tool via OS shell interpreter (e.g. Bash on Unix, Cmd on Windows)"
+msgstr ""
+
+#: cd_exttools.py:1559
+msgid "&Parameters:"
+msgstr ""
+
+#: cd_exttools.py:1561
+msgid "A&dd..."
+msgstr ""
+
+#: cd_exttools.py:1563
+msgid "&Initial folder:"
+msgstr ""
+
+#: cd_exttools.py:1565
+msgid "B&rowse..."
+msgstr ""
+
+#: cd_exttools.py:1567
+msgid "Lexers:"
+msgstr ""
+
+#: cd_exttools.py:1569
+msgid "Le&xers..."
+msgstr ""
+
+#: cd_exttools.py:1571
+msgid "Main for:"
+msgstr ""
+
+#: cd_exttools.py:1573
+msgid "Set &main..."
+msgstr ""
+
+#: cd_exttools.py:1575
+msgid "Sa&ve before:"
+msgstr ""
+
+#: cd_exttools.py:1582
+msgid "&Capture output:"
+msgstr ""
+
+#: cd_exttools.py:1584
+msgid "Encoding:"
+msgstr ""
+
+#: cd_exttools.py:1586
+msgid "S&elect..."
+msgstr ""
+
+#: cd_exttools.py:1587
+msgid "Pattern:"
+msgstr ""
+
+#: cd_exttools.py:1589
+msgid "Se&t..."
+msgstr ""
+
+#: cd_exttools.py:1591
+msgid "Advanced:"
+msgstr ""
+
+#: cd_exttools.py:1593
+msgid "Set..."
+msgstr ""
+
+#: cd_exttools.py:1606
+msgid "Tool properties"
+msgstr ""
+
+#: cd_exttools.py:1635
+msgid "Set File name"
+msgstr ""
+
+#: cd_exttools.py:1725
+msgid "Select lexers"
+msgstr ""
+
+#: cd_exttools.py:1735
+msgid "Encodings"
+msgstr ""
+
+#: cd_exttools.py:1766
+msgid "Advanced properties"
+msgstr ""
+
+#: cd_exttools.py:1788
+msgid "&Regular expression:"
+msgstr ""
+
+#: cd_exttools.py:1792
+msgid "Append named group"
+msgstr ""
+
+#: cd_exttools.py:1795
+msgid "Test \"&Output line\":"
+msgstr ""
+
+#: cd_exttools.py:1797
+msgid "&Test"
+msgstr ""
+
+#: cd_exttools.py:1799
+msgid "Testing results"
+msgstr ""
+
+#: cd_exttools.py:1800
+msgid "Filename:"
+msgstr ""
+
+#: cd_exttools.py:1802
+msgid "Line:"
+msgstr ""
+
+#: cd_exttools.py:1804
+msgid "Column:"
+msgstr ""
+
+#: cd_exttools.py:1807
+msgid "Load &preset..."
+msgstr ""
+
+#: cd_exttools.py:1808
+msgid "&Save as preset..."
+msgstr ""
+
+#: cd_exttools.py:1822
+msgid "Tool \"{}\" output pattern"
+msgstr ""
+
+#: cd_exttools.py:1834
+msgid "Filename (default - current file name)"
+msgstr ""
+
+#: cd_exttools.py:1835
+msgid "Number of line (default - 1)"
+msgstr ""
+
+#: cd_exttools.py:1836
+msgid "Number of column (default - 1)"
+msgstr ""
+
+#: cd_exttools.py:1837
+msgid "Number of line (0-based, default - 0)"
+msgstr ""
+
+#: cd_exttools.py:1838
+msgid "Number of column (0-based, default - 0)"
+msgstr ""
+
+#: cd_exttools.py:1840
+msgid "Pattern variables"
+msgstr ""
+
+#: cd_exttools.py:1860
+msgid "RegEx is incorrect: "
+msgstr ""
+
+#: cd_exttools.py:1864
+msgid "Ready patterns"
+msgstr ""
+
+#: cd_exttools.py:1872
+msgid "Set \"Regular expression\""
+msgstr ""
+
+#: cd_exttools.py:1874
+msgid "Name for preset ({})"
+msgstr ""
+
+#: cd_exttools.py:2071
+msgid "Param for call {}"
+msgstr ""
+
+#: cd_exttools.py:2168
+#, python-brace-format
+msgid "{AppDir}\tDirectory with app executable"
+msgstr ""
+
+#: cd_exttools.py:2169
+#, python-brace-format
+msgid "{AppDrive}\t(Win only) Disk of app executable, eg \"C:\""
+msgstr ""
+
+#: cd_exttools.py:2170
+#, python-brace-format
+msgid "{FileName}\tFull path"
+msgstr ""
+
+#: cd_exttools.py:2171
+#, python-brace-format
+msgid "{FileDir}\tFolder path, without file name"
+msgstr ""
+
+#: cd_exttools.py:2172
+#, python-brace-format
+msgid "{FileNameOnly}\tFile name only, without folder path"
+msgstr ""
+
+#: cd_exttools.py:2173
+#, python-brace-format
+msgid "{FileNameNoExt}\tFile name without extension and path"
+msgstr ""
+
+#: cd_exttools.py:2174
+#, python-brace-format
+msgid "{FileExt}\tExtension"
+msgstr ""
+
+#: cd_exttools.py:2175
+#, python-brace-format
+msgid "{ContentAsTemp}\tName of [temporary] file with current text"
+msgstr ""
+
+#: cd_exttools.py:2176
+#, python-brace-format
+msgid "{Lexer}\tFile lexer"
+msgstr ""
+
+#: cd_exttools.py:2177
+#, python-brace-format
+msgid "{LexerAtCaret}\tLocal lexer (at 1st caret)"
+msgstr ""
+
+#: cd_exttools.py:2178
+#, python-brace-format
+msgid "{CurrentLine}\tText of current line"
+msgstr ""
+
+#: cd_exttools.py:2179
+#, python-brace-format
+msgid "{CurrentLineNum}\tNumber of current line"
+msgstr ""
+
+#: cd_exttools.py:2180
+#, python-brace-format
+msgid "{CurrentLineNum0}\tNumber of current line (0-based)"
+msgstr ""
+
+#: cd_exttools.py:2181
+#, python-brace-format
+msgid "{CurrentColumnNum}\tNumber of current column"
+msgstr ""
+
+#: cd_exttools.py:2182
+#, python-brace-format
+msgid "{CurrentColumnNum0}\tNumber of current column (0-based)"
+msgstr ""
+
+#: cd_exttools.py:2183
+#, python-brace-format
+msgid "{SelectedText}\tText"
+msgstr ""
+
+#: cd_exttools.py:2184
+#, python-brace-format
+msgid "{CurrentWord}\tText"
+msgstr ""
+
+#: cd_exttools.py:2185
+#, python-brace-format
+msgid "{Interactive}\tText will be asked at each running"
+msgstr ""
+
+#: cd_exttools.py:2186
+#, python-brace-format
+msgid "{InteractiveFile}\tFile name will be asked"
+msgstr ""
+
+#: cd_exttools.py:2187
+#, python-brace-format
+msgid "{{FileName_g{0}}}\tFull path of current file in group {0}"
+msgstr ""
+
+#: cd_exttools.py:2188
+#, python-brace-format
+msgid ""
+"{{FileDir_g{0}}}\tFolder path, without file name, of current file in group "
+"{0}"
+msgstr ""
+
+#: cd_exttools.py:2189
+#, python-brace-format
+msgid ""
+"{{FileNameOnly_g{0}}}\tFile name only, without folder path, of current file "
+"in group {0}"
+msgstr ""
+
+#: cd_exttools.py:2190
+#, python-brace-format
+msgid ""
+"{{FileNameNoExt_g{0}}}\tFile name without extension and path of current file "
+"in group {0}"
+msgstr ""
+
+#: cd_exttools.py:2191
+#, python-brace-format
+msgid "{{FileExt_g{0}}}\tExtension of current file in group {0}"
+msgstr ""
+
+#: cd_exttools.py:2192
+#, python-brace-format
+msgid ""
+"{{ContentAsTemp_g{0}}}\tName of [temporary] file with current text in group "
+"{0}"
+msgstr ""
+
+#: cd_exttools.py:2193
+#, python-brace-format
+msgid "{{Lexer_g{0}}}\tLexer of current file in group {0}"
+msgstr ""
+
+#: cd_exttools.py:2198
+msgid "Variables"
+msgstr ""
+
+#: cd_plug_lib.py:600
+msgid "Adjust vertical alignments"
+msgstr "调整垂直对齐方式"
+
+#: cd_plug_lib.py:641
+msgid "&Save"
+msgstr "保存(&S)"
+
+#: cd_plug_lib.py:642
+msgid ""
+"Apply the fittings to controls of all dialogs.\rCtrl+Click  - Show data to "
+"mail report."
+msgstr "将配件应用到所有对话框的控件.\rCtrl+Click  - 将数据显示在邮件报告."
+
+#: cd_plug_lib.py:682
+msgid "Report"
+msgstr "报告"
+
+#: cd_plug_lib.py:684
+msgid "Send the report to the address"
+msgstr "将报告发送到地址"
+
+#: cd_plug_lib.py:686
+msgid "or post it on"
+msgstr "或将其发布在"
+
+#: encodings.py:10
+msgid "Win only: Encode operand according to the ANSI codepage (CP_ACP)"
+msgstr ""
+
+#: encodings.py:11 encodings.py:55
+msgid "Russian"
+msgstr ""
+
+#: encodings.py:12 encodings.py:22 encodings.py:46 encodings.py:57
+msgid "Bulgarian, Belarusian, Macedonian, Russian, Serbian"
+msgstr ""
+
+#: encodings.py:13 encodings.py:14 encodings.py:16
+msgid "English"
+msgstr ""
+
+#: encodings.py:15 encodings.py:23 encodings.py:28 encodings.py:39
+#: encodings.py:48
+msgid "Hebrew"
+msgstr ""
+
+#: encodings.py:17 encodings.py:20 encodings.py:25 encodings.py:34
+#: encodings.py:36 encodings.py:53 encodings.py:61
+msgid "Western Europe"
+msgstr ""
+
+#: encodings.py:18 encodings.py:31 encodings.py:32 encodings.py:37
+#: encodings.py:47 encodings.py:58
+msgid "Greek"
+msgstr ""
+
+#: encodings.py:19 encodings.py:40 encodings.py:45 encodings.py:51
+msgid "Baltic languages"
+msgstr ""
+
+#: encodings.py:21 encodings.py:35 encodings.py:43 encodings.py:60
+msgid "Central and Eastern Europe"
+msgstr ""
+
+#: encodings.py:24 encodings.py:33 encodings.py:38 encodings.py:49
+#: encodings.py:62
+msgid "Turkish"
+msgstr ""
+
+#: encodings.py:26
+msgid "Portuguese"
+msgstr ""
+
+#: encodings.py:27 encodings.py:59
+msgid "Icelandic"
+msgstr ""
+
+#: encodings.py:29
+msgid "Canadian"
+msgstr ""
+
+#: encodings.py:30
+msgid "Danish, Norwegian"
+msgstr ""
+
+#: encodings.py:41
+msgid "Win only: Windows UTF-8 (CP_UTF8)"
+msgstr ""
+
+#: encodings.py:42
+msgid "West Europe"
+msgstr ""
+
+#: encodings.py:44
+msgid "Esperanto, Maltese"
+msgstr ""
+
+#: encodings.py:50
+msgid "Nordic languages"
+msgstr ""
+
+#: encodings.py:52
+msgid "Celtic languages"
+msgstr ""
+
+#: encodings.py:54
+msgid "South-Eastern Europe"
+msgstr ""
+
+#: encodings.py:56
+msgid "Ukrainian"
+msgstr ""
+
+#: encodings.py:63
+msgid "Kazakh"
+msgstr ""
+
+#: encodings.py:64 encodings.py:65 encodings.py:66 encodings.py:67
+#: encodings.py:68 encodings.py:69 encodings.py:70 encodings.py:71
+#: encodings.py:72
+msgid "all languages"
+msgstr ""
