@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-20 17:42+0800\n"
-"PO-Revision-Date: 2023-09-20 18:33+0800\n"
+"PO-Revision-Date: 2023-09-21 12:03+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -16,11 +16,11 @@ msgstr ""
 
 #: cd_exttools.py:64
 msgid "(Int, Default=4) Interpret output symbol TAB as \"N spaces\"."
-msgstr ""
+msgstr "(整数, 默认=4) 用 \"N 个空格\" 代替输出的制表符."
 
 #: cd_exttools.py:65
 msgid "Set 8 for a tool likes \"tidy\""
-msgstr ""
+msgstr "可以为某个工具设置为 8"
 
 #: cd_exttools.py:75
 msgid "Ignore"
@@ -32,7 +32,7 @@ msgstr "输出面板"
 
 #: cd_exttools.py:77
 msgid "Output panel, append"
-msgstr ""
+msgstr "输出面板, 添加"
 
 #: cd_exttools.py:78
 msgid "Console"
@@ -40,19 +40,19 @@ msgstr "控制台"
 
 #: cd_exttools.py:79
 msgid "Copy to new document"
-msgstr ""
+msgstr "复制到新建文档"
 
 #: cd_exttools.py:80
 msgid "Copy to new document, group 1"
-msgstr ""
+msgstr "复制到新建文档, 分组 1"
 
 #: cd_exttools.py:81
 msgid "Copy to new document, group 2"
-msgstr ""
+msgstr "复制到新建文档, 分组 2"
 
 #: cd_exttools.py:82
 msgid "Copy to new document, group 3"
-msgstr ""
+msgstr "复制到新建文档, 分组 3"
 
 #: cd_exttools.py:83
 msgid "Copy to clipboard"
@@ -64,7 +64,7 @@ msgstr "替换选定的内容"
 
 #: cd_exttools.py:96
 msgid "Nothing"
-msgstr ""
+msgstr "无"
 
 #: cd_exttools.py:97
 msgid "Current document"
@@ -151,7 +151,7 @@ msgstr "配置(&F)..."
 
 #: cd_exttools.py:397
 msgid "R&un main lexer tool"
-msgstr ""
+msgstr "运行主词法分析器工具(&U)"
 
 #: cd_exttools.py:399
 msgid "Resul&ts"
@@ -159,67 +159,67 @@ msgstr "结果(&T)"
 
 #: cd_exttools.py:400
 msgid "&Next tool result"
-msgstr ""
+msgstr "下一个工具结果(&N)"
 
 #: cd_exttools.py:402
 msgid "&Previous tool result"
-msgstr ""
+msgstr "上一个工具结果(&P)"
 
 #: cd_exttools.py:464
 msgid "Main tool for lexer \"{}\" is not configured yet"
-msgstr ""
+msgstr "用于词法分析器 \"{}\" 的主工具还未配置"
 
 #: cd_exttools.py:477
 msgid "No URL: {}"
-msgstr ""
+msgstr "没有 URL: {}"
 
 #: cd_exttools.py:484
 msgid "Cannot open URL \"{}\" for untitled tab, because of macro \"{}\""
-msgstr ""
+msgstr "由于宏 \"{}\", 无法为无标题文档打开 URL \"{}\""
 
 #: cd_exttools.py:491
 msgid "Opened \"{}\": {}"
-msgstr ""
+msgstr "已打开 \"{}\": {}"
 
 #: cd_exttools.py:519
 msgid "No tool: {}"
-msgstr ""
+msgstr "没有工具: {}"
 
 #: cd_exttools.py:527
 msgid "Tool \"{}\" is only for lexer(s): {}"
-msgstr ""
+msgstr "工具 \"{}\" 仅用于词法分析器: {}"
 
 #: cd_exttools.py:545 cd_exttools.py:551
 msgid "Cancel running tool \"{}\""
-msgstr ""
+msgstr "取消运行工具 \"{}\""
 
 #: cd_exttools.py:560
 msgid "Cannot run \"{}\" for untitled tab, because of macro \"{}\""
-msgstr ""
+msgstr "由于宏 \"{}\", 无法为无标题文档运行 \"{}\""
 
 #: cd_exttools.py:590 cd_exttools.py:605
 msgid "Run: \"{}\""
-msgstr ""
+msgstr "运行: \"{}\""
 
 #: cd_exttools.py:613
 msgid "Fail running: {} {}"
-msgstr ""
+msgstr "运行失败: {} {}"
 
 #: cd_exttools.py:616
 msgid "Run: {} {}"
-msgstr ""
+msgstr "运行: {} {}"
 
 #: cd_exttools.py:708
 msgid "No tool to parse the output line"
-msgstr ""
+msgstr "没有工具可以解析输出行"
 
 #: cd_exttools.py:709
 msgid "Tool \"{}\" has not Pattern property"
-msgstr ""
+msgstr "工具 \"{}\" 没有 Pattern 属性"
 
 #: cd_exttools.py:714
 msgid "Tool \"{}\" could not find a line-number into output line"
-msgstr ""
+msgstr "工具 \"{}\" 无法在输出行中找到行号"
 
 #: cd_exttools.py:727 cd_exttools.py:732
 msgid "Cannot open: {}"
@@ -227,35 +227,35 @@ msgstr "无法打开: {}"
 
 #: cd_exttools.py:757
 msgid "No any results for navigation"
-msgstr ""
+msgstr "没有任何导航结果"
 
 #: cd_exttools.py:783
 msgid "No more results for navigation"
-msgstr ""
+msgstr "没有更多导航结果"
 
 #: cd_exttools.py:818
 msgid "Join several tools to single tool"
-msgstr ""
+msgstr "将多个工具连接到单个工具"
 
 #: cd_exttools.py:819
 msgid "Use the URL"
-msgstr ""
+msgstr "使用 URL"
 
 #: cd_exttools.py:820
 msgid "Move current tool to upper position"
-msgstr ""
+msgstr "将当前工具移至更高位置"
 
 #: cd_exttools.py:821
 msgid "Move current tool to lower position"
-msgstr ""
+msgstr "将当前工具移至更低位置"
 
 #: cd_exttools.py:822
 msgid "For call by command \"Run main lexer tool\""
-msgstr ""
+msgstr "通过命令 \"运行主词法分析器工具\" 进行调用"
 
 #: cd_exttools.py:823
 msgid "Edit list of user's macros to use in tool properties"
-msgstr ""
+msgstr "编辑要在工具属性中使用的用户宏列表"
 
 #: cd_exttools.py:825
 msgid "Change this dialog sizes\rCtrl+Click - Restore default values"
@@ -288,7 +288,7 @@ msgstr "词法分析器"
 
 #: cd_exttools.py:844
 msgid "Capture"
-msgstr ""
+msgstr "捕获"
 
 #: cd_exttools.py:845
 msgid "Saving"
@@ -296,19 +296,19 @@ msgstr "保存"
 
 #: cd_exttools.py:850 cd_exttools.py:877
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: cd_exttools.py:933
 msgid "&Tools ({})"
-msgstr ""
+msgstr "工具(&T) ({})"
 
 #: cd_exttools.py:934
 msgid "&URLs ({})"
-msgstr ""
+msgstr "&URLs ({})"
 
 #: cd_exttools.py:935 cd_exttools.py:1271
 msgid "Expanded mac&ros"
-msgstr ""
+msgstr "展开的宏(&R)"
 
 #: cd_exttools.py:939 cd_exttools.py:1273
 msgid "&Edit..."
@@ -385,66 +385,69 @@ msgid ""
 "Delete with joined tool(s)\n"
 "   "
 msgstr ""
+"\n"
+"使用连接的工具删除\n"
+"   "
 
 #: cd_exttools.py:1164
 msgid "Customization. Widths prefix \"C\"/\"R\" to align, \"-\" to hide."
-msgstr ""
+msgstr "自定义. 宽度前缀 \"C\"/\"R\" 表示对齐, \"-\" 表示隐藏."
 
 #: cd_exttools.py:1165
 msgid "Width of Name    (min 100)"
-msgstr ""
+msgstr "名称宽度 (最小 100)"
 
 #: cd_exttools.py:1166
 msgid "Width of Keys    (min  50)"
-msgstr ""
+msgstr "键宽度 (最小 50)"
 
 #: cd_exttools.py:1167
 msgid "Width of File    (min 150)"
-msgstr ""
+msgstr "文件宽度 (最小 150)"
 
 #: cd_exttools.py:1168
 msgid "Width of Params  (min 150)"
-msgstr ""
+msgstr "参数宽度 (最小 150)"
 
 #: cd_exttools.py:1169
 msgid "Width of Folder  (min 100)"
-msgstr ""
+msgstr "文件夹宽度 (最小 100)"
 
 #: cd_exttools.py:1170
 msgid "Width of Lexers  (min  50)"
-msgstr ""
+msgstr "词法分析器宽度 (最小 50)"
 
 #: cd_exttools.py:1171
 msgid "Width of Capture (min  50)"
-msgstr ""
+msgstr "捕获宽度 (最小 50)"
 
 #: cd_exttools.py:1172
 msgid "Width of Saving  (min  30)"
-msgstr ""
+msgstr "保存宽度 (最小 30)"
 
 #: cd_exttools.py:1173
 msgid "List height  (min 200)"
-msgstr ""
+msgstr "列表高度  (最小 200)"
 
 #: cd_exttools.py:1174
 msgid "Width of Url     (min 500)"
-msgstr ""
+msgstr "URL 宽度 (最小 500)"
 
 #: cd_exttools.py:1214
 msgid "&Lexer  >>>  main tool"
-msgstr ""
+msgstr "词法分析器(&L)  >>>  主工具"
 
 #: cd_exttools.py:1218
 msgid "&Assign tool"
-msgstr ""
+msgstr "分配工具(&A)"
 
 #: cd_exttools.py:1219
 msgid "&Break link"
-msgstr ""
+msgstr "断开链接(&B)"
 
 #: cd_exttools.py:1222
 msgid "Main tool for lexers"
-msgstr ""
+msgstr "词法分析器的主工具"
 
 #: cd_exttools.py:1265
 msgid "Current value"
@@ -452,27 +455,27 @@ msgstr "当前值"
 
 #: cd_exttools.py:1265
 msgid "Expression"
-msgstr ""
+msgstr "表达式"
 
 #: cd_exttools.py:1265
 msgid "Comment"
-msgstr ""
+msgstr "注释"
 
 #: cd_exttools.py:1270
 msgid "&Vars"
-msgstr ""
+msgstr "变量(&V)"
 
 #: cd_exttools.py:1275
 msgid "Clo&ne"
-msgstr ""
+msgstr "克隆(&N)"
 
 #: cd_exttools.py:1277 cd_exttools.py:1550
 msgid "&Up"
-msgstr ""
+msgstr "上(&U)"
 
 #: cd_exttools.py:1279
 msgid "Pro&ject macros..."
-msgstr ""
+msgstr "项目宏(&J)..."
 
 #: cd_exttools.py:1280 cd_exttools.py:1441 cd_exttools.py:1595
 msgid "Help"
@@ -480,7 +483,7 @@ msgstr "帮助"
 
 #: cd_exttools.py:1285
 msgid "User macros"
-msgstr ""
+msgstr "用户宏"
 
 #: cd_exttools.py:1299 cd_exttools.py:1430 cd_exttools.py:1543
 msgid "&Name:"
@@ -492,19 +495,19 @@ msgstr "值(&U):"
 
 #: cd_exttools.py:1303
 msgid "Add &file..."
-msgstr ""
+msgstr "添加文件(&F)..."
 
 #: cd_exttools.py:1304
 msgid "Add &dir..."
-msgstr ""
+msgstr "添加目录(&D)..."
 
 #: cd_exttools.py:1305
 msgid "Add &var..."
-msgstr ""
+msgstr "添加变量(&V)..."
 
 #: cd_exttools.py:1306
 msgid "&Comment:"
-msgstr ""
+msgstr "注释(&C):"
 
 #: cd_exttools.py:1308 cd_exttools.py:1395 cd_exttools.py:1443
 #: cd_exttools.py:1598 cd_exttools.py:1719 cd_exttools.py:1761
@@ -520,376 +523,379 @@ msgstr "取消"
 
 #: cd_exttools.py:1313
 msgid "Edit user macro var"
-msgstr ""
+msgstr "编辑用户宏变量"
 
 #: cd_exttools.py:1335 cd_exttools.py:1460 cd_exttools.py:1631
 msgid "Set Name"
-msgstr ""
+msgstr "设置名称"
 
 #: cd_exttools.py:1339
 msgid "Set Value"
-msgstr ""
+msgstr "设置值"
 
 #: cd_exttools.py:1361
 msgid ""
 "Delete Macro?\n"
 "\n"
 msgstr ""
+"是否删除宏?\n"
+"\n"
 
 #: cd_exttools.py:1362
 msgid "Name: {}"
-msgstr ""
+msgstr "名称: {}"
 
 #: cd_exttools.py:1363
 msgid "Value: {}"
-msgstr ""
+msgstr "值: {}"
 
 #: cd_exttools.py:1364
 msgid "Comment: {}"
-msgstr ""
+msgstr "注释: {}"
 
 #: cd_exttools.py:1400
 msgid "Select tools for join"
-msgstr ""
+msgstr "选择加入的工具"
 
 #: cd_exttools.py:1433
 msgid "&URL:"
-msgstr ""
+msgstr "&URL:"
 
 #: cd_exttools.py:1435
 msgid "&Macro..."
-msgstr ""
+msgstr "宏(&M)..."
 
 #: cd_exttools.py:1437 cd_exttools.py:1578
 msgid "Hotkey:"
-msgstr ""
+msgstr "热键:"
 
 #: cd_exttools.py:1442 cd_exttools.py:1596
 msgid "Pro&ject..."
-msgstr ""
+msgstr "项目(&J)..."
 
 #: cd_exttools.py:1449
 msgid "URL properties"
-msgstr ""
+msgstr "URL 属性"
 
 #: cd_exttools.py:1546
 msgid "Se&ries:"
-msgstr ""
+msgstr "系列(&R):"
 
 #: cd_exttools.py:1548
 msgid "&Select..."
-msgstr ""
+msgstr "选择(&S)..."
 
 #: cd_exttools.py:1549
 msgid "Vie&w..."
-msgstr ""
+msgstr "查看(&W)..."
 
 #: cd_exttools.py:1551
 msgid "&Down"
-msgstr ""
+msgstr "下(&D)"
 
 #: cd_exttools.py:1553
 msgid "&File name:"
-msgstr ""
+msgstr "文件名(&F):"
 
 #: cd_exttools.py:1555
 msgid "&Browse..."
-msgstr ""
+msgstr "浏览(&B)..."
 
 #: cd_exttools.py:1556
 msgid "&Shell command"
-msgstr ""
+msgstr "&Shell 命令"
 
 #: cd_exttools.py:1557
 msgid ""
 "Run the tool via OS shell interpreter (e.g. Bash on Unix, Cmd on Windows)"
 msgstr ""
+"通过操作系统 Shell 解释器运行该工具 (例如 Unix 上的 Bash, Windows 上的 Cmd)"
 
 #: cd_exttools.py:1559
 msgid "&Parameters:"
-msgstr ""
+msgstr "参数(&P):"
 
 #: cd_exttools.py:1561
 msgid "A&dd..."
-msgstr ""
+msgstr "添加(&D)..."
 
 #: cd_exttools.py:1563
 msgid "&Initial folder:"
-msgstr ""
+msgstr "起始文件夹(&I):"
 
 #: cd_exttools.py:1565
 msgid "B&rowse..."
-msgstr ""
+msgstr "浏览(&R)..."
 
 #: cd_exttools.py:1567
 msgid "Lexers:"
-msgstr ""
+msgstr "词法分析器:"
 
 #: cd_exttools.py:1569
 msgid "Le&xers..."
-msgstr ""
+msgstr "词法分析器(&X)..."
 
 #: cd_exttools.py:1571
 msgid "Main for:"
-msgstr ""
+msgstr "主工具:"
 
 #: cd_exttools.py:1573
 msgid "Set &main..."
-msgstr ""
+msgstr "设置主工具(&M)..."
 
 #: cd_exttools.py:1575
 msgid "Sa&ve before:"
-msgstr ""
+msgstr "保存前(&V)："
 
 #: cd_exttools.py:1582
 msgid "&Capture output:"
-msgstr ""
+msgstr "捕获输出(&C):"
 
 #: cd_exttools.py:1584
 msgid "Encoding:"
-msgstr ""
+msgstr "编码:"
 
 #: cd_exttools.py:1586
 msgid "S&elect..."
-msgstr ""
+msgstr "选择(&E)..."
 
 #: cd_exttools.py:1587
 msgid "Pattern:"
-msgstr ""
+msgstr "模式:"
 
 #: cd_exttools.py:1589
 msgid "Se&t..."
-msgstr ""
+msgstr "设置(&T)..."
 
 #: cd_exttools.py:1591
 msgid "Advanced:"
-msgstr ""
+msgstr "高级:"
 
 #: cd_exttools.py:1593
 msgid "Set..."
-msgstr ""
+msgstr "设置..."
 
 #: cd_exttools.py:1606
 msgid "Tool properties"
-msgstr ""
+msgstr "工具属性"
 
 #: cd_exttools.py:1635
 msgid "Set File name"
-msgstr ""
+msgstr "设置文件名"
 
 #: cd_exttools.py:1725
 msgid "Select lexers"
-msgstr ""
+msgstr "选择词法分析器"
 
 #: cd_exttools.py:1735
 msgid "Encodings"
-msgstr ""
+msgstr "编码"
 
 #: cd_exttools.py:1766
 msgid "Advanced properties"
-msgstr ""
+msgstr "高级属性"
 
 #: cd_exttools.py:1788
 msgid "&Regular expression:"
-msgstr ""
+msgstr "正则表达式:"
 
 #: cd_exttools.py:1792
 msgid "Append named group"
-msgstr ""
+msgstr "添加到已命名的分组"
 
 #: cd_exttools.py:1795
 msgid "Test \"&Output line\":"
-msgstr ""
+msgstr "测试 \"输出行\"(&O):"
 
 #: cd_exttools.py:1797
 msgid "&Test"
-msgstr ""
+msgstr "测试(&T)"
 
 #: cd_exttools.py:1799
 msgid "Testing results"
-msgstr ""
+msgstr "测试结果"
 
 #: cd_exttools.py:1800
 msgid "Filename:"
-msgstr ""
+msgstr "文件名:"
 
 #: cd_exttools.py:1802
 msgid "Line:"
-msgstr ""
+msgstr "行:"
 
 #: cd_exttools.py:1804
 msgid "Column:"
-msgstr ""
+msgstr "列:"
 
 #: cd_exttools.py:1807
 msgid "Load &preset..."
-msgstr ""
+msgstr "加载预设(&P)..."
 
 #: cd_exttools.py:1808
 msgid "&Save as preset..."
-msgstr ""
+msgstr "保存为预设(&S)..."
 
 #: cd_exttools.py:1822
 msgid "Tool \"{}\" output pattern"
-msgstr ""
+msgstr "工具 \"{}\" 输出模式"
 
 #: cd_exttools.py:1834
 msgid "Filename (default - current file name)"
-msgstr ""
+msgstr "文件名 (默认 - 当前文件名)"
 
 #: cd_exttools.py:1835
 msgid "Number of line (default - 1)"
-msgstr ""
+msgstr "行号 (默认 - 1)"
 
 #: cd_exttools.py:1836
 msgid "Number of column (default - 1)"
-msgstr ""
+msgstr "列号 (默认 - 1)"
 
 #: cd_exttools.py:1837
 msgid "Number of line (0-based, default - 0)"
-msgstr ""
+msgstr "行号 (从 0 开始, 默认 - 0)"
 
 #: cd_exttools.py:1838
 msgid "Number of column (0-based, default - 0)"
-msgstr ""
+msgstr "列号 (从 0 开始, 默认 - 0)"
 
 #: cd_exttools.py:1840
 msgid "Pattern variables"
-msgstr ""
+msgstr "模式变量"
 
 #: cd_exttools.py:1860
 msgid "RegEx is incorrect: "
-msgstr ""
+msgstr "正则表达式不正确: "
 
 #: cd_exttools.py:1864
 msgid "Ready patterns"
-msgstr ""
+msgstr "准备模式"
 
 #: cd_exttools.py:1872
 msgid "Set \"Regular expression\""
-msgstr ""
+msgstr "设置 \"正则表达式\""
 
 #: cd_exttools.py:1874
 msgid "Name for preset ({})"
-msgstr ""
+msgstr "预设名称 ({})"
 
 #: cd_exttools.py:2071
 msgid "Param for call {}"
-msgstr ""
+msgstr "调用 {} 的参数"
 
 #: cd_exttools.py:2168
 #, python-brace-format
 msgid "{AppDir}\tDirectory with app executable"
-msgstr ""
+msgstr "{AppDir}\t应用程序执行文件的目录"
 
 #: cd_exttools.py:2169
 #, python-brace-format
 msgid "{AppDrive}\t(Win only) Disk of app executable, eg \"C:\""
-msgstr ""
+msgstr "{AppDrive}\t(仅 Win) 应用程序可执行文件的盘符, 如 \"C:\""
 
 #: cd_exttools.py:2170
 #, python-brace-format
 msgid "{FileName}\tFull path"
-msgstr ""
+msgstr "{FileName}\t完整路径"
 
 #: cd_exttools.py:2171
 #, python-brace-format
 msgid "{FileDir}\tFolder path, without file name"
-msgstr ""
+msgstr "{FileDir}\t文件夹路径, 不包含文件名"
 
 #: cd_exttools.py:2172
 #, python-brace-format
 msgid "{FileNameOnly}\tFile name only, without folder path"
-msgstr ""
+msgstr "{FileNameOnly}\t仅文件名, 不包含文件夹路径"
 
 #: cd_exttools.py:2173
 #, python-brace-format
 msgid "{FileNameNoExt}\tFile name without extension and path"
-msgstr ""
+msgstr "{FileNameNoExt}\t不带扩展名和路径的文件名"
 
 #: cd_exttools.py:2174
 #, python-brace-format
 msgid "{FileExt}\tExtension"
-msgstr ""
+msgstr "{FileExt}\t扩展名"
 
 #: cd_exttools.py:2175
 #, python-brace-format
 msgid "{ContentAsTemp}\tName of [temporary] file with current text"
-msgstr ""
+msgstr "{ContentAsTemp}\t包含当前文本的 [temporary] 文件的名称"
 
 #: cd_exttools.py:2176
 #, python-brace-format
 msgid "{Lexer}\tFile lexer"
-msgstr ""
+msgstr "{Lexer}\t文件词法分析器"
 
 #: cd_exttools.py:2177
 #, python-brace-format
 msgid "{LexerAtCaret}\tLocal lexer (at 1st caret)"
-msgstr ""
+msgstr "{LexerAtCaret}\t本地词法分析器 (在第一个光标处)"
 
 #: cd_exttools.py:2178
 #, python-brace-format
 msgid "{CurrentLine}\tText of current line"
-msgstr ""
+msgstr "{CurrentLine}\t当前行的文本"
 
 #: cd_exttools.py:2179
 #, python-brace-format
 msgid "{CurrentLineNum}\tNumber of current line"
-msgstr ""
+msgstr "{CurrentLineNum}\t当前行号"
 
 #: cd_exttools.py:2180
 #, python-brace-format
 msgid "{CurrentLineNum0}\tNumber of current line (0-based)"
-msgstr ""
+msgstr "{CurrentLineNum0}\t当前行号 (从 0 开始)"
 
 #: cd_exttools.py:2181
 #, python-brace-format
 msgid "{CurrentColumnNum}\tNumber of current column"
-msgstr ""
+msgstr "{CurrentColumnNum}\t当前列号"
 
 #: cd_exttools.py:2182
 #, python-brace-format
 msgid "{CurrentColumnNum0}\tNumber of current column (0-based)"
-msgstr ""
+msgstr "{CurrentColumnNum0}\t当前列号 (从 0 开始)"
 
 #: cd_exttools.py:2183
 #, python-brace-format
 msgid "{SelectedText}\tText"
-msgstr ""
+msgstr "{SelectedText}\t文本"
 
 #: cd_exttools.py:2184
 #, python-brace-format
 msgid "{CurrentWord}\tText"
-msgstr ""
+msgstr "{CurrentWord}\t文本"
 
 #: cd_exttools.py:2185
 #, python-brace-format
 msgid "{Interactive}\tText will be asked at each running"
-msgstr ""
+msgstr "{Interactive}\t每次运行时都会询问文本"
 
 #: cd_exttools.py:2186
 #, python-brace-format
 msgid "{InteractiveFile}\tFile name will be asked"
-msgstr ""
+msgstr "{InteractiveFile}\t将询问文件名"
 
 #: cd_exttools.py:2187
 #, python-brace-format
 msgid "{{FileName_g{0}}}\tFull path of current file in group {0}"
-msgstr ""
+msgstr "{{FileName_g{0}}}\t分组 {0} 中当前文件的完整路径"
 
 #: cd_exttools.py:2188
 #, python-brace-format
 msgid ""
 "{{FileDir_g{0}}}\tFolder path, without file name, of current file in group "
 "{0}"
-msgstr ""
+msgstr "{{FileDir_g{0}}}\t分组 {0} 中当前文件的文件夹路径, 不包含文件名"
 
 #: cd_exttools.py:2189
 #, python-brace-format
 msgid ""
 "{{FileNameOnly_g{0}}}\tFile name only, without folder path, of current file "
 "in group {0}"
-msgstr ""
+msgstr "{{FileNameOnly_g{0}}}\t分组 {0} 中当前文件的文件名, 不包含文件夹路径"
 
 #: cd_exttools.py:2190
 #, python-brace-format
@@ -897,11 +903,12 @@ msgid ""
 "{{FileNameNoExt_g{0}}}\tFile name without extension and path of current file "
 "in group {0}"
 msgstr ""
+"{{FileNameNoExt_g{0}}}\t分组 {0} 中不带扩展名的文件名以及当前文件的路径"
 
 #: cd_exttools.py:2191
 #, python-brace-format
 msgid "{{FileExt_g{0}}}\tExtension of current file in group {0}"
-msgstr ""
+msgstr "{{FileExt_g{0}}}\t分组 {0} 中当前文件的扩展名"
 
 #: cd_exttools.py:2192
 #, python-brace-format
@@ -909,15 +916,16 @@ msgid ""
 "{{ContentAsTemp_g{0}}}\tName of [temporary] file with current text in group "
 "{0}"
 msgstr ""
+"{{ContentAsTemp_g{0}}}\t分组 {0} 中包含当前文本的 [temporary] 文件的名称"
 
 #: cd_exttools.py:2193
 #, python-brace-format
 msgid "{{Lexer_g{0}}}\tLexer of current file in group {0}"
-msgstr ""
+msgstr "{{Lexer_g{0}}}\t分组 {0} 中当前文件的词法分析器"
 
 #: cd_exttools.py:2198
 msgid "Variables"
-msgstr ""
+msgstr "变量"
 
 #: cd_plug_lib.py:600
 msgid "Adjust vertical alignments"
@@ -947,98 +955,98 @@ msgstr "或将其发布在"
 
 #: encodings.py:10
 msgid "Win only: Encode operand according to the ANSI codepage (CP_ACP)"
-msgstr ""
+msgstr "仅 Win: 根据 ANSI 代码页 ((CP_ACP) 对操作数进行编码"
 
 #: encodings.py:11 encodings.py:55
 msgid "Russian"
-msgstr ""
+msgstr "俄语"
 
 #: encodings.py:12 encodings.py:22 encodings.py:46 encodings.py:57
 msgid "Bulgarian, Belarusian, Macedonian, Russian, Serbian"
-msgstr ""
+msgstr "保加利亚语, 白俄罗斯语, 马其顿语, 俄语, 塞尔维亚语"
 
 #: encodings.py:13 encodings.py:14 encodings.py:16
 msgid "English"
-msgstr ""
+msgstr "英语"
 
 #: encodings.py:15 encodings.py:23 encodings.py:28 encodings.py:39
 #: encodings.py:48
 msgid "Hebrew"
-msgstr ""
+msgstr "希伯来语"
 
 #: encodings.py:17 encodings.py:20 encodings.py:25 encodings.py:34
 #: encodings.py:36 encodings.py:53 encodings.py:61
 msgid "Western Europe"
-msgstr ""
+msgstr "西欧"
 
 #: encodings.py:18 encodings.py:31 encodings.py:32 encodings.py:37
 #: encodings.py:47 encodings.py:58
 msgid "Greek"
-msgstr ""
+msgstr "希腊语"
 
 #: encodings.py:19 encodings.py:40 encodings.py:45 encodings.py:51
 msgid "Baltic languages"
-msgstr ""
+msgstr "波罗的海语言"
 
 #: encodings.py:21 encodings.py:35 encodings.py:43 encodings.py:60
 msgid "Central and Eastern Europe"
-msgstr ""
+msgstr "中欧和东欧"
 
 #: encodings.py:24 encodings.py:33 encodings.py:38 encodings.py:49
 #: encodings.py:62
 msgid "Turkish"
-msgstr ""
+msgstr "土耳其语"
 
 #: encodings.py:26
 msgid "Portuguese"
-msgstr ""
+msgstr "葡萄牙语"
 
 #: encodings.py:27 encodings.py:59
 msgid "Icelandic"
-msgstr ""
+msgstr "冰岛语"
 
 #: encodings.py:29
 msgid "Canadian"
-msgstr ""
+msgstr "加拿大语"
 
 #: encodings.py:30
 msgid "Danish, Norwegian"
-msgstr ""
+msgstr "丹麦语, 挪威语"
 
 #: encodings.py:41
 msgid "Win only: Windows UTF-8 (CP_UTF8)"
-msgstr ""
+msgstr "仅 Win: Windows UTF-8 (CP_UTF8)"
 
 #: encodings.py:42
 msgid "West Europe"
-msgstr ""
+msgstr "西欧"
 
 #: encodings.py:44
 msgid "Esperanto, Maltese"
-msgstr ""
+msgstr "世界语, 马耳他语"
 
 #: encodings.py:50
 msgid "Nordic languages"
-msgstr ""
+msgstr "北欧语言"
 
 #: encodings.py:52
 msgid "Celtic languages"
-msgstr ""
+msgstr "凯尔特语言"
 
 #: encodings.py:54
 msgid "South-Eastern Europe"
-msgstr ""
+msgstr "东南欧"
 
 #: encodings.py:56
 msgid "Ukrainian"
-msgstr ""
+msgstr "乌克兰语"
 
 #: encodings.py:63
 msgid "Kazakh"
-msgstr ""
+msgstr "哈萨克语"
 
 #: encodings.py:64 encodings.py:65 encodings.py:66 encodings.py:67
 #: encodings.py:68 encodings.py:69 encodings.py:70 encodings.py:71
 #: encodings.py:72
 msgid "all languages"
-msgstr ""
+msgstr "全部语言"
