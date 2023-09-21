@@ -1,0 +1,489 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-21 13:20+0800\n"
+"PO-Revision-Date: 2023-09-21 14:08+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_backup_file\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cd_bk.py:245
+msgid ""
+"Text modified!\n"
+"The command will use old state.\n"
+"\n"
+"Continue?"
+msgstr ""
+"文本已被修改!\n"
+"命令将使用旧的状态.\n"
+"\n"
+"是否继续?"
+
+#: cd_bk.py:262
+msgid ""
+"Backup File needs to create dir\n"
+"{}"
+msgstr ""
+"备份文件需要创建目录\n"
+"{}"
+
+#: cd_bk.py:267
+msgid "Cannot create dir \"{}\""
+msgstr "无法创建目录 \"{}\""
+
+#: cd_bk.py:318 cd_bk.py:360
+msgid "Backup dir: {}"
+msgstr "备份目录: {}"
+
+#: cd_bk.py:320
+msgid "Copy to…\t{}"
+msgstr "复制到...\t{}"
+
+#: cd_bk.py:322
+msgid "Diff with\t{}"
+msgstr "用\t{} 对比"
+
+#: cd_bk.py:324 cd_bk.py:335
+msgid "more…"
+msgstr "更多…"
+
+#: cd_bk.py:361
+msgid "Create backup with name"
+msgstr "创建备份并命名为"
+
+#: cd_bk.py:366
+msgid ""
+"Overwrite file\n"
+"{}\n"
+"?"
+msgstr ""
+"是否覆盖文件\n"
+"{}\n"
+"?"
+
+#: cd_bk.py:374 cd_bk.py:403
+msgid "Cannot create backup copy: invalid path \"{}\""
+msgstr "无法创建备份副本: 无效路径 \"{}\""
+
+#: cd_bk.py:376
+msgid "Copy to {}"
+msgstr "复制到 {}"
+
+#: cd_bk.py:393 cd_bk.py:398
+msgid "Cannot create backup copy: invalid dir \"{}\""
+msgstr "无法创建备份副本: 无效目录 \"{}\""
+
+#: cd_bk.py:405
+msgid "Create backup: {}"
+msgstr "创建备份: {}"
+
+#: cd_bk.py:455
+msgid "Au&to-create backup before each saving"
+msgstr "每次保存前自动创建备份(&T)"
+
+#: cd_bk.py:456 cd_bk.py:458
+msgid "Insert macro"
+msgstr "插入宏"
+
+#: cd_bk.py:457
+msgid "Browse dir"
+msgstr "浏览目录"
+
+#: cd_bk.py:459
+#, python-brace-format
+msgid ""
+"Command to compare (and merge) current file with one of its copy.\r    "
+"{COPY_PATH} - path of copy,\r    {FILE_PATH} - path of current file."
+msgstr ""
+"用于比较 (与合并) 当前文件与其副本之一的命令.\r    {COPY_PATH} - 副本路径,"
+"\r    {FILE_PATH} - 当前文件路径."
+
+#: cd_bk.py:462
+msgid "How many copies will be shown to compare\r    0 - all"
+msgstr "将显示多少份副本以进行比较\r     0 - 全部"
+
+#: cd_bk.py:473
+msgid "Add variant"
+msgstr "添加方案"
+
+#: cd_bk.py:473
+msgid "Clone variant"
+msgstr "克隆方案"
+
+#: cd_bk.py:473
+msgid "Remove variant"
+msgstr "删除方案"
+
+#: cd_bk.py:524 cd_bk.py:526
+msgid "Options for manual backup"
+msgstr "手动备份选项"
+
+#: cd_bk.py:527
+msgid "and to c&ompare"
+msgstr "并比较​​(&O)"
+
+#: cd_bk.py:529
+msgid "Copy to &dir:"
+msgstr "复制到目录(&D):"
+
+#: cd_bk.py:531
+msgid "Add &var"
+msgstr "添加变量(&V)"
+
+#: cd_bk.py:532 cd_bk.py:553
+msgid "…"
+msgstr "…"
+
+#: cd_bk.py:533
+msgid "Planned &name:"
+msgstr "计划名称(&N):"
+
+#: cd_bk.py:535
+msgid "Add v&ar"
+msgstr "添加变量(&A)"
+
+#: cd_bk.py:536
+msgid "&Presets"
+msgstr "预设(&P)"
+
+#: cd_bk.py:538 cd_bk.py:559
+msgid "Demo: "
+msgstr "演示: "
+
+#: cd_bk.py:540 cd_bk.py:561
+msgid "&Update"
+msgstr "更新(&U)"
+
+#: cd_bk.py:541
+msgid "Di&ff command:"
+msgstr "对比命令(&F):"
+
+#: cd_bk.py:543
+msgid "Shell"
+msgstr "Shell"
+
+#: cd_bk.py:544
+msgid "Ma&x shown:"
+msgstr "最多显示(&X):"
+
+#: cd_bk.py:550
+msgid "Copy to d&ir:"
+msgstr "复制到目录(&I):"
+
+#: cd_bk.py:552
+msgid "Add va&r"
+msgstr "添加变量(&R)"
+
+#: cd_bk.py:554
+msgid "Copy with na&me:"
+msgstr "复制名称(&M):"
+
+#: cd_bk.py:556
+msgid "Ad&d var"
+msgstr "添加变量(&D)"
+
+#: cd_bk.py:557
+msgid "Pre&sets"
+msgstr "预设(&S)"
+
+#: cd_bk.py:565
+msgid "L&ess <<"
+msgstr "更少(&E) <<"
+
+#: cd_bk.py:565
+msgid "Mor&e >>"
+msgstr "更多(&E) >>"
+
+#: cd_bk.py:567
+msgid "Variant&:"
+msgstr "备用方案&:"
+
+#: cd_bk.py:570
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#: cd_bk.py:571
+msgid "OK"
+msgstr "确定"
+
+#: cd_bk.py:572 cd_plug_lib.py:648
+msgid "Cancel"
+msgstr "取消"
+
+#: cd_bk.py:574
+msgid "Configure \"Backup File\" ({})"
+msgstr "配置 \"备份文件\" ({})"
+
+#: cd_bk.py:592 cd_bk.py:600 cd_bk.py:731 cd_bk.py:739
+msgid "Fill \"Copy to dir\""
+msgstr "填写 \"复制到目录\""
+
+#: cd_bk.py:596 cd_bk.py:735
+msgid "Fill \"Planned name\""
+msgstr "填写 \"计划名称\""
+
+#: cd_bk.py:604 cd_bk.py:743
+msgid "Fill \"Copy with name\""
+msgstr "填写 \"复制名称\""
+
+#: cd_bk.py:612
+msgid "Remove Variant #{}?"
+msgstr "是否删除方案 #{}?"
+
+#: cd_bk.py:656
+msgid "Path of directory of current file"
+msgstr "当前文件目录路径"
+
+#: cd_bk.py:657
+msgid "Name of directory of current file"
+msgstr "当前文件所在目录的名称"
+
+#: cd_bk.py:658
+#, python-brace-format
+msgid "Path of directory level upper, than {FILE_DIR}"
+msgstr "{FILE_DIR} 上一级目录路径"
+
+#: cd_bk.py:659
+#, python-brace-format
+msgid "Name of directory level upper, than {FILE_DIR}"
+msgstr "{FILE_DIR} 上一级目录名称"
+
+#: cd_bk.py:660
+msgid "Name of current file with extention"
+msgstr "当前文件名 (不包含扩展名)"
+
+#: cd_bk.py:661
+msgid "Name of current file without extention"
+msgstr "当前文件名 (不包含扩展名)"
+
+#: cd_bk.py:662
+msgid "Extention of current file"
+msgstr "当前文件扩展名"
+
+#: cd_bk.py:663
+msgid "Current year as 99"
+msgstr "当前年份, 形如 99"
+
+#: cd_bk.py:664
+msgid "Current year as 9999"
+msgstr "当前年份, 形如 9999"
+
+#: cd_bk.py:665
+msgid "Current month as 9"
+msgstr "当前月份, 形如 9"
+
+#: cd_bk.py:666
+msgid "Current month as 09"
+msgstr "当前月份, 形如 09"
+
+#: cd_bk.py:667
+msgid "Current month as sep"
+msgstr "当前月份, 形如 sep"
+
+#: cd_bk.py:668
+msgid "Current month as September"
+msgstr "当前月份, 形如 September"
+
+#: cd_bk.py:669
+msgid "Current day as 9"
+msgstr "当前日, 形如 9"
+
+#: cd_bk.py:670
+msgid "Current day as 09"
+msgstr "当前日, 形如 09"
+
+#: cd_bk.py:671
+msgid "Current hours as 9"
+msgstr "当前小时, 形如 9"
+
+#: cd_bk.py:672
+msgid "Current hours as 09"
+msgstr "当前小时, 形如 09"
+
+#: cd_bk.py:673
+msgid "Current minutes as 9"
+msgstr "当前分钟, 形如 9"
+
+#: cd_bk.py:674
+msgid "Current minutes as 09"
+msgstr "当前分钟, 形如 09"
+
+#: cd_bk.py:675
+msgid "Current seconds as 9"
+msgstr "当前秒, 形如 9"
+
+#: cd_bk.py:676
+msgid "Current seconds as 09"
+msgstr "当前秒, 形如 09"
+
+#: cd_bk.py:677
+msgid "CudaText folder path"
+msgstr "CudaText 文件夹路径"
+
+#: cd_bk.py:678
+msgid "CudaText drive/disk letter (Windows only)"
+msgstr "CudaText 驱动器盘符 (仅限 Windows)"
+
+#: cd_bk.py:680
+msgid "Auto-incremented as: 1, 2, 3, 4, 5, …"
+msgstr "自增, 形如: 1, 2, 3, 4, 5, …"
+
+#: cd_bk.py:681
+msgid "Auto-incremented as: 1, 2, 3, 1, 2, …"
+msgstr "自增, 形如: 1, 2, 3, 1, 2, …"
+
+#: cd_bk.py:682
+msgid "Auto-incremented as: 01, 02, 03, 04, …"
+msgstr "自增, 形如: 01, 02, 03, 04, …"
+
+#: cd_bk.py:683
+msgid "Auto-incremented as: 01, 02, 03, 01, …"
+msgstr "自增, 形如: 01, 02, 03, 01, …"
+
+#: cd_bk.py:701
+#, python-brace-format
+msgid "name.25-01-17.ext\t{FILE_STEM}.{DD}-{MM}-{YY}.{FILE_EXT}"
+msgstr ""
+
+#: cd_bk.py:702
+#, python-brace-format
+msgid "name_25jan17-22.ext\t{FILE_STEM}_{DD}{MMM}{YY}-{hh}.{FILE_EXT}"
+msgstr ""
+
+#: cd_bk.py:703
+#, python-brace-format
+msgid ""
+"name_2017-12-31_23-59-59.ext\t{FILE_STEM}_{YYYY}-{MM}-{DD}_{hh}-{mm}-{ss}."
+"{FILE_EXT}"
+msgstr ""
+
+#: cd_bk.py:704
+msgid ""
+"name.25jan17-001.ext\t{FILE_STEM}.{DD}{MMM}{YY}-{COUNTER|w:3}.{FILE_EXT}"
+msgstr ""
+
+#: cd_bk.py:715
+#, python-brace-format
+msgid "name.bak.ext\t{FILE_STEM}.bak.{FILE_EXT}"
+msgstr ""
+
+#: cd_bk.py:716
+#, python-brace-format
+msgid "name~.ext\t{FILE_STEM}~.{FILE_EXT}"
+msgstr ""
+
+#: cd_bk.py:717
+#, python-brace-format
+msgid "name.1.ext  name.2.ext …\t{FILE_STEM}.{COUNTER}.{FILE_EXT}"
+msgstr ""
+
+#: cd_bk.py:718
+msgid "name.001.ext  name.002.ext …\t{FILE_STEM}.{COUNTER|w:3}.{FILE_EXT}"
+msgstr ""
+
+#: cd_bk.py:719
+msgid ""
+"name.1.ext  name.2.ext  name.3.ext  name.1.ext …\t{FILE_STEM}.{COUNTER|"
+"lim:3}.{FILE_EXT}"
+msgstr ""
+
+#: cd_bk.py:720
+msgid ""
+"name.01.ext … name.99.ext  name.01.ext …\t{FILE_STEM}.{COUNTER|lim:99|w:2}."
+"{FILE_EXT}"
+msgstr ""
+
+#: cd_bk.py:786
+msgid ""
+"In the fields\n"
+"    Copy to dir\n"
+"    Planned name\n"
+"    Copy with name\n"
+"the following macros are processed.     (If path is 'p1/p2/p3/stem.ext')\n"
+"    {FILE_DIR}            -             ('p1/p2/p3')\n"
+"    {FILE_NAME}           -             ('stem.ext')\n"
+"    {FILE_STEM}           -             ('stem')\n"
+"    {FILE_EXT}            -             ('ext')\n"
+"    {YY} {YYYY}           - Year    as  '17' or '2017'\n"
+"    {M} {MM} {MMM} {MMMM} - Month   as  '7' or '07' or 'jul' or 'July'\n"
+"    {D} {DD}              - Day     as  '7' or '07'\n"
+"    {h} {hh}              - Hours   as  '7' or '07' \n"
+"    {m} {mm}              - Minutes as  '7' or '07' \n"
+"    {s} {ss}              - Seconds as  '7' or '07' \n"
+"    {COUNTER}             - Auto-incremented number\n"
+"    {APP_DIR}             - CudaText folder path\n"
+"    {APP_DRIVE}           - CudaText drive/disk letter (Windows only)\n"
+" \n"
+"Filters. \n"
+"All macros can include suffix (function) to transform value.\n"
+"   {Data|fun}             - gets fun({Data})\n"
+"   {Data|fun:p1,p2}       - gets fun({Data},p1,p2)\n"
+"   {Data|f1st:p1,p2|f2nd} - gets f2nd(f1st({Data},p1,p2))\n"
+"Predefined filters are:\n"
+"    p    - parent for path\n"
+"    p:N  - N-parent for path (\"p\" is same as \"p:1\")\n"
+"    name - last segment in path\n"
+"    u    - upper: \"word\"  -> \"WORD\"\n"
+"    l    - lower: \"WORD\"  -> \"word\"\n"
+"    t    - title: \"he is\" -> \"He Is\"\n"
+"    Examples: If path is     'head/p1/p2/p3/stem.ext'\n"
+"        {FILE_DIR}        -> 'head/p1/p2/p3'\n"
+"        {FILE_DIR|p}      -> 'head/p1/p2'\n"
+"        {FILE_DIR|p|name} -> 'p2'\n"
+"        {FILE_DIR|p:2}    -> 'head/p1'\n"
+"        {FILE_EXT|u}      -> 'EXT'\n"
+"        {FILE_EXT|t}      -> 'Ext'\n"
+"Predefined filters for {COUNTER} are:\n"
+"    w:N   - set width for value\n"
+"    lim:N - set maximum value\n"
+"    Examples: \n"
+"        {COUNTER}           -> 1 -> 2 -> 3 -> 4 -> 5 -> …\n"
+"        {COUNTER|w:3}       -> 001 -> 002 -> 003 -> …\n"
+"        {COUNTER|lim:3}     -> 1 -> 2 -> 3 -> 1 -> 2 -> …\n"
+"        {COUNTER|lim:3|w:2} -> 01 -> 02 -> 03 -> 01 -> …\n"
+msgstr ""
+
+#: cd_bk.py:833
+msgid "Help"
+msgstr "帮助"
+
+#: cd_bk.py:835
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: cd_plug_lib.py:604
+msgid "Adjust vertical alignments"
+msgstr "调整垂直对齐方式"
+
+#: cd_plug_lib.py:645
+msgid "&Save"
+msgstr "保存(&S)"
+
+#: cd_plug_lib.py:646
+msgid ""
+"Apply the fittings to controls of all dialogs.\rCtrl+Click  - Show data to "
+"mail report."
+msgstr "将配件应用到所有对话框的控件.\rCtrl+Click  - 将数据显示在邮件报告."
+
+#: cd_plug_lib.py:686
+msgid "Report"
+msgstr "报告"
+
+#: cd_plug_lib.py:688
+msgid "Send the report to the address"
+msgstr "将报告发送到地址"
+
+#: cd_plug_lib.py:690
+msgid "or post it on"
+msgstr "或将其发布在"
+
+#: cd_plug_lib.py:692
+msgid "Close"
+msgstr "关闭"

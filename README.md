@@ -30,6 +30,7 @@
   - CudaExt (64%)
   - External Tools
   - Favorites
+  - Backup File
 
 ## 下载地址
 
