@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-21 15:01+0800\n"
+"PO-Revision-Date: 2023-09-21 15:08+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_terminal_plus\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: __init__.py:55
+msgid ""
+"\n"
+"Console process was terminated.\n"
+msgstr ""
+"\n"
+"控制台进程已终止.\n"
+
+#: __init__.py:571
+msgid "Add terminal for current document (will be ^free for Untitled)"
+msgstr "为当前文档添加终端"
+
+#: __init__.py:584
+msgid "Close all terminals..."
+msgstr "关闭所有终端..."
+
+#: __init__.py:839
+msgid "Rename..."
+msgstr "重命名..."
+
+#: __init__.py:842
+msgid "Change icon"
+msgstr "更改图标"
+
+#: __init__.py:848
+msgid "Terminal wrap"
+msgstr "终端换行"
+
+#: __init__.py:851
+msgid "No wrap"
+msgstr "不换行"
+
+#: __init__.py:854
+msgid "By character"
+msgstr "按字符"
+
+#: __init__.py:857
+msgid "By word"
+msgstr "按单词"
+
+#: __init__.py:860
+msgid "Custom column: "
+msgstr "自定义列: "
+
+#: __init__.py:861
+msgid "Custom column..."
+msgstr "自定义列..."
+
+#: __init__.py:867
+msgid "Reset"
+msgstr "重置"
+
+#: __init__.py:884
+msgid "Close"
+msgstr "关闭"
+
+#: __init__.py:1081
+msgid "Document has no terminals: "
+msgstr "文档没有终端: "
+
+#: __init__.py:1130
+msgid "Rename terminal:"
+msgstr "重命名终端:"
+
+#: __init__.py:1199
+msgid "CudaText Terminal"
+msgstr "CudaText 终端"
+
+#: __init__.py:1200
+msgid "Terminal opened in floating window"
+msgstr "终端在浮动窗口中打开"
+
+#: __init__.py:1347
+msgid "Break"
+msgstr "中止"
+
+#: __init__.py:1348
+msgid "Hotkeys: Break or Ctrl+C"
+msgstr "热键: Break 或 Ctrl+C"
+
+#: __init__.py:1361
+msgid "Enter command here"
+msgstr "在此输入命令"
+
+#: __init__.py:1809
+msgid "Close all terminals?"
+msgstr "是否关闭所有终端?"
+
+#: __init__.py:1859
+msgid "Wrap margin position:"
+msgstr "换行边距位置:"
+
+#: __init__.py:2090
+msgid "Last command terminal is no longer present"
+msgstr "最后一个命令的终端已不存在"
+
+#: __init__.py:2092
+msgid "Execute last command?"
+msgstr "是否执行最后一个命令?"
+
+#: __init__.py:2101
+msgid "Executed: "
+msgstr "已执行: "

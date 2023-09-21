@@ -31,6 +31,9 @@
   - External Tools
   - Favorites
   - Backup File
+  - Terminal
+  - ExTerminal
+  - Terminal Plus
 
 ## 下载地址
 
