@@ -29,6 +29,7 @@
   - SnipToCall
   - CudaExt (64%)
   - External Tools
+  - Favorites
 
 ## 下载地址
 

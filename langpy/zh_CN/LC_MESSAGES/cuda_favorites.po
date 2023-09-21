@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-21 13:08+0800\n"
+"PO-Revision-Date: 2023-09-21 13:15+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_favorites\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cd_favs.py:66
+msgid "Find favorite"
+msgstr "查找收藏夹"
+
+#: cd_favs.py:90
+msgid "No favorite at #{}"
+msgstr "收藏项目 #{} 不存在"
+
+#: cd_favs.py:95 cd_favs.py:190
+msgid "Not exist: {}"
+msgstr "不存在: {}"
+
+#: cd_favs.py:105
+msgid "Project Manager plugin not installed"
+msgstr "未安装项目管理器插件"
+
+#: cd_favs.py:113
+msgid "Project Manager has no opened project"
+msgstr "项目管理器中没有打开的项目"
+
+#: cd_favs.py:121
+msgid "Already in Favorites: "
+msgstr "已经在收藏夹中: "
+
+#: cd_favs.py:125
+msgid "Added to Favorites: "
+msgstr "已加入收藏夹: "
+
+#: cd_favs.py:235
+msgid ""
+"Open file/project and close dialog.\rShift+Click to open without dialog "
+"closing"
+msgstr "打开文件/项目并关闭对话框.\rShift+点击 打开但不关闭对话框"
+
+#: cd_favs.py:237
+msgid "Choose file to append.\rShift+Click to choose folder"
+msgstr "选择要添加的文件.\rShift+点击 选择文件夹"
+
+#: cd_favs.py:239
+msgid "Files"
+msgstr "文件"
+
+#: cd_favs.py:239
+msgid "Projects"
+msgstr "项目"
+
+#: cd_favs.py:243
+msgid "Favorites 1.2"
+msgstr "收藏夹 1.2"
+
+#: cd_favs.py:251
+msgid "&Open"
+msgstr "打开(&O)"
+
+#: cd_favs.py:253
+msgid "&Add opened"
+msgstr "加入打开的内容(&A)"
+
+#: cd_favs.py:254
+msgid "Add&..."
+msgstr "加入&..."
+
+#: cd_favs.py:256
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: cd_favs.py:257
+msgid "Move &up"
+msgstr "上移(&U)"
+
+#: cd_favs.py:258
+msgid "Move do&wn"
+msgstr "下移(&W)"
+
+#: cd_favs.py:259
+msgid "Show &paths"
+msgstr "显示路径(&P)"
+
+#: cd_favs.py:260
+msgid "&?"
+msgstr "&?"
+
+#: cd_favs.py:261
+msgid "Close"
+msgstr "关闭"
+
+#: cd_favs.py:287
+msgid ""
+"• Folders can be added by Shift + clicking \"Add...\".\r \r• Quick opening."
+"\rUse Alt+1, Alt+2, ..., Alt+9\ror Ctrl+1, Ctrl+2, ..., Ctrl+9\rto quickly "
+"open item by its index (1, 2, ... 9).\r \r• To import favorites from "
+"SynWrite, browse for file \"SynFav.ini\". This file is located in the "
+"\"Settings\" subfolder of SynWrite."
+msgstr ""
+
+#: cd_kv_base.py:532
+msgid "Fail. Use only for python file."
+msgstr "失败. 仅 Python 文件可用."
+
+#: cd_kv_dlg.py:1880
+msgid "Apply the tunings to controls of all dialogs."
+msgstr "将调整应用于所有对话框的控件."
+
+#: cd_kv_dlg.py:1928
+msgid "&Save"
+msgstr "保存(&S)"
+
+#: cd_kv_dlg.py:1929
+msgid "Cancel"
+msgstr "取消"
+
+#: cd_kv_dlg.py:1932
+msgid "Tuning text vertical alignment for control pairs"
+msgstr "调整控件对的文本垂直对齐方式"
