@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-22 10:38+0800\n"
+"PO-Revision-Date: 2023-09-22 10:43+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_color_text\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: __init__.py:173
+msgid "Color Text: multi-carets are not supported"
+msgstr "文本着色: 不支持多光标"
+
+#: __init__.py:181
+msgid "Color Text: need a selection or caret on a word"
+msgstr "文本着色: 需要选中内容或者光标位于某个单词上"
+
+#: __init__.py:190
+#, python-format
+msgid "Color Text: applied attribute to %d fragment(s)"
+msgstr "文本着色: 已应用属性到 %d 个片段"
+
+#: __init__.py:193
+msgid "Color Text: need a selection or option all_words=1"
+msgstr "文本着色: 需要选中内容或者选项 all_words=1"
+
+#: __init__.py:198
+msgid "Color Text: applied attribute to fragment"
+msgstr "文本着色: 已应用属性到片段"
+
+#: __init__.py:241
+msgid "Need single caret"
+msgstr "需要单光标"
+
+#: __init__.py:246
+msgid "No selection"
+msgstr "没有选中内容"
+
+#: __init__.py:263
+#, python-format
+msgid "Deleted %d attrib(s)"
+msgstr "已删除 %d 个属性"
+
+#: __init__.py:309
+#, python-format
+msgid "Color Text: restored %d attribs for \"%s\""
+msgstr "文本着色: 已恢复 %d 个属性于 \"%s\""

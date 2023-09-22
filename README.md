@@ -36,6 +36,9 @@
   - Terminal Plus
   - Runner
   - Open URL
+  - Color Picker
+  - Color Text
+  - Config Toolbar
 
 ## 下载地址
 

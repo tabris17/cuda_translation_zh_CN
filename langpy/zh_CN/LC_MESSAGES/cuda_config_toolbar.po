@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-22 10:57+0800\n"
+"PO-Revision-Date: 2023-09-22 11:08+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_config_toolbar\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: __init__.py:168
+#, python-format
+msgid "Loading toolbar config (%dms)"
+msgstr "正在加载工具栏配置 (%dms)"
+
+#: __init__.py:218
+msgid ""
+"Error writing option to user.json\n"
+"Got value \"{}\""
+msgstr ""
+"将选项写入 user.json 时出错\n"
+"获得值 \"{}\""
+
+#: __init__.py:220
+msgid "Changed option in user.json, restart app to see effect"
+msgstr "user.json 中的选项被更改, 重新启动应用程序即可看到效果"
+
+#: __init__.py:234
+msgid "Indexes of buttons to hide, space-separated (e.g. \"0 2 10 11\"):"
+msgstr "要隐藏的按钮索引, 以空格分隔 (例如 \"0 2 10 11\"):"
+
+#: __init__.py:238
+msgid "Option will be applied after app restart"
+msgstr "重启应用程序后选项生效"
+
+#: dlg.py:213
+msgid "Configure toolbar"
+msgstr "配置工具栏"
+
+#: dlg.py:229
+msgid "Add item..."
+msgstr "添加项目..."
+
+#: dlg.py:238
+msgid "Add sub-menu..."
+msgstr "添加子菜单..."
+
+#: dlg.py:247
+msgid "Add separator"
+msgstr "添加分隔线"
+
+#: dlg.py:256
+msgid "Edit item..."
+msgstr "编辑项目..."
+
+#: dlg.py:265
+msgid "Edit sub-menu..."
+msgstr "编辑子菜单..."
+
+#: dlg.py:274
+msgid "Delete item"
+msgstr "删除项目"
+
+#: dlg.py:283
+msgid "Move up"
+msgstr "上移"
+
+#: dlg.py:292
+msgid "Move down"
+msgstr "下移"
+
+#: dlg.py:301 dlg.py:551 dlg_choose_icon.py:170
+msgid "OK"
+msgstr "确定"
+
+#: dlg.py:310 dlg.py:561
+msgid "Cancel"
+msgstr "取消"
+
+#: dlg.py:337
+msgid "Button must have non-empty caption and/or icon"
+msgstr "按钮必须具有标题或图标"
+
+#: dlg.py:351
+msgid "Button command"
+msgstr "按钮命令"
+
+#: dlg.py:367
+msgid "Command line parameter(s):"
+msgstr "命令行参数:"
+
+#: dlg.py:395
+msgid "PNG files"
+msgstr "PNG 文件"
+
+#: dlg.py:413
+msgid "Button properties"
+msgstr "按钮属性"
+
+#: dlg.py:420
+msgid "Caption:"
+msgstr "标题:"
+
+#: dlg.py:435
+msgid "Tooltip:"
+msgstr "提示:"
+
+#: dlg.py:450
+msgid "Command:"
+msgstr "命令:"
+
+#: dlg.py:468
+msgid "Choose command..."
+msgstr "选择命令..."
+
+#: dlg.py:477
+msgid "Enter command line..."
+msgstr "输入命令行..."
+
+#: dlg.py:487
+msgid "Icon:"
+msgstr "图标:"
+
+#: dlg.py:499
+#, python-brace-format
+msgid "{op} - path to \"settings\" dir"
+msgstr "{op} - \"settings\" 目录路径"
+
+#: dlg.py:510
+msgid "Choose from icon set..."
+msgstr "从图标集选择..."
+
+#: dlg.py:519
+msgid "Choose from file..."
+msgstr "从文件选择..."
+
+#: dlg.py:528
+msgid "To enable more icon sets, install \"toolbarxicons\" add-ons"
+msgstr "要启用更多图标集, 请安装 \"toolbarxicons\" 附加组件"
+
+#: dlg.py:536
+msgid ""
+"Visible for lexers:\n"
+"(comma-separated)"
+msgstr ""
+"对词法分析器可见:\n"
+"(逗号分隔)"
+
+#: dlg_choose_icon.py:53 dlg_choose_icon.py:54
+msgid " (additional)"
+msgstr " (额外的)"
+
+#: dlg_choose_icon.py:57
+msgid "Choose icon set"
+msgstr "选择图标集"
+
+#: dlg_choose_icon.py:71
+msgid "Filter: "
+msgstr "过滤器: "
+
+#: dlg_choose_icon.py:143
+msgid "Choose icon"
+msgstr "选择图标"
