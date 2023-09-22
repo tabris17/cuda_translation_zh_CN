@@ -39,6 +39,8 @@
   - Color Picker
   - Color Text
   - Config Toolbar
+  - Clock
+  - Differ
 
 ## 下载地址
 
