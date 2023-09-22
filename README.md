@@ -27,7 +27,7 @@
   - Config Menu
   - Configure Hotkey
   - SnipToCall
-  - CudaExt (64%)
+  - CudaExt (74%)
   - External Tools
   - Favorites
   - Backup File

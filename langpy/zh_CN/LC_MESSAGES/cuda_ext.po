@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-09-20 16:52+0800\n"
-"PO-Revision-Date: 2023-09-21 13:01+0800\n"
+"PO-Revision-Date: 2023-09-22 10:11+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -508,11 +508,11 @@ msgstr ""
 
 #: cd_ext_find_repl.py:60
 msgid "Pattern to search\rEnter - to find next\rShift+Enter - to find previous"
-msgstr ""
+msgstr "搜索模式\r回车 - 查找下一个\rShift+回车 - 查找上一个"
 
 #: cd_ext_find_repl.py:63
 msgid "Pattern to replace\rRegExp sub-groups are $1, $2, ..."
-msgstr ""
+msgstr "替换模式\r正则表达式子群是 $1, $2, ..."
 
 #: cd_ext_find_repl.py:66
 msgid "Replace all"
@@ -556,7 +556,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:224
 msgid "&Import from Replace history..."
-msgstr ""
+msgstr "从替换历史中导入(&I)..."
 
 #: cd_ext_find_repl.py:225
 msgid "Rem&ove kit"
@@ -576,7 +576,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:232
 msgid "Replace &all"
-msgstr "替换去不(&A)"
+msgstr "全部替换(&A)"
 
 #: cd_ext_find_repl.py:236
 msgid "Create &new kit..."
@@ -644,7 +644,7 @@ msgstr "移至应用程序查找对话框"
 
 #: cd_ext_find_repl.py:260
 msgid "Move to app Replace dialog"
-msgstr ""
+msgstr "移至应用程序替换对话框"
 
 #: cd_ext_find_repl.py:262 cd_ext_find_repl.py:1080
 msgid "=== Options ==="
@@ -652,7 +652,7 @@ msgstr "=== 选项 ==="
 
 #: cd_ext_find_repl.py:263 cd_ext_find_repl.py:1081
 msgid "Use &selection from document"
-msgstr ""
+msgstr "使用来自文档的选中内容(&S)"
 
 #: cd_ext_find_repl.py:264
 msgid "Auto-fit Replace pattern on start and on Next pair"
@@ -940,15 +940,15 @@ msgstr "位于列(&C):"
 
 #: cd_ext_find_repl.py:1248
 msgid "&Height in lines:"
-msgstr ""
+msgstr "行高(&H):"
 
 #: cd_ext_find_repl.py:1250
 msgid "&Width of selection:"
-msgstr ""
+msgstr "选择宽度(&D):"
 
 #: cd_ext_find_repl.py:1252
 msgid "&Keep existing caret(s)"
-msgstr ""
+msgstr "保留现有的光标(&K)"
 
 #: cd_ext_find_repl.py:1274
 msgid "Added {} caret(s)"
@@ -956,11 +956,11 @@ msgstr "已添加 {} 个光标"
 
 #: cd_ext_find_repl.py:1287 cd_ext_find_repl.py:1354
 msgid "{} works with multiline selection"
-msgstr ""
+msgstr "{} 适用于多行选择"
 
 #: cd_ext_find_repl.py:1298
 msgid "Converted to column block"
-msgstr ""
+msgstr "已转换为列块"
 
 #: cd_ext_find_repl.py:1328
 msgid "Make selection first"
@@ -968,11 +968,11 @@ msgstr "首先进行选择"
 
 #: cd_ext_find_repl.py:1330
 msgid "Reversed 1 fragment"
-msgstr ""
+msgstr "已反转 1 个片段"
 
 #: cd_ext_find_repl.py:1332
 msgid "Reversed {} fragments"
-msgstr ""
+msgstr "已反转 {} 个片段"
 
 #: cd_ext_find_repl.py:1355
 msgid "Enter separator string"
@@ -1048,19 +1048,19 @@ msgstr "已跳过重新缩进"
 
 #: cd_ext_find_repl.py:1477
 msgid "Need selected lines"
-msgstr "需要被选中的行"
+msgstr "需要选中行"
 
 #: cd_ext_find_repl.py:1482
 msgid "Need more than one selected lines"
-msgstr ""
+msgstr "需要选中多行"
 
 #: cd_ext_find_repl.py:1503
 msgid "Required normal selection(s)"
-msgstr ""
+msgstr "要求正常选中"
 
 #: cd_ext_find_repl.py:1543
 msgid "Aligned selection for {} of {} caret(s)"
-msgstr ""
+msgstr "已对齐选中范围内 {}/{} 个光标"
 
 #: cd_ext_find_repl.py:1546
 msgid "Nothing to align"
@@ -1068,19 +1068,19 @@ msgstr "没有可对齐的对象"
 
 #: cd_ext_find_repl.py:1553
 msgid "Fail to use Tab to align"
-msgstr ""
+msgstr "无法使用制表符对齐"
 
 #: cd_ext_find_repl.py:1555
 msgid "Align by margin value:"
-msgstr ""
+msgstr "按边距值对齐:"
 
 #: cd_ext_find_repl.py:1635 cd_ext_find_repl.py:1641
 msgid "No duplicate spaces"
-msgstr ""
+msgstr "没有重复的空格"
 
 #: cd_ext_find_repl.py:1638 cd_ext_find_repl.py:1646
 msgid "Deleted spaces: {}"
-msgstr ""
+msgstr "已删除空格: {}"
 
 #: cd_ext_find_repl.py:1725
 msgid "Margin value:"
@@ -1092,15 +1092,15 @@ msgstr ""
 
 #: cd_ext_find_repl.py:1735
 msgid "Need lexer active"
-msgstr ""
+msgstr "需要词法分析器处于活动状态"
 
 #: cd_ext_find_repl.py:1737
 msgid "Need lexer with line-comment chars"
-msgstr ""
+msgstr "需要带有行注释字符的词法分析器"
 
 #: cd_ext_find_repl.py:1742
 msgid "Current line is not line-comment"
-msgstr ""
+msgstr "当前行不是行注释"
 
 #: cd_ext_find_repl.py:1763
 msgid ""
@@ -1109,7 +1109,7 @@ msgstr ""
 
 #: cd_ext_find_repl.py:1780
 msgid "Re-wrap lines"
-msgstr ""
+msgstr "重新换行"
 
 #: cd_ext_find_repl.py:1782
 msgid "&Margin:"
@@ -1141,23 +1141,23 @@ msgstr "没有选中内容"
 
 #: cd_ext_find_repl.py:1912
 msgid "Replaced {} line(s)"
-msgstr ""
+msgstr "已替换 {} 行"
 
 #: cd_ext_find_repl.py:1921
 msgid "Command does only work with multi-carets"
-msgstr ""
+msgstr "命令不适用于多个光标"
 
 #: cd_ext_find_repl.py:1925
 msgid "This command cannot handle selection(s)"
-msgstr ""
+msgstr "此命令无法处理选中的内容"
 
 #: cd_ext_tabs.py:40
 msgid "No yet other activated tab"
-msgstr ""
+msgstr "还没有其他激活的选项卡"
 
 #: cd_ext_tabs.py:181
 msgid "Switcher"
-msgstr ""
+msgstr "切换器"
 
 #: cd_ext_tabs.py:265
 #, python-brace-format
@@ -1210,7 +1210,7 @@ msgstr "代码树符号"
 
 #: cd_ext_tree.py:116
 msgid "<Update Code Tree>"
-msgstr ""
+msgstr "<更新代码树>"
 
 #: cd_ext_tree.py:117
 msgid "              <All levels>"
