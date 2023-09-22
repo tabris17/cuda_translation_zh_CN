@@ -41,6 +41,7 @@
   - Config Toolbar
   - Clock
   - Differ
+  - Text Statistics
   - Vim Mode
 
 ## 下载地址
