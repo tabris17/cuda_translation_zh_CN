@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-09-22 12:12+0800\n"
+"PO-Revision-Date: 2023-09-22 12:20+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../Apps/scoop/apps/cudatext/current/py/"
+"cuda_text_stat\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: __init__.py:11
+msgid ""
+"Statistics for {}\n"
+"\n"
+"Lines: {}\n"
+"Words: {}\n"
+"Letters: {}\n"
+"All chars: {}\n"
+"\n"
+"Most common words ({}):\n"
+"{}\n"
+"\n"
+"Sentences with n words:\n"
+"{}\n"
+msgstr ""
+"{} 的统计结果\n"
+"\n"
+"行: {}\n"
+"单词: {}\n"
+"字母: {}\n"
+"所有字符: {}\n"
+"\n"
+"最常用的单词 ({}):\n"
+"{}\n"
+"\n"
+"按单词数统计句子:\n"
+"{}\n"
+
+#: __init__.py:60
+msgid "{} words: {}"
+msgstr "{} 单词: {}"
+
+#: __init__.py:70
+msgid "selection in"
+msgstr "选中内容于"
+
+#: __init__.py:92 __init__.py:117
+msgid "OK"
+msgstr "确定"
+
+#: __init__.py:92 __init__.py:117
+msgid "To a new tab"
+msgstr "转到新建的选项卡"
+
+#: __init__.py:99 __init__.py:102 __init__.py:143 __init__.py:146
+msgid "Need single selection"
+msgstr "只能选中单块区域"

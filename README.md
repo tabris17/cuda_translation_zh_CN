@@ -41,6 +41,7 @@
   - Config Toolbar
   - Clock
   - Differ
+  - Vim Mode
 
 ## 下载地址
 
