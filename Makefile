@@ -3,8 +3,7 @@ PLUGINS := cuda_addonman cuda_comments cuda_find_in_files cuda_find_in_files4 \
     cuda_new_file cuda_options_editor cuda_palette cuda_prefs cuda_project_man \
     cuda_snippet_panel cuda_sort cuda_tabs_list cuda_sess_manager cuda_ftp \
     cuda_macros cuda_config_menu cuda_config_keys cuda_ext cuda_exttools cuda_favorites \
-    cuda_backup_file cuda_exterminal cuda_terminal_plus cuda_runner cuda_color_picker \
-    cuda_config_toolbar
+    cuda_backup_file cuda_exterminal cuda_terminal_plus cuda_runner cuda_config_toolbar
 
 BUILD_DIR := ./build
 
