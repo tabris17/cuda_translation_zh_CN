@@ -69,3 +69,5 @@ make build
 ```
 
 You will find the generated translation files in the `./build` directory.
+
+**This repo is public domain, use it freely for any purpose.**
