@@ -84,7 +84,7 @@ msgstr "在默认应用程序中打开"
 
 #: __init__.py:213
 msgid "Focus in file manager"
-msgstr "聚焦文件管理器"
+msgstr "在文件管理器中显示"
 
 #: __init__.py:215
 msgid "Delete file"
@@ -451,3 +451,67 @@ msgstr "主文件(&M) (只读，在上下文菜单中更改)"
 #: projman_dlg.py:152
 msgid "Project properties"
 msgstr "项目属性"
+
+msgid "Properties..."
+msgstr "属性"
+
+msgid "Selected folder"
+msgstr "选中的文件夹"
+
+msgid "Cut"
+msgstr "剪切"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "Paste"
+msgstr "粘贴"
+
+msgid "New folder..."
+msgstr "新建文件夹..."
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Find in folder..."
+msgstr "在文件夹中查找"
+
+msgid "Copy path"
+msgstr "复制路径"
+
+msgid "Copy relative path"
+msgstr "复制相对路径"
+
+msgid "Duplicate..."
+msgstr "创建副本..."
+
+msgid "Always sync project-tree with current editor file"
+msgstr "始终将项目树与当前编辑器文件同步"
+
+msgid "none"
+msgstr "无"
+
+msgid "by name"
+msgstr "按名称"
+
+msgid "by extension"
+msgstr "按扩展名"
+
+msgid "by size"
+msgstr "按大小"
+
+msgid "by size, descending"
+msgstr "按大小倒序"
+
+msgid "by date"
+msgstr "按日期"
+
+msgid "by date, descending"
+msgstr "按日期倒序"
+
+msgid "by creation date"
+msgstr "按创建日期"
+
+msgid "by creation date, descending"
+msgstr "按创建日期倒序"
+
