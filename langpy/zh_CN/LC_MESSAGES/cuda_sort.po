@@ -160,3 +160,22 @@ msgstr "已更改 %d 行"
 #: sort_sep.py:60
 msgid "No lines were changed"
 msgstr "没有行被更改"
+
+msgid "Custom sort"
+msgstr "自定义排序"
+
+msgid "Save only"
+msgstr "仅保存"
+
+msgid "&Numeric (treat groups of digits as numbers)"
+msgstr "数字(&N) (将连续数字视作数值)"
+
+msgid "Sort only by substring, offsets are 0-based:"
+msgstr "仅按子串排序，偏移量从 0 开始:"
+
+msgid "Be&gin (-1: don\'t cut begin)"
+msgstr "开始 (-1: 不截取开头)"
+
+msgid "&End (-1: don\'t cut end)"
+msgstr "结束 (-1: 不截取结尾)"
+
