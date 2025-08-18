@@ -488,6 +488,9 @@ msgstr "创建副本..."
 msgid "Always sync project-tree with current editor file"
 msgstr "始终将项目树与当前编辑器文件同步"
 
+msgid "Sorting order (*):"
+msgstr "排序 (*):"
+
 msgid "none"
 msgstr "无"
 
